@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "firstClassViewController.h"
 
 @interface firstClassAppDelegate : UIResponder <UIApplicationDelegate>
 

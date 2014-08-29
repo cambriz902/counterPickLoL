@@ -9,6 +9,9 @@
 #import "firstClassViewController.h"
 
 @interface firstClassViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *tierListButton;
+@property (weak, nonatomic) IBOutlet UIButton *counterPicksButton;
+@property (weak, nonatomic) IBOutlet UIImageView *leagueOfLegendsLogo;
 
 @end
 
@@ -17,13 +20,24 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	self.view.backgroundColor = [UIColor blackColor];
+    self.leagueOfLegendsLogo.backgroundColor = [UIColor clearColor];
+    
+    self.tierListButton.backgroundColor = [UIColor grayColor];
+    [self.tierListButton setTitleColor:[UIColor yellowColor] forState:UIControlStateNormal];
+    self.counterPicksButton.backgroundColor = [UIColor grayColor];
+    [self.counterPicksButton setTitleColor:[UIColor yellowColor] forState:UIControlStateNormal];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (BOOL)prefersStatusBarHidden
+{
+    return YES;
 }
 
 @end

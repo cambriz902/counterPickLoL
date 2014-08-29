@@ -21,6 +21,12 @@
 		5D37964319B0261D00C8A318 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D37962519B0261C00C8A318 /* UIKit.framework */; };
 		5D37964B19B0261D00C8A318 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D37964919B0261D00C8A318 /* InfoPlist.strings */; };
 		5D37964D19B0261D00C8A318 /* counterPickLoLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D37964C19B0261D00C8A318 /* counterPickLoLTests.m */; };
+		5D37965819B0431300C8A318 /* League_of_legends_logo_transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D37965719B0431300C8A318 /* League_of_legends_logo_transparent.png */; };
+		5D37965A19B0468100C8A318 /* Azir.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D37965919B0468100C8A318 /* Azir.jpg */; };
+		5D37965C19B0477500C8A318 /* rootBackground.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5D37965B19B0477500C8A318 /* rootBackground.jpeg */; };
+		5D37965F19B04A3B00C8A318 /* tierListsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D37965E19B04A3B00C8A318 /* tierListsTableViewController.m */; };
+		5D37966219B057EC00C8A318 /* navigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D37966119B057EC00C8A318 /* navigationController.m */; };
+		5D37966419B0591000C8A318 /* navigationBackground.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5D37966319B0591000C8A318 /* navigationBackground.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,14 @@
 		5D37964819B0261D00C8A318 /* counterPickLoLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "counterPickLoLTests-Info.plist"; sourceTree = "<group>"; };
 		5D37964A19B0261D00C8A318 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5D37964C19B0261D00C8A318 /* counterPickLoLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = counterPickLoLTests.m; sourceTree = "<group>"; };
+		5D37965719B0431300C8A318 /* League_of_legends_logo_transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = League_of_legends_logo_transparent.png; sourceTree = "<group>"; };
+		5D37965919B0468100C8A318 /* Azir.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Azir.jpg; sourceTree = "<group>"; };
+		5D37965B19B0477500C8A318 /* rootBackground.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rootBackground.jpeg; sourceTree = "<group>"; };
+		5D37965D19B04A3B00C8A318 /* tierListsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tierListsTableViewController.h; sourceTree = "<group>"; };
+		5D37965E19B04A3B00C8A318 /* tierListsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tierListsTableViewController.m; sourceTree = "<group>"; };
+		5D37966019B057EC00C8A318 /* navigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = navigationController.h; sourceTree = "<group>"; };
+		5D37966119B057EC00C8A318 /* navigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = navigationController.m; sourceTree = "<group>"; };
+		5D37966319B0591000C8A318 /* navigationBackground.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = navigationBackground.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +131,10 @@
 				5D37963319B0261D00C8A318 /* Main.storyboard */,
 				5D37963619B0261D00C8A318 /* firstClassViewController.h */,
 				5D37963719B0261D00C8A318 /* firstClassViewController.m */,
+				5D37965D19B04A3B00C8A318 /* tierListsTableViewController.h */,
+				5D37965E19B04A3B00C8A318 /* tierListsTableViewController.m */,
+				5D37966019B057EC00C8A318 /* navigationController.h */,
+				5D37966119B057EC00C8A318 /* navigationController.m */,
 				5D37963919B0261D00C8A318 /* Images.xcassets */,
 				5D37962819B0261C00C8A318 /* Supporting Files */,
 			);
@@ -126,6 +144,7 @@
 		5D37962819B0261C00C8A318 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5D37965619B0430200C8A318 /* images */,
 				5D37962919B0261C00C8A318 /* counterPickLoL-Info.plist */,
 				5D37962A19B0261C00C8A318 /* InfoPlist.strings */,
 				5D37962D19B0261D00C8A318 /* main.m */,
@@ -150,6 +169,17 @@
 				5D37964919B0261D00C8A318 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D37965619B0430200C8A318 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5D37966319B0591000C8A318 /* navigationBackground.jpeg */,
+				5D37965B19B0477500C8A318 /* rootBackground.jpeg */,
+				5D37965919B0468100C8A318 /* Azir.jpg */,
+				5D37965719B0431300C8A318 /* League_of_legends_logo_transparent.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +260,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D37963A19B0261D00C8A318 /* Images.xcassets in Resources */,
+				5D37965C19B0477500C8A318 /* rootBackground.jpeg in Resources */,
 				5D37962C19B0261D00C8A318 /* InfoPlist.strings in Resources */,
+				5D37965A19B0468100C8A318 /* Azir.jpg in Resources */,
+				5D37965819B0431300C8A318 /* League_of_legends_logo_transparent.png in Resources */,
+				5D37966419B0591000C8A318 /* navigationBackground.jpeg in Resources */,
 				5D37963519B0261D00C8A318 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,9 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D37966219B057EC00C8A318 /* navigationController.m in Sources */,
 				5D37963819B0261D00C8A318 /* firstClassViewController.m in Sources */,
 				5D37963219B0261D00C8A318 /* firstClassAppDelegate.m in Sources */,
 				5D37962E19B0261D00C8A318 /* main.m in Sources */,
+				5D37965F19B04A3B00C8A318 /* tierListsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +493,7 @@
 				5D37965219B0261D00C8A318 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D37965319B0261D00C8A318 /* Build configuration list for PBXNativeTarget "counterPickLoLTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +502,7 @@
 				5D37965519B0261D00C8A318 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

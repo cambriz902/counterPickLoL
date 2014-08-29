@@ -26,6 +26,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self.navigationController setNavigationBarHidden:NO animated:NO];
+    self.title = @"Tier Lists";
     self.differentTierLists = [[NSArray alloc] initWithObjects:@"Solo Queue Tier list",
                                @"Competitive Tier List",
                                @"Top Tier List",
@@ -39,6 +41,7 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
+
 
 - (void)didReceiveMemoryWarning
 {

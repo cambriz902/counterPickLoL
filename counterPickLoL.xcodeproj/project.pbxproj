@@ -27,125 +27,130 @@
 		5D37965F19B04A3B00C8A318 /* tierListsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D37965E19B04A3B00C8A318 /* tierListsTableViewController.m */; };
 		5D37966219B057EC00C8A318 /* navigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D37966119B057EC00C8A318 /* navigationController.m */; };
 		5D37966419B0591000C8A318 /* navigationBackground.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5D37966319B0591000C8A318 /* navigationBackground.jpeg */; };
-		5D7C8C4E19B1016700938107 /* Aatrox_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BD719B1016600938107 /* Aatrox_Square_0.png */; };
-		5D7C8C4F19B1016700938107 /* Ahri_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BD819B1016600938107 /* Ahri_Square_0.png */; };
-		5D7C8C5019B1016700938107 /* Akali_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BD919B1016600938107 /* Akali_Square_0.png */; };
-		5D7C8C5119B1016700938107 /* Alistar_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BDA19B1016600938107 /* Alistar_Square_0.png */; };
-		5D7C8C5219B1016700938107 /* Amumu_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BDB19B1016600938107 /* Amumu_Square_0.png */; };
-		5D7C8C5319B1016700938107 /* Anivia_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BDC19B1016600938107 /* Anivia_Square_0.png */; };
-		5D7C8C5419B1016700938107 /* Annie_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BDD19B1016600938107 /* Annie_Square_0.png */; };
-		5D7C8C5519B1016700938107 /* Ashe_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BDE19B1016600938107 /* Ashe_Square_0.png */; };
-		5D7C8C5619B1016700938107 /* Blitzcrank_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BDF19B1016600938107 /* Blitzcrank_Square_0.png */; };
-		5D7C8C5719B1016700938107 /* Brand_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BE019B1016600938107 /* Brand_Square_0.png */; };
-		5D7C8C5819B1016700938107 /* Braum_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BE119B1016600938107 /* Braum_Square_0.png */; };
-		5D7C8C5919B1016700938107 /* Caitlyn_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BE219B1016600938107 /* Caitlyn_Square_0.png */; };
-		5D7C8C5A19B1016700938107 /* Cassiopeia_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BE319B1016600938107 /* Cassiopeia_Square_0.png */; };
-		5D7C8C5B19B1016700938107 /* Chogath_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BE419B1016600938107 /* Chogath_Square_0.png */; };
-		5D7C8C5C19B1016700938107 /* Corki_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BE519B1016600938107 /* Corki_Square_0.png */; };
-		5D7C8C5D19B1016700938107 /* Darius_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BE619B1016600938107 /* Darius_Square_0.png */; };
-		5D7C8C5E19B1016700938107 /* Diana_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BE719B1016600938107 /* Diana_Square_0.png */; };
-		5D7C8C5F19B1016700938107 /* Draven_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BE819B1016600938107 /* Draven_Square_0.png */; };
-		5D7C8C6019B1016700938107 /* DrMundo_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BE919B1016600938107 /* DrMundo_Square_0.png */; };
-		5D7C8C6119B1016700938107 /* Elise_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BEA19B1016600938107 /* Elise_Square_0.png */; };
-		5D7C8C6219B1016700938107 /* Evelynn_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BEB19B1016600938107 /* Evelynn_Square_0.png */; };
-		5D7C8C6319B1016700938107 /* Ezreal_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BEC19B1016600938107 /* Ezreal_Square_0.png */; };
-		5D7C8C6419B1016700938107 /* Fiddlesticks_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BED19B1016600938107 /* Fiddlesticks_Square_0.png */; };
-		5D7C8C6519B1016700938107 /* Fiora_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BEE19B1016600938107 /* Fiora_Square_0.png */; };
-		5D7C8C6619B1016700938107 /* Fizz_square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BEF19B1016600938107 /* Fizz_square_0.png */; };
-		5D7C8C6719B1016700938107 /* Galio_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BF019B1016600938107 /* Galio_Square_0.png */; };
-		5D7C8C6819B1016700938107 /* Gangplank_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BF119B1016600938107 /* Gangplank_Square_0.png */; };
-		5D7C8C6919B1016700938107 /* Garen_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BF219B1016600938107 /* Garen_Square_0.png */; };
-		5D7C8C6A19B1016700938107 /* Gnar_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BF319B1016600938107 /* Gnar_Square_0.png */; };
-		5D7C8C6B19B1016700938107 /* Gragas_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BF419B1016600938107 /* Gragas_Square_0.png */; };
-		5D7C8C6C19B1016700938107 /* Graves_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BF519B1016600938107 /* Graves_Square_0.png */; };
-		5D7C8C6D19B1016700938107 /* Hecarim_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BF619B1016600938107 /* Hecarim_Square_0.png */; };
-		5D7C8C6E19B1016700938107 /* Heimerdinger_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BF719B1016600938107 /* Heimerdinger_Square_0.png */; };
-		5D7C8C6F19B1016700938107 /* Irelia_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BF819B1016700938107 /* Irelia_Square_0.png */; };
-		5D7C8C7019B1016700938107 /* Janna_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BF919B1016700938107 /* Janna_Square_0.png */; };
-		5D7C8C7119B1016700938107 /* JarvanIV_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BFA19B1016700938107 /* JarvanIV_Square_0.png */; };
-		5D7C8C7219B1016700938107 /* Jax_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BFB19B1016700938107 /* Jax_Square_0.png */; };
-		5D7C8C7319B1016700938107 /* Jayce_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BFC19B1016700938107 /* Jayce_Square_0.png */; };
-		5D7C8C7419B1016700938107 /* Jinx_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BFD19B1016700938107 /* Jinx_Square_0.png */; };
-		5D7C8C7519B1016700938107 /* Karma_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BFE19B1016700938107 /* Karma_Square_0.png */; };
-		5D7C8C7619B1016700938107 /* Karthus_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8BFF19B1016700938107 /* Karthus_Square_0.png */; };
-		5D7C8C7719B1016700938107 /* Kassadin_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C0019B1016700938107 /* Kassadin_Square_0.png */; };
-		5D7C8C7819B1016700938107 /* Katarina_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C0119B1016700938107 /* Katarina_Square_0.png */; };
-		5D7C8C7919B1016700938107 /* Kayle_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C0219B1016700938107 /* Kayle_Square_0.png */; };
-		5D7C8C7A19B1016700938107 /* Kennen_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C0319B1016700938107 /* Kennen_Square_0.png */; };
-		5D7C8C7B19B1016700938107 /* Khazix_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C0419B1016700938107 /* Khazix_Square_0.png */; };
-		5D7C8C7C19B1016700938107 /* KogMaw_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C0519B1016700938107 /* KogMaw_Square_0.png */; };
-		5D7C8C7D19B1016700938107 /* Leblanc_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C0619B1016700938107 /* Leblanc_Square_0.png */; };
-		5D7C8C7E19B1016700938107 /* LeeSin_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C0719B1016700938107 /* LeeSin_Square_0.png */; };
-		5D7C8C7F19B1016700938107 /* Leona_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C0819B1016700938107 /* Leona_Square_0.png */; };
-		5D7C8C8019B1016700938107 /* Lissandra_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C0919B1016700938107 /* Lissandra_Square_0.png */; };
-		5D7C8C8119B1016700938107 /* Lucian_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C0A19B1016700938107 /* Lucian_Square_0.png */; };
-		5D7C8C8219B1016700938107 /* Lulu_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C0B19B1016700938107 /* Lulu_Square_0.png */; };
-		5D7C8C8319B1016700938107 /* Lux_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C0C19B1016700938107 /* Lux_Square_0.png */; };
-		5D7C8C8419B1016700938107 /* Malphite_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C0D19B1016700938107 /* Malphite_Square_0.png */; };
-		5D7C8C8519B1016700938107 /* Malzahar_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C0E19B1016700938107 /* Malzahar_Square_0.png */; };
-		5D7C8C8619B1016700938107 /* Maokai_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C0F19B1016700938107 /* Maokai_Square_0.png */; };
-		5D7C8C8719B1016700938107 /* MasterYi_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C1019B1016700938107 /* MasterYi_Square_0.png */; };
-		5D7C8C8819B1016700938107 /* MissFortune_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C1119B1016700938107 /* MissFortune_Square_0.png */; };
-		5D7C8C8919B1016700938107 /* MonkeyKing_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C1219B1016700938107 /* MonkeyKing_Square_0.png */; };
-		5D7C8C8A19B1016700938107 /* Mordekaiser_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C1319B1016700938107 /* Mordekaiser_Square_0.png */; };
-		5D7C8C8B19B1016700938107 /* Morgana_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C1419B1016700938107 /* Morgana_Square_0.png */; };
-		5D7C8C8C19B1016700938107 /* Nami_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C1519B1016700938107 /* Nami_Square_0.png */; };
-		5D7C8C8D19B1016700938107 /* Nasus_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C1619B1016700938107 /* Nasus_Square_0.png */; };
-		5D7C8C8E19B1016700938107 /* Nautilus_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C1719B1016700938107 /* Nautilus_Square_0.png */; };
-		5D7C8C8F19B1016700938107 /* Nidalee_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C1819B1016700938107 /* Nidalee_Square_0.png */; };
-		5D7C8C9019B1016700938107 /* Nocturne_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C1919B1016700938107 /* Nocturne_Square_0.png */; };
-		5D7C8C9119B1016700938107 /* Nunu_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C1A19B1016700938107 /* Nunu_Square_0.png */; };
-		5D7C8C9219B1016700938107 /* Olaf_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C1B19B1016700938107 /* Olaf_Square_0.png */; };
-		5D7C8C9319B1016700938107 /* Orianna_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C1C19B1016700938107 /* Orianna_Square_0.png */; };
-		5D7C8C9419B1016700938107 /* Pantheon_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C1D19B1016700938107 /* Pantheon_Square_0.png */; };
-		5D7C8C9519B1016700938107 /* Poppy_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C1E19B1016700938107 /* Poppy_Square_0.png */; };
-		5D7C8C9619B1016700938107 /* Quinn_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C1F19B1016700938107 /* Quinn_Square_0.png */; };
-		5D7C8C9719B1016700938107 /* Rammus_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C2019B1016700938107 /* Rammus_Square_0.png */; };
-		5D7C8C9819B1016700938107 /* Renekton_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C2119B1016700938107 /* Renekton_Square_0.png */; };
-		5D7C8C9919B1016700938107 /* Rengar_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C2219B1016700938107 /* Rengar_Square_0.png */; };
-		5D7C8C9A19B1016700938107 /* Riven_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C2319B1016700938107 /* Riven_Square_0.png */; };
-		5D7C8C9B19B1016700938107 /* Rumble_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C2419B1016700938107 /* Rumble_Square_0.png */; };
-		5D7C8C9C19B1016700938107 /* Ryze_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C2519B1016700938107 /* Ryze_Square_0.png */; };
-		5D7C8C9D19B1016700938107 /* Sejuani_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C2619B1016700938107 /* Sejuani_Square_0.png */; };
-		5D7C8C9E19B1016700938107 /* Shaco_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C2719B1016700938107 /* Shaco_Square_0.png */; };
-		5D7C8C9F19B1016700938107 /* Shen_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C2819B1016700938107 /* Shen_Square_0.png */; };
-		5D7C8CA019B1016700938107 /* Shyvana_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C2919B1016700938107 /* Shyvana_Square_0.png */; };
-		5D7C8CA119B1016700938107 /* Singed_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C2A19B1016700938107 /* Singed_Square_0.png */; };
-		5D7C8CA219B1016700938107 /* Sion_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C2B19B1016700938107 /* Sion_Square_0.png */; };
-		5D7C8CA319B1016700938107 /* Sivir_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C2C19B1016700938107 /* Sivir_Square_0.png */; };
-		5D7C8CA419B1016700938107 /* Skarner_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C2D19B1016700938107 /* Skarner_Square_0.png */; };
-		5D7C8CA519B1016700938107 /* Sona_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C2E19B1016700938107 /* Sona_Square_0.png */; };
-		5D7C8CA619B1016700938107 /* Soraka_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C2F19B1016700938107 /* Soraka_Square_0.png */; };
-		5D7C8CA719B1016700938107 /* Swain_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C3019B1016700938107 /* Swain_Square_0.png */; };
-		5D7C8CA819B1016700938107 /* Syndra_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C3119B1016700938107 /* Syndra_Square_0.png */; };
-		5D7C8CA919B1016700938107 /* Talon_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C3219B1016700938107 /* Talon_Square_0.png */; };
-		5D7C8CAA19B1016700938107 /* Taric_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C3319B1016700938107 /* Taric_Square_0.png */; };
-		5D7C8CAB19B1016700938107 /* Teemo_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C3419B1016700938107 /* Teemo_Square_0.png */; };
-		5D7C8CAC19B1016700938107 /* Thresh_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C3519B1016700938107 /* Thresh_Square_0.png */; };
-		5D7C8CAD19B1016700938107 /* Tristana_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C3619B1016700938107 /* Tristana_Square_0.png */; };
-		5D7C8CAE19B1016700938107 /* Trundle_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C3719B1016700938107 /* Trundle_Square_0.png */; };
-		5D7C8CAF19B1016700938107 /* Tryndamere_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C3819B1016700938107 /* Tryndamere_Square_0.png */; };
-		5D7C8CB019B1016700938107 /* Twitch_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C3919B1016700938107 /* Twitch_Square_0.png */; };
-		5D7C8CB119B1016700938107 /* Udyr_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C3A19B1016700938107 /* Udyr_Square_0.png */; };
-		5D7C8CB219B1016700938107 /* Urgot_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C3B19B1016700938107 /* Urgot_Square_0.png */; };
-		5D7C8CB319B1016700938107 /* Varus_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C3C19B1016700938107 /* Varus_Square_0.png */; };
-		5D7C8CB419B1016700938107 /* Vayne_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C3D19B1016700938107 /* Vayne_Square_0.png */; };
-		5D7C8CB519B1016700938107 /* Veigar_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C3E19B1016700938107 /* Veigar_Square_0.png */; };
-		5D7C8CB619B1016700938107 /* VelKoz_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C3F19B1016700938107 /* VelKoz_Square_0.png */; };
-		5D7C8CB719B1016700938107 /* Vi_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C4019B1016700938107 /* Vi_Square_0.png */; };
-		5D7C8CB819B1016700938107 /* Viktor_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C4119B1016700938107 /* Viktor_Square_0.png */; };
-		5D7C8CB919B1016700938107 /* Vladimir_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C4219B1016700938107 /* Vladimir_Square_0.png */; };
-		5D7C8CBA19B1016700938107 /* Volibear_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C4319B1016700938107 /* Volibear_Square_0.png */; };
-		5D7C8CBB19B1016700938107 /* Warwick_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C4419B1016700938107 /* Warwick_Square_0.png */; };
-		5D7C8CBC19B1016700938107 /* Xerath_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C4519B1016700938107 /* Xerath_Square_0.png */; };
-		5D7C8CBD19B1016700938107 /* XinZhao_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C4619B1016700938107 /* XinZhao_Square_0.png */; };
-		5D7C8CBE19B1016700938107 /* Yasuo_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C4719B1016700938107 /* Yasuo_Square_0.png */; };
-		5D7C8CBF19B1016700938107 /* Yorick_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C4819B1016700938107 /* Yorick_Square_0.png */; };
-		5D7C8CC019B1016700938107 /* Zac_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C4919B1016700938107 /* Zac_Square_0.png */; };
-		5D7C8CC119B1016700938107 /* Zed_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C4A19B1016700938107 /* Zed_Square_0.png */; };
-		5D7C8CC219B1016700938107 /* Ziggs_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C4B19B1016700938107 /* Ziggs_Square_0.png */; };
-		5D7C8CC319B1016700938107 /* Zilean_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C4C19B1016700938107 /* Zilean_Square_0.png */; };
-		5D7C8CC419B1016700938107 /* Zyra_Square_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8C4D19B1016700938107 /* Zyra_Square_0.png */; };
+		5D7C8CCC19B1078100938107 /* Ahri.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8CCB19B1078100938107 /* Ahri.png */; };
+		5D7C8CCE19B109BD00938107 /* Akali.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8CCD19B109BD00938107 /* Akali.png */; };
+		5D7C8CD019B10A0B00938107 /* Aatrox.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8CCF19B10A0B00938107 /* Aatrox.png */; };
+		5D7C8CD219B10A3300938107 /* Alistar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8CD119B10A3300938107 /* Alistar.png */; };
+		5D7C8CD419B10A3D00938107 /* Amumu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8CD319B10A3D00938107 /* Amumu.png */; };
+		5D7C8CD619B10A4500938107 /* Anivia.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8CD519B10A4500938107 /* Anivia.png */; };
+		5D7C8CD819B10A4D00938107 /* Annie.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8CD719B10A4D00938107 /* Annie.png */; };
+		5D7C8CDA19B10A5800938107 /* Ashe.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8CD919B10A5800938107 /* Ashe.png */; };
+		5D7C8CDC19B10A6300938107 /* Blitzcrank.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8CDB19B10A6300938107 /* Blitzcrank.png */; };
+		5D7C8CDE19B10A7D00938107 /* Brand.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8CDD19B10A7D00938107 /* Brand.png */; };
+		5D7C8CE019B10A8400938107 /* Braum.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8CDF19B10A8400938107 /* Braum.png */; };
+		5D7C8CE219B10A8E00938107 /* Caitlyn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8CE119B10A8E00938107 /* Caitlyn.png */; };
+		5D7C8CE419B10A9500938107 /* Cassiopeia.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8CE319B10A9500938107 /* Cassiopeia.png */; };
+		5D7C8CE619B10A9E00938107 /* Chogath.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8CE519B10A9E00938107 /* Chogath.png */; };
+		5D7C8CE819B10AAF00938107 /* Corki.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8CE719B10AAF00938107 /* Corki.png */; };
+		5D7C8CEA19B10AB600938107 /* Darius.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8CE919B10AB600938107 /* Darius.png */; };
+		5D7C8CEC19B10ABD00938107 /* Diana.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8CEB19B10ABD00938107 /* Diana.png */; };
+		5D7C8CEE19B10AC200938107 /* Draven.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8CED19B10AC200938107 /* Draven.png */; };
+		5D7C8CF019B10AD100938107 /* DrMundo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8CEF19B10AD100938107 /* DrMundo.png */; };
+		5D7C8CF219B10AD700938107 /* Elise.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8CF119B10AD700938107 /* Elise.png */; };
+		5D7C8CF419B10ADC00938107 /* Evelynn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8CF319B10ADC00938107 /* Evelynn.png */; };
+		5D7C8CF619B10AE500938107 /* Ezreal.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8CF519B10AE500938107 /* Ezreal.png */; };
+		5D7C8CF819B10AF200938107 /* Fiddlesticks.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8CF719B10AF200938107 /* Fiddlesticks.png */; };
+		5D7C8CFA19B10B0E00938107 /* Fiora.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8CF919B10B0E00938107 /* Fiora.png */; };
+		5D7C8CFC19B10B1800938107 /* Fizz.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8CFB19B10B1800938107 /* Fizz.png */; };
+		5D7C8CFE19B10B1E00938107 /* Galio.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8CFD19B10B1E00938107 /* Galio.png */; };
+		5D7C8D0019B10B2500938107 /* Gangplank.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8CFF19B10B2500938107 /* Gangplank.png */; };
+		5D7C8D0219B10B2E00938107 /* Garen.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D0119B10B2E00938107 /* Garen.png */; };
+		5D7C8D0419B10B5100938107 /* Gnar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D0319B10B5100938107 /* Gnar.png */; };
+		5D7C8D0619B10B7A00938107 /* Gragas.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D0519B10B7900938107 /* Gragas.png */; };
+		5D7C8D0819B10B8300938107 /* Graves.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D0719B10B8300938107 /* Graves.png */; };
+		5D7C8D0A19B10B8900938107 /* Hecarim.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D0919B10B8900938107 /* Hecarim.png */; };
+		5D7C8D0C19B10B9300938107 /* Heimerdinger.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D0B19B10B9300938107 /* Heimerdinger.png */; };
+		5D7C8D0E19B10B9900938107 /* Irelia.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D0D19B10B9900938107 /* Irelia.png */; };
+		5D7C8D1019B10B9E00938107 /* Janna.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D0F19B10B9E00938107 /* Janna.png */; };
+		5D7C8D1219B10BA600938107 /* JarvanIV.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D1119B10BA600938107 /* JarvanIV.png */; };
+		5D7C8D1419B10BAD00938107 /* Jax.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D1319B10BAD00938107 /* Jax.png */; };
+		5D7C8D1619B10BB400938107 /* Jayce.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D1519B10BB400938107 /* Jayce.png */; };
+		5D7C8D1819B10BB900938107 /* Jinx.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D1719B10BB900938107 /* Jinx.png */; };
+		5D7C8D1A19B10BBF00938107 /* Karma.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D1919B10BBF00938107 /* Karma.png */; };
+		5D7C8D1C19B10BC700938107 /* Karthus.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D1B19B10BC700938107 /* Karthus.png */; };
+		5D7C8D1E19B10BE400938107 /* Kassadin.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D1D19B10BE400938107 /* Kassadin.png */; };
+		5D7C8D2019B10C1100938107 /* Katarina.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D1F19B10C1100938107 /* Katarina.png */; };
+		5D7C8D2219B10C1700938107 /* Kayle.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D2119B10C1700938107 /* Kayle.png */; };
+		5D7C8D2419B10C2400938107 /* Kennen.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D2319B10C2400938107 /* Kennen.png */; };
+		5D7C8D2619B10C4900938107 /* Khazix.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D2519B10C4900938107 /* Khazix.png */; };
+		5D7C8D2819B10C8400938107 /* KogMaw.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D2719B10C8400938107 /* KogMaw.png */; };
+		5D7C8D2A19B10C8A00938107 /* Leblanc.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D2919B10C8A00938107 /* Leblanc.png */; };
+		5D7C8D2C19B10C9000938107 /* LeeSin.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D2B19B10C9000938107 /* LeeSin.png */; };
+		5D7C8D2E19B10C9500938107 /* Leona.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D2D19B10C9500938107 /* Leona.png */; };
+		5D7C8D3019B10C9A00938107 /* Lissandra.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D2F19B10C9A00938107 /* Lissandra.png */; };
+		5D7C8D3219B10CA000938107 /* Lucian.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D3119B10CA000938107 /* Lucian.png */; };
+		5D7C8D3419B10CA800938107 /* Lulu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D3319B10CA800938107 /* Lulu.png */; };
+		5D7C8D3619B10CAE00938107 /* Lux.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D3519B10CAE00938107 /* Lux.png */; };
+		5D7C8D3819B10CB800938107 /* Malphite.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D3719B10CB800938107 /* Malphite.png */; };
+		5D7C8D3A19B10CBF00938107 /* Malzahar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D3919B10CBF00938107 /* Malzahar.png */; };
+		5D7C8D3C19B10CCD00938107 /* Maokai.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D3B19B10CCD00938107 /* Maokai.png */; };
+		5D7C8D3E19B10D3400938107 /* MasterYi.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D3D19B10D3400938107 /* MasterYi.png */; };
+		5D7C8D4019B10D3E00938107 /* MissFortune.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D3F19B10D3E00938107 /* MissFortune.png */; };
+		5D7C8D4219B10D4300938107 /* MonkeyKing.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D4119B10D4300938107 /* MonkeyKing.png */; };
+		5D7C8D4419B10D4900938107 /* Mordekaiser.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D4319B10D4900938107 /* Mordekaiser.png */; };
+		5D7C8D4619B10D5000938107 /* Morgana.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D4519B10D5000938107 /* Morgana.png */; };
+		5D7C8D4819B10D5600938107 /* Nami.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D4719B10D5600938107 /* Nami.png */; };
+		5D7C8D4A19B10D5B00938107 /* Nasus.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D4919B10D5B00938107 /* Nasus.png */; };
+		5D7C8D4C19B10D6100938107 /* Nautilus.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D4B19B10D6100938107 /* Nautilus.png */; };
+		5D7C8D4E19B10D6900938107 /* Nidalee.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D4D19B10D6900938107 /* Nidalee.png */; };
+		5D7C8D5019B10D7C00938107 /* Nocturne.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D4F19B10D7C00938107 /* Nocturne.png */; };
+		5D7C8D5219B10DDF00938107 /* Nunu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D5119B10DDF00938107 /* Nunu.png */; };
+		5D7C8D5419B10DE900938107 /* Olaf.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D5319B10DE900938107 /* Olaf.png */; };
+		5D7C8D5619B10E0100938107 /* Orianna.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D5519B10E0100938107 /* Orianna.png */; };
+		5D7C8D5819B10E0800938107 /* Pantheon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D5719B10E0800938107 /* Pantheon.png */; };
+		5D7C8D5A19B10E1500938107 /* Poppy.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D5919B10E1500938107 /* Poppy.png */; };
+		5D7C8D5C19B10E2D00938107 /* Quinn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D5B19B10E2D00938107 /* Quinn.png */; };
+		5D7C8D5E19B10E3700938107 /* Rammus.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D5D19B10E3700938107 /* Rammus.png */; };
+		5D7C8D6019B10E4300938107 /* Renekton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D5F19B10E4300938107 /* Renekton.png */; };
+		5D7C8D6219B10E4C00938107 /* Rengar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D6119B10E4C00938107 /* Rengar.png */; };
+		5D7C8D6419B10E5300938107 /* Riven.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D6319B10E5300938107 /* Riven.png */; };
+		5D7C8D6619B10E5900938107 /* Rumble.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D6519B10E5900938107 /* Rumble.png */; };
+		5D7C8D6819B10E6800938107 /* Ryze.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D6719B10E6800938107 /* Ryze.png */; };
+		5D7C8D6A19B10E8F00938107 /* Sejuani.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D6919B10E8F00938107 /* Sejuani.png */; };
+		5D7C8D6C19B10EA400938107 /* Shaco.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D6B19B10EA400938107 /* Shaco.png */; };
+		5D7C8D6E19B10EAD00938107 /* Shen.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D6D19B10EAD00938107 /* Shen.png */; };
+		5D7C8D7019B10EB400938107 /* Shyvana.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D6F19B10EB400938107 /* Shyvana.png */; };
+		5D7C8D7219B10EBC00938107 /* Singed.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D7119B10EBC00938107 /* Singed.png */; };
+		5D7C8D7419B10EC200938107 /* Sion.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D7319B10EC200938107 /* Sion.png */; };
+		5D7C8D7619B10EC900938107 /* Sivir.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D7519B10EC900938107 /* Sivir.png */; };
+		5D7C8D7819B10ECE00938107 /* Skarner.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D7719B10ECE00938107 /* Skarner.png */; };
+		5D7C8D7A19B10ED400938107 /* Sona.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D7919B10ED400938107 /* Sona.png */; };
+		5D7C8D7C19B10EDB00938107 /* Soraka.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D7B19B10EDB00938107 /* Soraka.png */; };
+		5D7C8D7E19B10EE100938107 /* Swain.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D7D19B10EE100938107 /* Swain.png */; };
+		5D7C8D8019B10EE500938107 /* Syndra.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D7F19B10EE500938107 /* Syndra.png */; };
+		5D7C8D8219B10EEF00938107 /* Talon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D8119B10EEF00938107 /* Talon.png */; };
+		5D7C8D8419B10EF400938107 /* Taric.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D8319B10EF400938107 /* Taric.png */; };
+		5D7C8D8619B10EFB00938107 /* Teemo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D8519B10EFB00938107 /* Teemo.png */; };
+		5D7C8D8819B10F4D00938107 /* Thresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D8719B10F4D00938107 /* Thresh.png */; };
+		5D7C8D8A19B10F5E00938107 /* Tristana.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D8919B10F5E00938107 /* Tristana.png */; };
+		5D7C8D8C19B10F7A00938107 /* Trundle.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D8B19B10F7A00938107 /* Trundle.png */; };
+		5D7C8D8E19B10F8200938107 /* Tryndamere.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D8D19B10F8200938107 /* Tryndamere.png */; };
+		5D7C8D9019B10F9A00938107 /* Twitch.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D8F19B10F9A00938107 /* Twitch.png */; };
+		5D7C8D9219B10FA200938107 /* Udyr.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D9119B10FA200938107 /* Udyr.png */; };
+		5D7C8D9419B10FA800938107 /* Urgot.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D9319B10FA800938107 /* Urgot.png */; };
+		5D7C8D9619B10FAD00938107 /* Varus.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D9519B10FAD00938107 /* Varus.png */; };
+		5D7C8D9819B10FB400938107 /* Vayne.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D9719B10FB400938107 /* Vayne.png */; };
+		5D7C8D9A19B10FBA00938107 /* Veigar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D9919B10FBA00938107 /* Veigar.png */; };
+		5D7C8D9C19B10FC000938107 /* VelKoz.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D9B19B10FBF00938107 /* VelKoz.png */; };
+		5D7C8D9E19B10FC500938107 /* Vi.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D9D19B10FC500938107 /* Vi.png */; };
+		5D7C8DA019B10FCC00938107 /* Viktor.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8D9F19B10FCC00938107 /* Viktor.png */; };
+		5D7C8DA219B10FD400938107 /* Vladimir.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8DA119B10FD400938107 /* Vladimir.png */; };
+		5D7C8DA419B10FD900938107 /* Volibear.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8DA319B10FD900938107 /* Volibear.png */; };
+		5D7C8DA619B10FE000938107 /* Warwick.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8DA519B10FE000938107 /* Warwick.png */; };
+		5D7C8DA819B10FE600938107 /* Xerath.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8DA719B10FE600938107 /* Xerath.png */; };
+		5D7C8DAA19B10FEC00938107 /* XinZhao.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8DA919B10FEC00938107 /* XinZhao.png */; };
+		5D7C8DAC19B10FF000938107 /* Yasuo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8DAB19B10FF000938107 /* Yasuo.png */; };
+		5D7C8DAE19B10FF500938107 /* Yorick.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8DAD19B10FF500938107 /* Yorick.png */; };
+		5D7C8DB019B10FFB00938107 /* Zac.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8DAF19B10FFB00938107 /* Zac.png */; };
+		5D7C8DB219B1100000938107 /* Zed.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8DB119B1100000938107 /* Zed.png */; };
+		5D7C8DB419B1100B00938107 /* Ziggs.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8DB319B1100B00938107 /* Ziggs.png */; };
+		5D7C8DB619B1101300938107 /* Zilean.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8DB519B1101300938107 /* Zilean.png */; };
+		5D7C8DB819B1101E00938107 /* Zyra.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8DB719B1101E00938107 /* Zyra.png */; };
+		5D7C8DBE19B157C100938107 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C8DBD19B157C100938107 /* CustomCell.m */; };
+		5D7C8DC419B2824F00938107 /* TierListCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C8DC319B2824F00938107 /* TierListCollectionViewController.m */; };
+		5D7C8DC519B2824F00938107 /* TierListCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C8DC319B2824F00938107 /* TierListCollectionViewController.m */; };
+		5D7C8DC819B28C0000938107 /* TierHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C8DC719B28C0000938107 /* TierHeaderCell.m */; };
+		5D7C8DC919B28C0000938107 /* TierHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C8DC719B28C0000938107 /* TierHeaderCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -186,125 +191,131 @@
 		5D37966019B057EC00C8A318 /* navigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = navigationController.h; sourceTree = "<group>"; };
 		5D37966119B057EC00C8A318 /* navigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = navigationController.m; sourceTree = "<group>"; };
 		5D37966319B0591000C8A318 /* navigationBackground.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = navigationBackground.jpeg; sourceTree = "<group>"; };
-		5D7C8BD719B1016600938107 /* Aatrox_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Aatrox_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BD819B1016600938107 /* Ahri_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ahri_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BD919B1016600938107 /* Akali_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Akali_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BDA19B1016600938107 /* Alistar_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alistar_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BDB19B1016600938107 /* Amumu_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Amumu_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BDC19B1016600938107 /* Anivia_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Anivia_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BDD19B1016600938107 /* Annie_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Annie_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BDE19B1016600938107 /* Ashe_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ashe_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BDF19B1016600938107 /* Blitzcrank_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blitzcrank_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BE019B1016600938107 /* Brand_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brand_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BE119B1016600938107 /* Braum_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Braum_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BE219B1016600938107 /* Caitlyn_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Caitlyn_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BE319B1016600938107 /* Cassiopeia_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cassiopeia_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BE419B1016600938107 /* Chogath_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chogath_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BE519B1016600938107 /* Corki_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Corki_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BE619B1016600938107 /* Darius_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Darius_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BE719B1016600938107 /* Diana_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Diana_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BE819B1016600938107 /* Draven_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Draven_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BE919B1016600938107 /* DrMundo_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DrMundo_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BEA19B1016600938107 /* Elise_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Elise_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BEB19B1016600938107 /* Evelynn_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Evelynn_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BEC19B1016600938107 /* Ezreal_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ezreal_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BED19B1016600938107 /* Fiddlesticks_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fiddlesticks_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BEE19B1016600938107 /* Fiora_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fiora_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BEF19B1016600938107 /* Fizz_square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fizz_square_0.png; sourceTree = "<group>"; };
-		5D7C8BF019B1016600938107 /* Galio_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Galio_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BF119B1016600938107 /* Gangplank_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gangplank_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BF219B1016600938107 /* Garen_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Garen_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BF319B1016600938107 /* Gnar_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gnar_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BF419B1016600938107 /* Gragas_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gragas_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BF519B1016600938107 /* Graves_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Graves_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BF619B1016600938107 /* Hecarim_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hecarim_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BF719B1016600938107 /* Heimerdinger_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Heimerdinger_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BF819B1016700938107 /* Irelia_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Irelia_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BF919B1016700938107 /* Janna_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Janna_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BFA19B1016700938107 /* JarvanIV_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JarvanIV_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BFB19B1016700938107 /* Jax_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jax_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BFC19B1016700938107 /* Jayce_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jayce_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BFD19B1016700938107 /* Jinx_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jinx_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BFE19B1016700938107 /* Karma_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Karma_Square_0.png; sourceTree = "<group>"; };
-		5D7C8BFF19B1016700938107 /* Karthus_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Karthus_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C0019B1016700938107 /* Kassadin_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kassadin_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C0119B1016700938107 /* Katarina_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Katarina_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C0219B1016700938107 /* Kayle_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kayle_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C0319B1016700938107 /* Kennen_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kennen_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C0419B1016700938107 /* Khazix_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Khazix_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C0519B1016700938107 /* KogMaw_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KogMaw_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C0619B1016700938107 /* Leblanc_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Leblanc_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C0719B1016700938107 /* LeeSin_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LeeSin_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C0819B1016700938107 /* Leona_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Leona_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C0919B1016700938107 /* Lissandra_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lissandra_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C0A19B1016700938107 /* Lucian_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lucian_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C0B19B1016700938107 /* Lulu_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lulu_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C0C19B1016700938107 /* Lux_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lux_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C0D19B1016700938107 /* Malphite_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Malphite_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C0E19B1016700938107 /* Malzahar_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Malzahar_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C0F19B1016700938107 /* Maokai_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Maokai_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C1019B1016700938107 /* MasterYi_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MasterYi_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C1119B1016700938107 /* MissFortune_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MissFortune_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C1219B1016700938107 /* MonkeyKing_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MonkeyKing_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C1319B1016700938107 /* Mordekaiser_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mordekaiser_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C1419B1016700938107 /* Morgana_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Morgana_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C1519B1016700938107 /* Nami_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nami_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C1619B1016700938107 /* Nasus_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nasus_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C1719B1016700938107 /* Nautilus_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nautilus_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C1819B1016700938107 /* Nidalee_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nidalee_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C1919B1016700938107 /* Nocturne_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nocturne_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C1A19B1016700938107 /* Nunu_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nunu_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C1B19B1016700938107 /* Olaf_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Olaf_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C1C19B1016700938107 /* Orianna_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orianna_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C1D19B1016700938107 /* Pantheon_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pantheon_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C1E19B1016700938107 /* Poppy_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Poppy_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C1F19B1016700938107 /* Quinn_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Quinn_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C2019B1016700938107 /* Rammus_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rammus_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C2119B1016700938107 /* Renekton_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Renekton_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C2219B1016700938107 /* Rengar_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rengar_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C2319B1016700938107 /* Riven_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Riven_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C2419B1016700938107 /* Rumble_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rumble_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C2519B1016700938107 /* Ryze_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ryze_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C2619B1016700938107 /* Sejuani_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sejuani_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C2719B1016700938107 /* Shaco_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shaco_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C2819B1016700938107 /* Shen_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shen_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C2919B1016700938107 /* Shyvana_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shyvana_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C2A19B1016700938107 /* Singed_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Singed_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C2B19B1016700938107 /* Sion_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sion_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C2C19B1016700938107 /* Sivir_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sivir_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C2D19B1016700938107 /* Skarner_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Skarner_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C2E19B1016700938107 /* Sona_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sona_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C2F19B1016700938107 /* Soraka_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Soraka_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C3019B1016700938107 /* Swain_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Swain_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C3119B1016700938107 /* Syndra_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Syndra_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C3219B1016700938107 /* Talon_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Talon_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C3319B1016700938107 /* Taric_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Taric_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C3419B1016700938107 /* Teemo_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Teemo_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C3519B1016700938107 /* Thresh_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Thresh_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C3619B1016700938107 /* Tristana_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tristana_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C3719B1016700938107 /* Trundle_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trundle_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C3819B1016700938107 /* Tryndamere_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tryndamere_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C3919B1016700938107 /* Twitch_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twitch_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C3A19B1016700938107 /* Udyr_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Udyr_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C3B19B1016700938107 /* Urgot_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Urgot_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C3C19B1016700938107 /* Varus_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Varus_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C3D19B1016700938107 /* Vayne_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vayne_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C3E19B1016700938107 /* Veigar_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Veigar_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C3F19B1016700938107 /* VelKoz_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VelKoz_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C4019B1016700938107 /* Vi_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vi_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C4119B1016700938107 /* Viktor_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Viktor_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C4219B1016700938107 /* Vladimir_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vladimir_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C4319B1016700938107 /* Volibear_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Volibear_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C4419B1016700938107 /* Warwick_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Warwick_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C4519B1016700938107 /* Xerath_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Xerath_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C4619B1016700938107 /* XinZhao_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XinZhao_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C4719B1016700938107 /* Yasuo_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yasuo_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C4819B1016700938107 /* Yorick_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yorick_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C4919B1016700938107 /* Zac_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zac_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C4A19B1016700938107 /* Zed_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zed_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C4B19B1016700938107 /* Ziggs_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ziggs_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C4C19B1016700938107 /* Zilean_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zilean_Square_0.png; sourceTree = "<group>"; };
-		5D7C8C4D19B1016700938107 /* Zyra_Square_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zyra_Square_0.png; sourceTree = "<group>"; };
+		5D7C8CCB19B1078100938107 /* Ahri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ahri.png; sourceTree = "<group>"; };
+		5D7C8CCD19B109BD00938107 /* Akali.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Akali.png; sourceTree = "<group>"; };
+		5D7C8CCF19B10A0B00938107 /* Aatrox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Aatrox.png; sourceTree = "<group>"; };
+		5D7C8CD119B10A3300938107 /* Alistar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alistar.png; sourceTree = "<group>"; };
+		5D7C8CD319B10A3D00938107 /* Amumu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Amumu.png; sourceTree = "<group>"; };
+		5D7C8CD519B10A4500938107 /* Anivia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Anivia.png; sourceTree = "<group>"; };
+		5D7C8CD719B10A4D00938107 /* Annie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Annie.png; sourceTree = "<group>"; };
+		5D7C8CD919B10A5800938107 /* Ashe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ashe.png; sourceTree = "<group>"; };
+		5D7C8CDB19B10A6300938107 /* Blitzcrank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blitzcrank.png; sourceTree = "<group>"; };
+		5D7C8CDD19B10A7D00938107 /* Brand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brand.png; sourceTree = "<group>"; };
+		5D7C8CDF19B10A8400938107 /* Braum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Braum.png; sourceTree = "<group>"; };
+		5D7C8CE119B10A8E00938107 /* Caitlyn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Caitlyn.png; sourceTree = "<group>"; };
+		5D7C8CE319B10A9500938107 /* Cassiopeia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cassiopeia.png; sourceTree = "<group>"; };
+		5D7C8CE519B10A9E00938107 /* Chogath.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chogath.png; sourceTree = "<group>"; };
+		5D7C8CE719B10AAF00938107 /* Corki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Corki.png; sourceTree = "<group>"; };
+		5D7C8CE919B10AB600938107 /* Darius.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Darius.png; sourceTree = "<group>"; };
+		5D7C8CEB19B10ABD00938107 /* Diana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Diana.png; sourceTree = "<group>"; };
+		5D7C8CED19B10AC200938107 /* Draven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Draven.png; sourceTree = "<group>"; };
+		5D7C8CEF19B10AD100938107 /* DrMundo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DrMundo.png; sourceTree = "<group>"; };
+		5D7C8CF119B10AD700938107 /* Elise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Elise.png; sourceTree = "<group>"; };
+		5D7C8CF319B10ADC00938107 /* Evelynn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Evelynn.png; sourceTree = "<group>"; };
+		5D7C8CF519B10AE500938107 /* Ezreal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ezreal.png; sourceTree = "<group>"; };
+		5D7C8CF719B10AF200938107 /* Fiddlesticks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fiddlesticks.png; sourceTree = "<group>"; };
+		5D7C8CF919B10B0E00938107 /* Fiora.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fiora.png; sourceTree = "<group>"; };
+		5D7C8CFB19B10B1800938107 /* Fizz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fizz.png; sourceTree = "<group>"; };
+		5D7C8CFD19B10B1E00938107 /* Galio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Galio.png; sourceTree = "<group>"; };
+		5D7C8CFF19B10B2500938107 /* Gangplank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gangplank.png; sourceTree = "<group>"; };
+		5D7C8D0119B10B2E00938107 /* Garen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Garen.png; sourceTree = "<group>"; };
+		5D7C8D0319B10B5100938107 /* Gnar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gnar.png; sourceTree = "<group>"; };
+		5D7C8D0519B10B7900938107 /* Gragas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gragas.png; sourceTree = "<group>"; };
+		5D7C8D0719B10B8300938107 /* Graves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Graves.png; sourceTree = "<group>"; };
+		5D7C8D0919B10B8900938107 /* Hecarim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hecarim.png; sourceTree = "<group>"; };
+		5D7C8D0B19B10B9300938107 /* Heimerdinger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Heimerdinger.png; sourceTree = "<group>"; };
+		5D7C8D0D19B10B9900938107 /* Irelia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Irelia.png; sourceTree = "<group>"; };
+		5D7C8D0F19B10B9E00938107 /* Janna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Janna.png; sourceTree = "<group>"; };
+		5D7C8D1119B10BA600938107 /* JarvanIV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JarvanIV.png; sourceTree = "<group>"; };
+		5D7C8D1319B10BAD00938107 /* Jax.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jax.png; sourceTree = "<group>"; };
+		5D7C8D1519B10BB400938107 /* Jayce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jayce.png; sourceTree = "<group>"; };
+		5D7C8D1719B10BB900938107 /* Jinx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jinx.png; sourceTree = "<group>"; };
+		5D7C8D1919B10BBF00938107 /* Karma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Karma.png; sourceTree = "<group>"; };
+		5D7C8D1B19B10BC700938107 /* Karthus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Karthus.png; sourceTree = "<group>"; };
+		5D7C8D1D19B10BE400938107 /* Kassadin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kassadin.png; sourceTree = "<group>"; };
+		5D7C8D1F19B10C1100938107 /* Katarina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Katarina.png; sourceTree = "<group>"; };
+		5D7C8D2119B10C1700938107 /* Kayle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kayle.png; sourceTree = "<group>"; };
+		5D7C8D2319B10C2400938107 /* Kennen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kennen.png; sourceTree = "<group>"; };
+		5D7C8D2519B10C4900938107 /* Khazix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Khazix.png; sourceTree = "<group>"; };
+		5D7C8D2719B10C8400938107 /* KogMaw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KogMaw.png; sourceTree = "<group>"; };
+		5D7C8D2919B10C8A00938107 /* Leblanc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Leblanc.png; sourceTree = "<group>"; };
+		5D7C8D2B19B10C9000938107 /* LeeSin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LeeSin.png; sourceTree = "<group>"; };
+		5D7C8D2D19B10C9500938107 /* Leona.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Leona.png; sourceTree = "<group>"; };
+		5D7C8D2F19B10C9A00938107 /* Lissandra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lissandra.png; sourceTree = "<group>"; };
+		5D7C8D3119B10CA000938107 /* Lucian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lucian.png; sourceTree = "<group>"; };
+		5D7C8D3319B10CA800938107 /* Lulu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lulu.png; sourceTree = "<group>"; };
+		5D7C8D3519B10CAE00938107 /* Lux.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lux.png; sourceTree = "<group>"; };
+		5D7C8D3719B10CB800938107 /* Malphite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Malphite.png; sourceTree = "<group>"; };
+		5D7C8D3919B10CBF00938107 /* Malzahar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Malzahar.png; sourceTree = "<group>"; };
+		5D7C8D3B19B10CCD00938107 /* Maokai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Maokai.png; sourceTree = "<group>"; };
+		5D7C8D3D19B10D3400938107 /* MasterYi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MasterYi.png; sourceTree = "<group>"; };
+		5D7C8D3F19B10D3E00938107 /* MissFortune.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MissFortune.png; sourceTree = "<group>"; };
+		5D7C8D4119B10D4300938107 /* MonkeyKing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MonkeyKing.png; sourceTree = "<group>"; };
+		5D7C8D4319B10D4900938107 /* Mordekaiser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mordekaiser.png; sourceTree = "<group>"; };
+		5D7C8D4519B10D5000938107 /* Morgana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Morgana.png; sourceTree = "<group>"; };
+		5D7C8D4719B10D5600938107 /* Nami.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nami.png; sourceTree = "<group>"; };
+		5D7C8D4919B10D5B00938107 /* Nasus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nasus.png; sourceTree = "<group>"; };
+		5D7C8D4B19B10D6100938107 /* Nautilus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nautilus.png; sourceTree = "<group>"; };
+		5D7C8D4D19B10D6900938107 /* Nidalee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nidalee.png; sourceTree = "<group>"; };
+		5D7C8D4F19B10D7C00938107 /* Nocturne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nocturne.png; sourceTree = "<group>"; };
+		5D7C8D5119B10DDF00938107 /* Nunu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nunu.png; sourceTree = "<group>"; };
+		5D7C8D5319B10DE900938107 /* Olaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Olaf.png; sourceTree = "<group>"; };
+		5D7C8D5519B10E0100938107 /* Orianna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orianna.png; sourceTree = "<group>"; };
+		5D7C8D5719B10E0800938107 /* Pantheon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pantheon.png; sourceTree = "<group>"; };
+		5D7C8D5919B10E1500938107 /* Poppy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Poppy.png; sourceTree = "<group>"; };
+		5D7C8D5B19B10E2D00938107 /* Quinn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Quinn.png; sourceTree = "<group>"; };
+		5D7C8D5D19B10E3700938107 /* Rammus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rammus.png; sourceTree = "<group>"; };
+		5D7C8D5F19B10E4300938107 /* Renekton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Renekton.png; sourceTree = "<group>"; };
+		5D7C8D6119B10E4C00938107 /* Rengar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rengar.png; sourceTree = "<group>"; };
+		5D7C8D6319B10E5300938107 /* Riven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Riven.png; sourceTree = "<group>"; };
+		5D7C8D6519B10E5900938107 /* Rumble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rumble.png; sourceTree = "<group>"; };
+		5D7C8D6719B10E6800938107 /* Ryze.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ryze.png; sourceTree = "<group>"; };
+		5D7C8D6919B10E8F00938107 /* Sejuani.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sejuani.png; sourceTree = "<group>"; };
+		5D7C8D6B19B10EA400938107 /* Shaco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shaco.png; sourceTree = "<group>"; };
+		5D7C8D6D19B10EAD00938107 /* Shen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shen.png; sourceTree = "<group>"; };
+		5D7C8D6F19B10EB400938107 /* Shyvana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shyvana.png; sourceTree = "<group>"; };
+		5D7C8D7119B10EBC00938107 /* Singed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Singed.png; sourceTree = "<group>"; };
+		5D7C8D7319B10EC200938107 /* Sion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sion.png; sourceTree = "<group>"; };
+		5D7C8D7519B10EC900938107 /* Sivir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sivir.png; sourceTree = "<group>"; };
+		5D7C8D7719B10ECE00938107 /* Skarner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Skarner.png; sourceTree = "<group>"; };
+		5D7C8D7919B10ED400938107 /* Sona.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sona.png; sourceTree = "<group>"; };
+		5D7C8D7B19B10EDB00938107 /* Soraka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Soraka.png; sourceTree = "<group>"; };
+		5D7C8D7D19B10EE100938107 /* Swain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Swain.png; sourceTree = "<group>"; };
+		5D7C8D7F19B10EE500938107 /* Syndra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Syndra.png; sourceTree = "<group>"; };
+		5D7C8D8119B10EEF00938107 /* Talon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Talon.png; sourceTree = "<group>"; };
+		5D7C8D8319B10EF400938107 /* Taric.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Taric.png; sourceTree = "<group>"; };
+		5D7C8D8519B10EFB00938107 /* Teemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Teemo.png; sourceTree = "<group>"; };
+		5D7C8D8719B10F4D00938107 /* Thresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Thresh.png; sourceTree = "<group>"; };
+		5D7C8D8919B10F5E00938107 /* Tristana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tristana.png; sourceTree = "<group>"; };
+		5D7C8D8B19B10F7A00938107 /* Trundle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trundle.png; sourceTree = "<group>"; };
+		5D7C8D8D19B10F8200938107 /* Tryndamere.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tryndamere.png; sourceTree = "<group>"; };
+		5D7C8D8F19B10F9A00938107 /* Twitch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twitch.png; sourceTree = "<group>"; };
+		5D7C8D9119B10FA200938107 /* Udyr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Udyr.png; sourceTree = "<group>"; };
+		5D7C8D9319B10FA800938107 /* Urgot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Urgot.png; sourceTree = "<group>"; };
+		5D7C8D9519B10FAD00938107 /* Varus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Varus.png; sourceTree = "<group>"; };
+		5D7C8D9719B10FB400938107 /* Vayne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vayne.png; sourceTree = "<group>"; };
+		5D7C8D9919B10FBA00938107 /* Veigar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Veigar.png; sourceTree = "<group>"; };
+		5D7C8D9B19B10FBF00938107 /* VelKoz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VelKoz.png; sourceTree = "<group>"; };
+		5D7C8D9D19B10FC500938107 /* Vi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vi.png; sourceTree = "<group>"; };
+		5D7C8D9F19B10FCC00938107 /* Viktor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Viktor.png; sourceTree = "<group>"; };
+		5D7C8DA119B10FD400938107 /* Vladimir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vladimir.png; sourceTree = "<group>"; };
+		5D7C8DA319B10FD900938107 /* Volibear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Volibear.png; sourceTree = "<group>"; };
+		5D7C8DA519B10FE000938107 /* Warwick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Warwick.png; sourceTree = "<group>"; };
+		5D7C8DA719B10FE600938107 /* Xerath.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Xerath.png; sourceTree = "<group>"; };
+		5D7C8DA919B10FEC00938107 /* XinZhao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XinZhao.png; sourceTree = "<group>"; };
+		5D7C8DAB19B10FF000938107 /* Yasuo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yasuo.png; sourceTree = "<group>"; };
+		5D7C8DAD19B10FF500938107 /* Yorick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yorick.png; sourceTree = "<group>"; };
+		5D7C8DAF19B10FFB00938107 /* Zac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zac.png; sourceTree = "<group>"; };
+		5D7C8DB119B1100000938107 /* Zed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zed.png; sourceTree = "<group>"; };
+		5D7C8DB319B1100B00938107 /* Ziggs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ziggs.png; sourceTree = "<group>"; };
+		5D7C8DB519B1101300938107 /* Zilean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zilean.png; sourceTree = "<group>"; };
+		5D7C8DB719B1101E00938107 /* Zyra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zyra.png; sourceTree = "<group>"; };
+		5D7C8DBC19B157C100938107 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		5D7C8DBD19B157C100938107 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		5D7C8DC219B2824F00938107 /* TierListCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TierListCollectionViewController.h; sourceTree = "<group>"; };
+		5D7C8DC319B2824F00938107 /* TierListCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TierListCollectionViewController.m; sourceTree = "<group>"; };
+		5D7C8DC619B28C0000938107 /* TierHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TierHeaderCell.h; sourceTree = "<group>"; };
+		5D7C8DC719B28C0000938107 /* TierHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TierHeaderCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -365,6 +376,8 @@
 			isa = PBXGroup;
 			children = (
 				5D37963019B0261D00C8A318 /* firstClassAppDelegate.h */,
+				5D7C8DC219B2824F00938107 /* TierListCollectionViewController.h */,
+				5D7C8DC319B2824F00938107 /* TierListCollectionViewController.m */,
 				5D37963119B0261D00C8A318 /* firstClassAppDelegate.m */,
 				5D37963319B0261D00C8A318 /* Main.storyboard */,
 				5D37963619B0261D00C8A318 /* firstClassViewController.h */,
@@ -375,6 +388,10 @@
 				5D37966119B057EC00C8A318 /* navigationController.m */,
 				5D37963919B0261D00C8A318 /* Images.xcassets */,
 				5D37962819B0261C00C8A318 /* Supporting Files */,
+				5D7C8DBC19B157C100938107 /* CustomCell.h */,
+				5D7C8DBD19B157C100938107 /* CustomCell.m */,
+				5D7C8DC619B28C0000938107 /* TierHeaderCell.h */,
+				5D7C8DC719B28C0000938107 /* TierHeaderCell.m */,
 			);
 			path = counterPickLoL;
 			sourceTree = "<group>";
@@ -424,125 +441,125 @@
 		5D7C8BD619B1016600938107 /* championPortraits */ = {
 			isa = PBXGroup;
 			children = (
-				5D7C8BD719B1016600938107 /* Aatrox_Square_0.png */,
-				5D7C8BD819B1016600938107 /* Ahri_Square_0.png */,
-				5D7C8BD919B1016600938107 /* Akali_Square_0.png */,
-				5D7C8BDA19B1016600938107 /* Alistar_Square_0.png */,
-				5D7C8BDB19B1016600938107 /* Amumu_Square_0.png */,
-				5D7C8BDC19B1016600938107 /* Anivia_Square_0.png */,
-				5D7C8BDD19B1016600938107 /* Annie_Square_0.png */,
-				5D7C8BDE19B1016600938107 /* Ashe_Square_0.png */,
-				5D7C8BDF19B1016600938107 /* Blitzcrank_Square_0.png */,
-				5D7C8BE019B1016600938107 /* Brand_Square_0.png */,
-				5D7C8BE119B1016600938107 /* Braum_Square_0.png */,
-				5D7C8BE219B1016600938107 /* Caitlyn_Square_0.png */,
-				5D7C8BE319B1016600938107 /* Cassiopeia_Square_0.png */,
-				5D7C8BE419B1016600938107 /* Chogath_Square_0.png */,
-				5D7C8BE519B1016600938107 /* Corki_Square_0.png */,
-				5D7C8BE619B1016600938107 /* Darius_Square_0.png */,
-				5D7C8BE719B1016600938107 /* Diana_Square_0.png */,
-				5D7C8BE819B1016600938107 /* Draven_Square_0.png */,
-				5D7C8BE919B1016600938107 /* DrMundo_Square_0.png */,
-				5D7C8BEA19B1016600938107 /* Elise_Square_0.png */,
-				5D7C8BEB19B1016600938107 /* Evelynn_Square_0.png */,
-				5D7C8BEC19B1016600938107 /* Ezreal_Square_0.png */,
-				5D7C8BED19B1016600938107 /* Fiddlesticks_Square_0.png */,
-				5D7C8BEE19B1016600938107 /* Fiora_Square_0.png */,
-				5D7C8BEF19B1016600938107 /* Fizz_square_0.png */,
-				5D7C8BF019B1016600938107 /* Galio_Square_0.png */,
-				5D7C8BF119B1016600938107 /* Gangplank_Square_0.png */,
-				5D7C8BF219B1016600938107 /* Garen_Square_0.png */,
-				5D7C8BF319B1016600938107 /* Gnar_Square_0.png */,
-				5D7C8BF419B1016600938107 /* Gragas_Square_0.png */,
-				5D7C8BF519B1016600938107 /* Graves_Square_0.png */,
-				5D7C8BF619B1016600938107 /* Hecarim_Square_0.png */,
-				5D7C8BF719B1016600938107 /* Heimerdinger_Square_0.png */,
-				5D7C8BF819B1016700938107 /* Irelia_Square_0.png */,
-				5D7C8BF919B1016700938107 /* Janna_Square_0.png */,
-				5D7C8BFA19B1016700938107 /* JarvanIV_Square_0.png */,
-				5D7C8BFB19B1016700938107 /* Jax_Square_0.png */,
-				5D7C8BFC19B1016700938107 /* Jayce_Square_0.png */,
-				5D7C8BFD19B1016700938107 /* Jinx_Square_0.png */,
-				5D7C8BFE19B1016700938107 /* Karma_Square_0.png */,
-				5D7C8BFF19B1016700938107 /* Karthus_Square_0.png */,
-				5D7C8C0019B1016700938107 /* Kassadin_Square_0.png */,
-				5D7C8C0119B1016700938107 /* Katarina_Square_0.png */,
-				5D7C8C0219B1016700938107 /* Kayle_Square_0.png */,
-				5D7C8C0319B1016700938107 /* Kennen_Square_0.png */,
-				5D7C8C0419B1016700938107 /* Khazix_Square_0.png */,
-				5D7C8C0519B1016700938107 /* KogMaw_Square_0.png */,
-				5D7C8C0619B1016700938107 /* Leblanc_Square_0.png */,
-				5D7C8C0719B1016700938107 /* LeeSin_Square_0.png */,
-				5D7C8C0819B1016700938107 /* Leona_Square_0.png */,
-				5D7C8C0919B1016700938107 /* Lissandra_Square_0.png */,
-				5D7C8C0A19B1016700938107 /* Lucian_Square_0.png */,
-				5D7C8C0B19B1016700938107 /* Lulu_Square_0.png */,
-				5D7C8C0C19B1016700938107 /* Lux_Square_0.png */,
-				5D7C8C0D19B1016700938107 /* Malphite_Square_0.png */,
-				5D7C8C0E19B1016700938107 /* Malzahar_Square_0.png */,
-				5D7C8C0F19B1016700938107 /* Maokai_Square_0.png */,
-				5D7C8C1019B1016700938107 /* MasterYi_Square_0.png */,
-				5D7C8C1119B1016700938107 /* MissFortune_Square_0.png */,
-				5D7C8C1219B1016700938107 /* MonkeyKing_Square_0.png */,
-				5D7C8C1319B1016700938107 /* Mordekaiser_Square_0.png */,
-				5D7C8C1419B1016700938107 /* Morgana_Square_0.png */,
-				5D7C8C1519B1016700938107 /* Nami_Square_0.png */,
-				5D7C8C1619B1016700938107 /* Nasus_Square_0.png */,
-				5D7C8C1719B1016700938107 /* Nautilus_Square_0.png */,
-				5D7C8C1819B1016700938107 /* Nidalee_Square_0.png */,
-				5D7C8C1919B1016700938107 /* Nocturne_Square_0.png */,
-				5D7C8C1A19B1016700938107 /* Nunu_Square_0.png */,
-				5D7C8C1B19B1016700938107 /* Olaf_Square_0.png */,
-				5D7C8C1C19B1016700938107 /* Orianna_Square_0.png */,
-				5D7C8C1D19B1016700938107 /* Pantheon_Square_0.png */,
-				5D7C8C1E19B1016700938107 /* Poppy_Square_0.png */,
-				5D7C8C1F19B1016700938107 /* Quinn_Square_0.png */,
-				5D7C8C2019B1016700938107 /* Rammus_Square_0.png */,
-				5D7C8C2119B1016700938107 /* Renekton_Square_0.png */,
-				5D7C8C2219B1016700938107 /* Rengar_Square_0.png */,
-				5D7C8C2319B1016700938107 /* Riven_Square_0.png */,
-				5D7C8C2419B1016700938107 /* Rumble_Square_0.png */,
-				5D7C8C2519B1016700938107 /* Ryze_Square_0.png */,
-				5D7C8C2619B1016700938107 /* Sejuani_Square_0.png */,
-				5D7C8C2719B1016700938107 /* Shaco_Square_0.png */,
-				5D7C8C2819B1016700938107 /* Shen_Square_0.png */,
-				5D7C8C2919B1016700938107 /* Shyvana_Square_0.png */,
-				5D7C8C2A19B1016700938107 /* Singed_Square_0.png */,
-				5D7C8C2B19B1016700938107 /* Sion_Square_0.png */,
-				5D7C8C2C19B1016700938107 /* Sivir_Square_0.png */,
-				5D7C8C2D19B1016700938107 /* Skarner_Square_0.png */,
-				5D7C8C2E19B1016700938107 /* Sona_Square_0.png */,
-				5D7C8C2F19B1016700938107 /* Soraka_Square_0.png */,
-				5D7C8C3019B1016700938107 /* Swain_Square_0.png */,
-				5D7C8C3119B1016700938107 /* Syndra_Square_0.png */,
-				5D7C8C3219B1016700938107 /* Talon_Square_0.png */,
-				5D7C8C3319B1016700938107 /* Taric_Square_0.png */,
-				5D7C8C3419B1016700938107 /* Teemo_Square_0.png */,
-				5D7C8C3519B1016700938107 /* Thresh_Square_0.png */,
-				5D7C8C3619B1016700938107 /* Tristana_Square_0.png */,
-				5D7C8C3719B1016700938107 /* Trundle_Square_0.png */,
-				5D7C8C3819B1016700938107 /* Tryndamere_Square_0.png */,
-				5D7C8C3919B1016700938107 /* Twitch_Square_0.png */,
-				5D7C8C3A19B1016700938107 /* Udyr_Square_0.png */,
-				5D7C8C3B19B1016700938107 /* Urgot_Square_0.png */,
-				5D7C8C3C19B1016700938107 /* Varus_Square_0.png */,
-				5D7C8C3D19B1016700938107 /* Vayne_Square_0.png */,
-				5D7C8C3E19B1016700938107 /* Veigar_Square_0.png */,
-				5D7C8C3F19B1016700938107 /* VelKoz_Square_0.png */,
-				5D7C8C4019B1016700938107 /* Vi_Square_0.png */,
-				5D7C8C4119B1016700938107 /* Viktor_Square_0.png */,
-				5D7C8C4219B1016700938107 /* Vladimir_Square_0.png */,
-				5D7C8C4319B1016700938107 /* Volibear_Square_0.png */,
-				5D7C8C4419B1016700938107 /* Warwick_Square_0.png */,
-				5D7C8C4519B1016700938107 /* Xerath_Square_0.png */,
-				5D7C8C4619B1016700938107 /* XinZhao_Square_0.png */,
-				5D7C8C4719B1016700938107 /* Yasuo_Square_0.png */,
-				5D7C8C4819B1016700938107 /* Yorick_Square_0.png */,
-				5D7C8C4919B1016700938107 /* Zac_Square_0.png */,
-				5D7C8C4A19B1016700938107 /* Zed_Square_0.png */,
-				5D7C8C4B19B1016700938107 /* Ziggs_Square_0.png */,
-				5D7C8C4C19B1016700938107 /* Zilean_Square_0.png */,
-				5D7C8C4D19B1016700938107 /* Zyra_Square_0.png */,
+				5D7C8CCF19B10A0B00938107 /* Aatrox.png */,
+				5D7C8CCB19B1078100938107 /* Ahri.png */,
+				5D7C8CCD19B109BD00938107 /* Akali.png */,
+				5D7C8CD119B10A3300938107 /* Alistar.png */,
+				5D7C8CD319B10A3D00938107 /* Amumu.png */,
+				5D7C8CD519B10A4500938107 /* Anivia.png */,
+				5D7C8CD719B10A4D00938107 /* Annie.png */,
+				5D7C8CD919B10A5800938107 /* Ashe.png */,
+				5D7C8CDB19B10A6300938107 /* Blitzcrank.png */,
+				5D7C8CDD19B10A7D00938107 /* Brand.png */,
+				5D7C8CDF19B10A8400938107 /* Braum.png */,
+				5D7C8CE119B10A8E00938107 /* Caitlyn.png */,
+				5D7C8CE319B10A9500938107 /* Cassiopeia.png */,
+				5D7C8CE519B10A9E00938107 /* Chogath.png */,
+				5D7C8CE719B10AAF00938107 /* Corki.png */,
+				5D7C8CE919B10AB600938107 /* Darius.png */,
+				5D7C8CEB19B10ABD00938107 /* Diana.png */,
+				5D7C8CED19B10AC200938107 /* Draven.png */,
+				5D7C8CEF19B10AD100938107 /* DrMundo.png */,
+				5D7C8CF119B10AD700938107 /* Elise.png */,
+				5D7C8CF319B10ADC00938107 /* Evelynn.png */,
+				5D7C8CF519B10AE500938107 /* Ezreal.png */,
+				5D7C8CF719B10AF200938107 /* Fiddlesticks.png */,
+				5D7C8CF919B10B0E00938107 /* Fiora.png */,
+				5D7C8CFB19B10B1800938107 /* Fizz.png */,
+				5D7C8CFD19B10B1E00938107 /* Galio.png */,
+				5D7C8CFF19B10B2500938107 /* Gangplank.png */,
+				5D7C8D0119B10B2E00938107 /* Garen.png */,
+				5D7C8D0319B10B5100938107 /* Gnar.png */,
+				5D7C8D0519B10B7900938107 /* Gragas.png */,
+				5D7C8D0719B10B8300938107 /* Graves.png */,
+				5D7C8D0919B10B8900938107 /* Hecarim.png */,
+				5D7C8D0B19B10B9300938107 /* Heimerdinger.png */,
+				5D7C8D0D19B10B9900938107 /* Irelia.png */,
+				5D7C8D0F19B10B9E00938107 /* Janna.png */,
+				5D7C8D1119B10BA600938107 /* JarvanIV.png */,
+				5D7C8D1319B10BAD00938107 /* Jax.png */,
+				5D7C8D1519B10BB400938107 /* Jayce.png */,
+				5D7C8D1719B10BB900938107 /* Jinx.png */,
+				5D7C8D1919B10BBF00938107 /* Karma.png */,
+				5D7C8D1B19B10BC700938107 /* Karthus.png */,
+				5D7C8D1D19B10BE400938107 /* Kassadin.png */,
+				5D7C8D1F19B10C1100938107 /* Katarina.png */,
+				5D7C8D2119B10C1700938107 /* Kayle.png */,
+				5D7C8D2319B10C2400938107 /* Kennen.png */,
+				5D7C8D2519B10C4900938107 /* Khazix.png */,
+				5D7C8D2719B10C8400938107 /* KogMaw.png */,
+				5D7C8D2919B10C8A00938107 /* Leblanc.png */,
+				5D7C8D2B19B10C9000938107 /* LeeSin.png */,
+				5D7C8D2D19B10C9500938107 /* Leona.png */,
+				5D7C8D2F19B10C9A00938107 /* Lissandra.png */,
+				5D7C8D3119B10CA000938107 /* Lucian.png */,
+				5D7C8D3319B10CA800938107 /* Lulu.png */,
+				5D7C8D3519B10CAE00938107 /* Lux.png */,
+				5D7C8D3719B10CB800938107 /* Malphite.png */,
+				5D7C8D3919B10CBF00938107 /* Malzahar.png */,
+				5D7C8D3B19B10CCD00938107 /* Maokai.png */,
+				5D7C8D3D19B10D3400938107 /* MasterYi.png */,
+				5D7C8D3F19B10D3E00938107 /* MissFortune.png */,
+				5D7C8D4119B10D4300938107 /* MonkeyKing.png */,
+				5D7C8D4319B10D4900938107 /* Mordekaiser.png */,
+				5D7C8D4519B10D5000938107 /* Morgana.png */,
+				5D7C8D4719B10D5600938107 /* Nami.png */,
+				5D7C8D4919B10D5B00938107 /* Nasus.png */,
+				5D7C8D4B19B10D6100938107 /* Nautilus.png */,
+				5D7C8D4D19B10D6900938107 /* Nidalee.png */,
+				5D7C8D4F19B10D7C00938107 /* Nocturne.png */,
+				5D7C8D5119B10DDF00938107 /* Nunu.png */,
+				5D7C8D5319B10DE900938107 /* Olaf.png */,
+				5D7C8D5519B10E0100938107 /* Orianna.png */,
+				5D7C8D5719B10E0800938107 /* Pantheon.png */,
+				5D7C8D5919B10E1500938107 /* Poppy.png */,
+				5D7C8D5B19B10E2D00938107 /* Quinn.png */,
+				5D7C8D5D19B10E3700938107 /* Rammus.png */,
+				5D7C8D5F19B10E4300938107 /* Renekton.png */,
+				5D7C8D6119B10E4C00938107 /* Rengar.png */,
+				5D7C8D6319B10E5300938107 /* Riven.png */,
+				5D7C8D6519B10E5900938107 /* Rumble.png */,
+				5D7C8D6719B10E6800938107 /* Ryze.png */,
+				5D7C8D6919B10E8F00938107 /* Sejuani.png */,
+				5D7C8D6B19B10EA400938107 /* Shaco.png */,
+				5D7C8D6D19B10EAD00938107 /* Shen.png */,
+				5D7C8D6F19B10EB400938107 /* Shyvana.png */,
+				5D7C8D7119B10EBC00938107 /* Singed.png */,
+				5D7C8D7319B10EC200938107 /* Sion.png */,
+				5D7C8D7519B10EC900938107 /* Sivir.png */,
+				5D7C8D7719B10ECE00938107 /* Skarner.png */,
+				5D7C8D7919B10ED400938107 /* Sona.png */,
+				5D7C8D7B19B10EDB00938107 /* Soraka.png */,
+				5D7C8D7D19B10EE100938107 /* Swain.png */,
+				5D7C8D7F19B10EE500938107 /* Syndra.png */,
+				5D7C8D8119B10EEF00938107 /* Talon.png */,
+				5D7C8D8319B10EF400938107 /* Taric.png */,
+				5D7C8D8519B10EFB00938107 /* Teemo.png */,
+				5D7C8D8719B10F4D00938107 /* Thresh.png */,
+				5D7C8D8919B10F5E00938107 /* Tristana.png */,
+				5D7C8D8B19B10F7A00938107 /* Trundle.png */,
+				5D7C8D8D19B10F8200938107 /* Tryndamere.png */,
+				5D7C8D8F19B10F9A00938107 /* Twitch.png */,
+				5D7C8D9119B10FA200938107 /* Udyr.png */,
+				5D7C8D9319B10FA800938107 /* Urgot.png */,
+				5D7C8D9519B10FAD00938107 /* Varus.png */,
+				5D7C8D9719B10FB400938107 /* Vayne.png */,
+				5D7C8D9919B10FBA00938107 /* Veigar.png */,
+				5D7C8D9B19B10FBF00938107 /* VelKoz.png */,
+				5D7C8D9D19B10FC500938107 /* Vi.png */,
+				5D7C8D9F19B10FCC00938107 /* Viktor.png */,
+				5D7C8DA119B10FD400938107 /* Vladimir.png */,
+				5D7C8DA319B10FD900938107 /* Volibear.png */,
+				5D7C8DA519B10FE000938107 /* Warwick.png */,
+				5D7C8DA719B10FE600938107 /* Xerath.png */,
+				5D7C8DA919B10FEC00938107 /* XinZhao.png */,
+				5D7C8DAB19B10FF000938107 /* Yasuo.png */,
+				5D7C8DAD19B10FF500938107 /* Yorick.png */,
+				5D7C8DAF19B10FFB00938107 /* Zac.png */,
+				5D7C8DB119B1100000938107 /* Zed.png */,
+				5D7C8DB319B1100B00938107 /* Ziggs.png */,
+				5D7C8DB519B1101300938107 /* Zilean.png */,
+				5D7C8DB719B1101E00938107 /* Zyra.png */,
 			);
 			path = championPortraits;
 			sourceTree = "<group>";
@@ -624,132 +641,132 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D7C8C5519B1016700938107 /* Ashe_Square_0.png in Resources */,
-				5D7C8C9019B1016700938107 /* Nocturne_Square_0.png in Resources */,
-				5D7C8C8519B1016700938107 /* Malzahar_Square_0.png in Resources */,
-				5D7C8CA519B1016700938107 /* Sona_Square_0.png in Resources */,
-				5D7C8C5E19B1016700938107 /* Diana_Square_0.png in Resources */,
-				5D7C8C7319B1016700938107 /* Jayce_Square_0.png in Resources */,
-				5D7C8C9519B1016700938107 /* Poppy_Square_0.png in Resources */,
+				5D7C8CDA19B10A5800938107 /* Ashe.png in Resources */,
+				5D7C8D5019B10D7C00938107 /* Nocturne.png in Resources */,
+				5D7C8D3A19B10CBF00938107 /* Malzahar.png in Resources */,
+				5D7C8D7A19B10ED400938107 /* Sona.png in Resources */,
+				5D7C8CEC19B10ABD00938107 /* Diana.png in Resources */,
+				5D7C8D1619B10BB400938107 /* Jayce.png in Resources */,
+				5D7C8D5A19B10E1500938107 /* Poppy.png in Resources */,
 				5D37963A19B0261D00C8A318 /* Images.xcassets in Resources */,
-				5D7C8C5C19B1016700938107 /* Corki_Square_0.png in Resources */,
-				5D7C8CB119B1016700938107 /* Udyr_Square_0.png in Resources */,
-				5D7C8CB519B1016700938107 /* Veigar_Square_0.png in Resources */,
-				5D7C8CA219B1016700938107 /* Sion_Square_0.png in Resources */,
-				5D7C8CA819B1016700938107 /* Syndra_Square_0.png in Resources */,
-				5D7C8CBE19B1016700938107 /* Yasuo_Square_0.png in Resources */,
-				5D7C8C5219B1016700938107 /* Amumu_Square_0.png in Resources */,
-				5D7C8C7B19B1016700938107 /* Khazix_Square_0.png in Resources */,
-				5D7C8CBA19B1016700938107 /* Volibear_Square_0.png in Resources */,
-				5D7C8C8F19B1016700938107 /* Nidalee_Square_0.png in Resources */,
-				5D7C8CB419B1016700938107 /* Vayne_Square_0.png in Resources */,
-				5D7C8C7219B1016700938107 /* Jax_Square_0.png in Resources */,
-				5D7C8C7D19B1016700938107 /* Leblanc_Square_0.png in Resources */,
-				5D7C8C8019B1016700938107 /* Lissandra_Square_0.png in Resources */,
-				5D7C8C5119B1016700938107 /* Alistar_Square_0.png in Resources */,
-				5D7C8C7619B1016700938107 /* Karthus_Square_0.png in Resources */,
-				5D7C8C6619B1016700938107 /* Fizz_square_0.png in Resources */,
-				5D7C8CB219B1016700938107 /* Urgot_Square_0.png in Resources */,
+				5D7C8CE819B10AAF00938107 /* Corki.png in Resources */,
+				5D7C8D9219B10FA200938107 /* Udyr.png in Resources */,
+				5D7C8D9A19B10FBA00938107 /* Veigar.png in Resources */,
+				5D7C8D7419B10EC200938107 /* Sion.png in Resources */,
+				5D7C8D8019B10EE500938107 /* Syndra.png in Resources */,
+				5D7C8DAC19B10FF000938107 /* Yasuo.png in Resources */,
+				5D7C8CD419B10A3D00938107 /* Amumu.png in Resources */,
+				5D7C8D2619B10C4900938107 /* Khazix.png in Resources */,
+				5D7C8DA419B10FD900938107 /* Volibear.png in Resources */,
+				5D7C8D4E19B10D6900938107 /* Nidalee.png in Resources */,
+				5D7C8D9819B10FB400938107 /* Vayne.png in Resources */,
+				5D7C8D1419B10BAD00938107 /* Jax.png in Resources */,
+				5D7C8D2A19B10C8A00938107 /* Leblanc.png in Resources */,
+				5D7C8D3019B10C9A00938107 /* Lissandra.png in Resources */,
+				5D7C8CD219B10A3300938107 /* Alistar.png in Resources */,
+				5D7C8D1C19B10BC700938107 /* Karthus.png in Resources */,
+				5D7C8CFC19B10B1800938107 /* Fizz.png in Resources */,
+				5D7C8D9419B10FA800938107 /* Urgot.png in Resources */,
 				5D37965C19B0477500C8A318 /* rootBackground.jpeg in Resources */,
-				5D7C8C6219B1016700938107 /* Evelynn_Square_0.png in Resources */,
-				5D7C8C6419B1016700938107 /* Fiddlesticks_Square_0.png in Resources */,
-				5D7C8CAC19B1016700938107 /* Thresh_Square_0.png in Resources */,
-				5D7C8CB019B1016700938107 /* Twitch_Square_0.png in Resources */,
-				5D7C8C6519B1016700938107 /* Fiora_Square_0.png in Resources */,
-				5D7C8C5019B1016700938107 /* Akali_Square_0.png in Resources */,
-				5D7C8C6B19B1016700938107 /* Gragas_Square_0.png in Resources */,
-				5D7C8C9B19B1016700938107 /* Rumble_Square_0.png in Resources */,
-				5D7C8C9119B1016700938107 /* Nunu_Square_0.png in Resources */,
-				5D7C8CC119B1016700938107 /* Zed_Square_0.png in Resources */,
-				5D7C8C4F19B1016700938107 /* Ahri_Square_0.png in Resources */,
-				5D7C8C9E19B1016700938107 /* Shaco_Square_0.png in Resources */,
-				5D7C8CC319B1016700938107 /* Zilean_Square_0.png in Resources */,
-				5D7C8C5919B1016700938107 /* Caitlyn_Square_0.png in Resources */,
-				5D7C8C9219B1016700938107 /* Olaf_Square_0.png in Resources */,
-				5D7C8CA919B1016700938107 /* Talon_Square_0.png in Resources */,
-				5D7C8CC419B1016700938107 /* Zyra_Square_0.png in Resources */,
-				5D7C8C6D19B1016700938107 /* Hecarim_Square_0.png in Resources */,
+				5D7C8CF419B10ADC00938107 /* Evelynn.png in Resources */,
+				5D7C8CF819B10AF200938107 /* Fiddlesticks.png in Resources */,
+				5D7C8D8819B10F4D00938107 /* Thresh.png in Resources */,
+				5D7C8D9019B10F9A00938107 /* Twitch.png in Resources */,
+				5D7C8CFA19B10B0E00938107 /* Fiora.png in Resources */,
+				5D7C8CD019B10A0B00938107 /* Aatrox.png in Resources */,
+				5D7C8D0619B10B7A00938107 /* Gragas.png in Resources */,
+				5D7C8D6619B10E5900938107 /* Rumble.png in Resources */,
+				5D7C8D5219B10DDF00938107 /* Nunu.png in Resources */,
+				5D7C8DB219B1100000938107 /* Zed.png in Resources */,
+				5D7C8CCE19B109BD00938107 /* Akali.png in Resources */,
+				5D7C8D6C19B10EA400938107 /* Shaco.png in Resources */,
+				5D7C8DB619B1101300938107 /* Zilean.png in Resources */,
+				5D7C8CE219B10A8E00938107 /* Caitlyn.png in Resources */,
+				5D7C8D5419B10DE900938107 /* Olaf.png in Resources */,
+				5D7C8D8219B10EEF00938107 /* Talon.png in Resources */,
+				5D7C8DB819B1101E00938107 /* Zyra.png in Resources */,
+				5D7C8D0A19B10B8900938107 /* Hecarim.png in Resources */,
+				5D7C8CCC19B1078100938107 /* Ahri.png in Resources */,
+				5D7C8DA219B10FD400938107 /* Vladimir.png in Resources */,
+				5D7C8D0419B10B5100938107 /* Gnar.png in Resources */,
+				5D7C8D1819B10BB900938107 /* Jinx.png in Resources */,
+				5D7C8D8E19B10F8200938107 /* Tryndamere.png in Resources */,
+				5D7C8D7619B10EC900938107 /* Sivir.png in Resources */,
+				5D7C8D5C19B10E2D00938107 /* Quinn.png in Resources */,
+				5D7C8D9E19B10FC500938107 /* Vi.png in Resources */,
+				5D7C8D5819B10E0800938107 /* Pantheon.png in Resources */,
+				5D7C8DB419B1100B00938107 /* Ziggs.png in Resources */,
+				5D7C8CF019B10AD100938107 /* DrMundo.png in Resources */,
+				5D7C8CD819B10A4D00938107 /* Annie.png in Resources */,
+				5D7C8D2819B10C8400938107 /* KogMaw.png in Resources */,
+				5D7C8CE419B10A9500938107 /* Cassiopeia.png in Resources */,
+				5D7C8CE619B10A9E00938107 /* Chogath.png in Resources */,
+				5D7C8D4219B10D4300938107 /* MonkeyKing.png in Resources */,
+				5D7C8DA619B10FE000938107 /* Warwick.png in Resources */,
+				5D7C8D1019B10B9E00938107 /* Janna.png in Resources */,
+				5D7C8D6219B10E4C00938107 /* Rengar.png in Resources */,
+				5D7C8CF619B10AE500938107 /* Ezreal.png in Resources */,
+				5D7C8D7019B10EB400938107 /* Shyvana.png in Resources */,
+				5D7C8D0219B10B2E00938107 /* Garen.png in Resources */,
+				5D7C8D3419B10CA800938107 /* Lulu.png in Resources */,
+				5D7C8D6A19B10E8F00938107 /* Sejuani.png in Resources */,
+				5D7C8D6419B10E5300938107 /* Riven.png in Resources */,
+				5D7C8CD619B10A4500938107 /* Anivia.png in Resources */,
+				5D7C8D8419B10EF400938107 /* Taric.png in Resources */,
+				5D7C8D2019B10C1100938107 /* Katarina.png in Resources */,
+				5D7C8D1219B10BA600938107 /* JarvanIV.png in Resources */,
 				5D37962C19B0261D00C8A318 /* InfoPlist.strings in Resources */,
-				5D7C8CB919B1016700938107 /* Vladimir_Square_0.png in Resources */,
-				5D7C8C6A19B1016700938107 /* Gnar_Square_0.png in Resources */,
-				5D7C8C7419B1016700938107 /* Jinx_Square_0.png in Resources */,
-				5D7C8CAF19B1016700938107 /* Tryndamere_Square_0.png in Resources */,
-				5D7C8CA319B1016700938107 /* Sivir_Square_0.png in Resources */,
-				5D7C8C9619B1016700938107 /* Quinn_Square_0.png in Resources */,
-				5D7C8CB719B1016700938107 /* Vi_Square_0.png in Resources */,
-				5D7C8C9419B1016700938107 /* Pantheon_Square_0.png in Resources */,
-				5D7C8CC219B1016700938107 /* Ziggs_Square_0.png in Resources */,
-				5D7C8C6019B1016700938107 /* DrMundo_Square_0.png in Resources */,
-				5D7C8C5419B1016700938107 /* Annie_Square_0.png in Resources */,
-				5D7C8C7C19B1016700938107 /* KogMaw_Square_0.png in Resources */,
-				5D7C8C5A19B1016700938107 /* Cassiopeia_Square_0.png in Resources */,
-				5D7C8C5B19B1016700938107 /* Chogath_Square_0.png in Resources */,
-				5D7C8C8919B1016700938107 /* MonkeyKing_Square_0.png in Resources */,
-				5D7C8CBB19B1016700938107 /* Warwick_Square_0.png in Resources */,
-				5D7C8C7019B1016700938107 /* Janna_Square_0.png in Resources */,
-				5D7C8C9919B1016700938107 /* Rengar_Square_0.png in Resources */,
-				5D7C8C6319B1016700938107 /* Ezreal_Square_0.png in Resources */,
-				5D7C8CA019B1016700938107 /* Shyvana_Square_0.png in Resources */,
-				5D7C8C6919B1016700938107 /* Garen_Square_0.png in Resources */,
-				5D7C8C8219B1016700938107 /* Lulu_Square_0.png in Resources */,
-				5D7C8C9D19B1016700938107 /* Sejuani_Square_0.png in Resources */,
-				5D7C8C9A19B1016700938107 /* Riven_Square_0.png in Resources */,
-				5D7C8C5319B1016700938107 /* Anivia_Square_0.png in Resources */,
-				5D7C8CAA19B1016700938107 /* Taric_Square_0.png in Resources */,
-				5D7C8C7819B1016700938107 /* Katarina_Square_0.png in Resources */,
-				5D7C8C7119B1016700938107 /* JarvanIV_Square_0.png in Resources */,
+				5D7C8D8C19B10F7A00938107 /* Trundle.png in Resources */,
+				5D7C8D5E19B10E3700938107 /* Rammus.png in Resources */,
 				5D37965A19B0468100C8A318 /* Azir.jpg in Resources */,
-				5D7C8CAE19B1016700938107 /* Trundle_Square_0.png in Resources */,
-				5D7C8C9719B1016700938107 /* Rammus_Square_0.png in Resources */,
-				5D7C8C4E19B1016700938107 /* Aatrox_Square_0.png in Resources */,
-				5D7C8C7719B1016700938107 /* Kassadin_Square_0.png in Resources */,
+				5D7C8D1E19B10BE400938107 /* Kassadin.png in Resources */,
 				5D37965819B0431300C8A318 /* League_of_legends_logo_transparent.png in Resources */,
-				5D7C8CA119B1016700938107 /* Singed_Square_0.png in Resources */,
-				5D7C8C7A19B1016700938107 /* Kennen_Square_0.png in Resources */,
-				5D7C8C6C19B1016700938107 /* Graves_Square_0.png in Resources */,
-				5D7C8CBF19B1016700938107 /* Yorick_Square_0.png in Resources */,
-				5D7C8C7F19B1016700938107 /* Leona_Square_0.png in Resources */,
-				5D7C8CBD19B1016700938107 /* XinZhao_Square_0.png in Resources */,
-				5D7C8C8819B1016700938107 /* MissFortune_Square_0.png in Resources */,
-				5D7C8CAD19B1016700938107 /* Tristana_Square_0.png in Resources */,
-				5D7C8CB319B1016700938107 /* Varus_Square_0.png in Resources */,
-				5D7C8C9819B1016700938107 /* Renekton_Square_0.png in Resources */,
-				5D7C8C9C19B1016700938107 /* Ryze_Square_0.png in Resources */,
-				5D7C8C8319B1016700938107 /* Lux_Square_0.png in Resources */,
-				5D7C8CBC19B1016700938107 /* Xerath_Square_0.png in Resources */,
-				5D7C8C6119B1016700938107 /* Elise_Square_0.png in Resources */,
-				5D7C8C5D19B1016700938107 /* Darius_Square_0.png in Resources */,
-				5D7C8CA619B1016700938107 /* Soraka_Square_0.png in Resources */,
-				5D7C8C8419B1016700938107 /* Malphite_Square_0.png in Resources */,
-				5D7C8C5819B1016700938107 /* Braum_Square_0.png in Resources */,
-				5D7C8CA719B1016700938107 /* Swain_Square_0.png in Resources */,
-				5D7C8C8A19B1016700938107 /* Mordekaiser_Square_0.png in Resources */,
-				5D7C8C8719B1016700938107 /* MasterYi_Square_0.png in Resources */,
-				5D7C8C5619B1016700938107 /* Blitzcrank_Square_0.png in Resources */,
-				5D7C8C8B19B1016700938107 /* Morgana_Square_0.png in Resources */,
-				5D7C8C8119B1016700938107 /* Lucian_Square_0.png in Resources */,
-				5D7C8C5F19B1016700938107 /* Draven_Square_0.png in Resources */,
-				5D7C8C8C19B1016700938107 /* Nami_Square_0.png in Resources */,
-				5D7C8C9319B1016700938107 /* Orianna_Square_0.png in Resources */,
-				5D7C8C6819B1016700938107 /* Gangplank_Square_0.png in Resources */,
-				5D7C8CB619B1016700938107 /* VelKoz_Square_0.png in Resources */,
-				5D7C8C8E19B1016700938107 /* Nautilus_Square_0.png in Resources */,
-				5D7C8C6F19B1016700938107 /* Irelia_Square_0.png in Resources */,
-				5D7C8CA419B1016700938107 /* Skarner_Square_0.png in Resources */,
-				5D7C8C8619B1016700938107 /* Maokai_Square_0.png in Resources */,
-				5D7C8CB819B1016700938107 /* Viktor_Square_0.png in Resources */,
+				5D7C8D7219B10EBC00938107 /* Singed.png in Resources */,
+				5D7C8D2419B10C2400938107 /* Kennen.png in Resources */,
+				5D7C8D0819B10B8300938107 /* Graves.png in Resources */,
+				5D7C8DAE19B10FF500938107 /* Yorick.png in Resources */,
+				5D7C8D2E19B10C9500938107 /* Leona.png in Resources */,
+				5D7C8DAA19B10FEC00938107 /* XinZhao.png in Resources */,
+				5D7C8D4019B10D3E00938107 /* MissFortune.png in Resources */,
+				5D7C8D8A19B10F5E00938107 /* Tristana.png in Resources */,
+				5D7C8D9619B10FAD00938107 /* Varus.png in Resources */,
+				5D7C8D6019B10E4300938107 /* Renekton.png in Resources */,
+				5D7C8D6819B10E6800938107 /* Ryze.png in Resources */,
+				5D7C8D3619B10CAE00938107 /* Lux.png in Resources */,
+				5D7C8DA819B10FE600938107 /* Xerath.png in Resources */,
+				5D7C8CF219B10AD700938107 /* Elise.png in Resources */,
+				5D7C8CEA19B10AB600938107 /* Darius.png in Resources */,
+				5D7C8D7C19B10EDB00938107 /* Soraka.png in Resources */,
+				5D7C8D3819B10CB800938107 /* Malphite.png in Resources */,
+				5D7C8CE019B10A8400938107 /* Braum.png in Resources */,
+				5D7C8D7E19B10EE100938107 /* Swain.png in Resources */,
+				5D7C8D4419B10D4900938107 /* Mordekaiser.png in Resources */,
+				5D7C8D3E19B10D3400938107 /* MasterYi.png in Resources */,
+				5D7C8CDC19B10A6300938107 /* Blitzcrank.png in Resources */,
+				5D7C8D4619B10D5000938107 /* Morgana.png in Resources */,
+				5D7C8D3219B10CA000938107 /* Lucian.png in Resources */,
+				5D7C8CEE19B10AC200938107 /* Draven.png in Resources */,
+				5D7C8D4819B10D5600938107 /* Nami.png in Resources */,
+				5D7C8D5619B10E0100938107 /* Orianna.png in Resources */,
+				5D7C8D0019B10B2500938107 /* Gangplank.png in Resources */,
+				5D7C8D9C19B10FC000938107 /* VelKoz.png in Resources */,
+				5D7C8D4C19B10D6100938107 /* Nautilus.png in Resources */,
+				5D7C8D0E19B10B9900938107 /* Irelia.png in Resources */,
+				5D7C8D7819B10ECE00938107 /* Skarner.png in Resources */,
+				5D7C8D3C19B10CCD00938107 /* Maokai.png in Resources */,
+				5D7C8DA019B10FCC00938107 /* Viktor.png in Resources */,
 				5D37966419B0591000C8A318 /* navigationBackground.jpeg in Resources */,
-				5D7C8C8D19B1016700938107 /* Nasus_Square_0.png in Resources */,
-				5D7C8C7519B1016700938107 /* Karma_Square_0.png in Resources */,
+				5D7C8D4A19B10D5B00938107 /* Nasus.png in Resources */,
+				5D7C8D1A19B10BBF00938107 /* Karma.png in Resources */,
 				5D37963519B0261D00C8A318 /* Main.storyboard in Resources */,
-				5D7C8CC019B1016700938107 /* Zac_Square_0.png in Resources */,
-				5D7C8C5719B1016700938107 /* Brand_Square_0.png in Resources */,
-				5D7C8C6E19B1016700938107 /* Heimerdinger_Square_0.png in Resources */,
-				5D7C8C9F19B1016700938107 /* Shen_Square_0.png in Resources */,
-				5D7C8C7E19B1016700938107 /* LeeSin_Square_0.png in Resources */,
-				5D7C8C7919B1016700938107 /* Kayle_Square_0.png in Resources */,
-				5D7C8CAB19B1016700938107 /* Teemo_Square_0.png in Resources */,
-				5D7C8C6719B1016700938107 /* Galio_Square_0.png in Resources */,
+				5D7C8DB019B10FFB00938107 /* Zac.png in Resources */,
+				5D7C8CDE19B10A7D00938107 /* Brand.png in Resources */,
+				5D7C8D0C19B10B9300938107 /* Heimerdinger.png in Resources */,
+				5D7C8D6E19B10EAD00938107 /* Shen.png in Resources */,
+				5D7C8D2C19B10C9000938107 /* LeeSin.png in Resources */,
+				5D7C8D2219B10C1700938107 /* Kayle.png in Resources */,
+				5D7C8D8619B10EFB00938107 /* Teemo.png in Resources */,
+				5D7C8CFE19B10B1E00938107 /* Galio.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -768,10 +785,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D7C8DC819B28C0000938107 /* TierHeaderCell.m in Sources */,
+				5D7C8DC419B2824F00938107 /* TierListCollectionViewController.m in Sources */,
 				5D37966219B057EC00C8A318 /* navigationController.m in Sources */,
 				5D37963819B0261D00C8A318 /* firstClassViewController.m in Sources */,
 				5D37963219B0261D00C8A318 /* firstClassAppDelegate.m in Sources */,
 				5D37962E19B0261D00C8A318 /* main.m in Sources */,
+				5D7C8DBE19B157C100938107 /* CustomCell.m in Sources */,
 				5D37965F19B04A3B00C8A318 /* tierListsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -780,6 +800,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D7C8DC519B2824F00938107 /* TierListCollectionViewController.m in Sources */,
+				5D7C8DC919B28C0000938107 /* TierHeaderCell.m in Sources */,
 				5D37964D19B0261D00C8A318 /* counterPickLoLTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

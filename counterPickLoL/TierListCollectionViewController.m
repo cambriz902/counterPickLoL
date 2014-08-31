@@ -73,21 +73,18 @@ typedef NS_ENUM(NSUInteger,Section) {
     CustomCell *customCell;
     switch (indexPath.section) {
         case SectionTierOne:
-            NSLog(@"section = %d, index = %d",indexPath.section, indexPath.item);
             champion = self.tier1[indexPath.item];
             customCell = [collectionView dequeueReusableCellWithReuseIdentifier:@"myCell" forIndexPath:indexPath];
             customCell.championNameLabel.text = [NSString stringWithString:champion[@"championName"]];
             customCell.championPictureImageView.image = [UIImage imageNamed:champion[@"imageName"]];
             break;
         case SectionTierTwo:
-            NSLog(@"section = %d, index = %d",indexPath.section, indexPath.item);
             champion = self.tier2[indexPath.item];
             customCell = [collectionView dequeueReusableCellWithReuseIdentifier:@"myCell" forIndexPath:indexPath];
             customCell.championNameLabel.text = [NSString stringWithString:champion[@"championName"]];
             customCell.championPictureImageView.image = [UIImage imageNamed:champion[@"imageName"]];
             break;
         case SectionTierThree:
-            NSLog(@"section = %d, index = %d",indexPath.section, indexPath.item);
             champion = self.tier3[indexPath.item];
             customCell = [collectionView dequeueReusableCellWithReuseIdentifier:@"myCell" forIndexPath:indexPath];
             customCell.championNameLabel.text = [NSString stringWithString:champion[@"championName"]];
@@ -122,14 +119,4 @@ typedef NS_ENUM(NSUInteger,Section) {
     return cell;
     
 }
-/*
- #pragma mark - Navigation
- 
- // In a storyboard-based application, you will often want to do a little preparation before navigation
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
- {
- // Get the new view controller using [segue destinationViewController].
- // Pass the selected object to the new view controller.
- }
- */
 @end

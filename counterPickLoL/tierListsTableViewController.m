@@ -37,7 +37,13 @@
                                                                @"Jungle Tier List",
                                                                @"Support Tier List",
                                                                @"ADC Tier List",nil];
-    [self initializeSoloQueueTierList];
+    [self initializeSoloQueueTierLists];
+    [self initializeompetitiveTierLists];
+    [self initializeTopTierLists];
+    [self initializeMidTierLists];
+    [self initializeJungleTierLists];
+    [self initializeSupportTierLists];
+    [self initializeAdcTierLists];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -96,27 +102,39 @@
             tierVC.tierName = self.differentTierLists[0];
             break;
         case 1:
-            tierVC.tier1 = self.competitiveTierList;
+            tierVC.tier1 = self.competitiveTierList1;
+            tierVC.tier2 = self.competitiveTierList2;
+            tierVC.tier3 = self.competitiveTierList3;
             tierVC.tierName = self.differentTierLists[1];
             break;
         case 2:
-            tierVC.tier1 = self.topTierList;
+            tierVC.tier1 = self.topTierList1;
+            tierVC.tier2 = self.topTierList2;
+            tierVC.tier3 = self.topTierList3;
             tierVC.tierName = self.differentTierLists[2];
             break;
         case 3:
-            tierVC.tier1 = self.midTierList;
+            tierVC.tier1 = self.midTierList1;
+            tierVC.tier2 = self.midTierList2;
+            tierVC.tier3 = self.midTierList3;
             tierVC.tierName = self.differentTierLists[3];
             break;
         case 4:
-            tierVC.tier1 = self.jungleTierList;
+            tierVC.tier1 = self.jungleTierList1;
+            tierVC.tier2 = self.jungleTierList2;
+            tierVC.tier3 = self.jungleTierList3;
             tierVC.tierName = self.differentTierLists[4];
             break;
         case 5:
-            tierVC.tier1 = self.supportTierList;
+            tierVC.tier1 = self.supportTierList1;
+            tierVC.tier2 = self.supportTierList2;
+            tierVC.tier3 = self.supportTierList3;
             tierVC.tierName = self.differentTierLists[5];
             break;
         case 6:
-            tierVC.tier1 = self.adcTierList;
+            tierVC.tier1 = self.adcTierList1;
+            tierVC.tier2 = self.adcTierList2;
+            tierVC.tier3 = self.adcTierList3;
             tierVC.tierName = self.differentTierLists[6];
             break;
         default:
@@ -124,62 +142,261 @@
     }
     [self.navigationController pushViewController:tierVC animated:YES];
 }
--(void) initializeSoloQueueTierList
+-(void) initializeSoloQueueTierLists
 {
     self.soloQueueTierList1 = @[
-                               @{@"tier": @1, @"imageName": @"Yasuo.png",@"championName":@"Yasuo"},
-                               @{@"tier": @1, @"imageName": @"Braum.png",@"championName":@"Braum"},
-                               @{@"tier": @1, @"imageName": @"Morgana.png",@"championName":@"Morgana"},
-                               @{@"tier": @1, @"imageName": @"Alistar.png",@"championName":@"Alistar"},
-                               @{@"tier": @1, @"imageName": @"Talon.png",@"championName":@"Talon"},
-                               @{@"tier": @1, @"imageName": @"Tristana.png",@"championName":@"Tristana"},
-                               @{@"tier": @1, @"imageName": @"Nidalee.png",@"championName":@"Nidalee"},
-                               @{@"tier": @1, @"imageName": @"Maokai.png",@"championName":@"Maokai"},
-                               @{@"tier": @1, @"imageName": @"Fizz.png",@"championName":@"Fizz"},
-                               @{@"tier": @1, @"imageName": @"Vi.png",@"championName":@"Vi"},
-                               @{@"tier": @1, @"imageName": @"JarvanIV.png",@"championName":@"Jarvan IV"},
-                               @{@"tier": @1, @"imageName": @"Khazix.png",@"championName":@"Khazix"},
-                               @{@"tier": @1, @"imageName": @"Amumu.png",@"championName":@"Amumu"},
-                               @{@"tier": @1, @"imageName": @"Leona.png",@"championName":@"Leona"},
-                               @{@"tier": @1, @"imageName": @"Blitzcrank.png",@"championName":@"Blitzcrank"},
-                               @{@"tier": @1, @"imageName": @"Syndra.png",@"championName":@"Syndra"},
-                               @{@"tier": @1, @"imageName": @"Akali.png",@"championName":@"Akali"},
+                               @{@"imageName": @"Yasuo.png",@"championName":@"Yasuo"},
+                               @{@"imageName": @"Braum.png",@"championName":@"Braum"},
+                               @{@"imageName": @"Morgana.png",@"championName":@"Morgana"},
+                               @{@"imageName": @"Alistar.png",@"championName":@"Alistar"},
+                               @{@"imageName": @"Talon.png",@"championName":@"Talon"},
+                               @{@"imageName": @"Tristana.png",@"championName":@"Tristana"},
+                               @{@"imageName": @"Nidalee.png",@"championName":@"Nidalee"},
+                               @{@"imageName": @"Maokai.png",@"championName":@"Maokai"},
+                               @{@"imageName": @"Fizz.png",@"championName":@"Fizz"},
+                               @{@"imageName": @"Vi.png",@"championName":@"Vi"},
+                               @{@"imageName": @"JarvanIV.png",@"championName":@"Jarvan IV"},
+                               @{@"imageName": @"Khazix.png",@"championName":@"Kha'zix"},
+                               @{@"imageName": @"Amumu.png",@"championName":@"Amumu"},
+                               @{@"imageName": @"Leona.png",@"championName":@"Leona"},
+                               @{@"imageName": @"Blitzcrank.png",@"championName":@"Blitzcrank"},
+                               @{@"imageName": @"Syndra.png",@"championName":@"Syndra"},
+                               @{@"imageName": @"Akali.png",@"championName":@"Akali"},
                                ];
     self.soloQueueTierList2 = @[
-                               @{@"tier": @2, @"imageName": @"Warwick.png",@"championName":@"Warwick"},
-                               @{@"tier": @2, @"imageName": @"Ahri.png",@"championName":@"Ahri"},
-                               @{@"tier": @2, @"imageName": @"Katarina.png",@"championName":@"Katarina"},
-                               @{@"tier": @2, @"imageName": @"Zed.png",@"championName":@"Zed"},
-                               @{@"tier": @2, @"imageName": @"Fiora.png",@"championName":@"Fiora"},
-                               @{@"tier": @2, @"imageName": @"Nami.png",@"championName":@"Nami"},
-                               @{@"tier": @2, @"imageName": @"Lulu.png",@"championName":@"Lulu"},
-                               @{@"tier": @2, @"imageName": @"Lucian.png",@"championName":@"Lucian"},
-                               @{@"tier": @2, @"imageName": @"Sona.png",@"championName":@"Sona"},
-                               @{@"tier": @2, @"imageName": @"Rengar.png",@"championName":@"Rengar"},
-                               @{@"tier": @2, @"imageName": @"LeeSin.png",@"championName":@"Lee Sin"},
-                               @{@"tier": @2, @"imageName": @"Ryze.png",@"championName":@"Ryse"},
-                               @{@"tier": @2, @"imageName": @"Thresh.png",@"championName":@"Thresh"},
-                               @{@"tier": @2, @"imageName": @"Riven.png",@"championName":@"Riven"},
-                               @{@"tier": @2, @"imageName": @"Lux.png",@"championName":@"Lux"},
+                               @{@"imageName": @"Warwick.png",@"championName":@"Warwick"},
+                               @{@"imageName": @"Ahri.png",@"championName":@"Ahri"},
+                               @{@"imageName": @"Katarina.png",@"championName":@"Katarina"},
+                               @{@"imageName": @"Zed.png",@"championName":@"Zed"},
+                               @{@"imageName": @"Fiora.png",@"championName":@"Fiora"},
+                               @{@"imageName": @"Nami.png",@"championName":@"Nami"},
+                               @{@"imageName": @"Lulu.png",@"championName":@"Lulu"},
+                               @{@"imageName": @"Lucian.png",@"championName":@"Lucian"},
+                               @{@"imageName": @"Sona.png",@"championName":@"Sona"},
+                               @{@"imageName": @"Rengar.png",@"championName":@"Rengar"},
+                               @{@"imageName": @"LeeSin.png",@"championName":@"Lee Sin"},
+                               @{@"imageName": @"Ryze.png",@"championName":@"Ryse"},
+                               @{@"imageName": @"Thresh.png",@"championName":@"Thresh"},
+                               @{@"imageName": @"Riven.png",@"championName":@"Riven"},
+                               @{@"imageName": @"Lux.png",@"championName":@"Lux"},
                                ];
     self.soloQueueTierList3 = @[
-                               @{@"tier": @3, @"imageName": @"Draven.png",@"championName":@"Draven"},
-                               @{@"tier": @3, @"imageName": @"Pantheon.png",@"championName":@"Pantheon"},
-                               @{@"tier": @3, @"imageName": @"Nasus.png",@"championName":@"Nasus"},
-                               @{@"tier": @3, @"imageName": @"Irelia.png",@"championName":@"Evelynn"},
-                               @{@"tier": @3, @"imageName": @"MasterYi.png",@"championName":@"Master Yi"},
-                               @{@"tier": @3, @"imageName": @"Ziggs.png",@"championName":@"Ziggs"},
-                               @{@"tier": @3, @"imageName": @"Malphite.png",@"championName":@"Malphite"},
-                               @{@"tier": @3, @"imageName": @"Orianna.png",@"championName":@"Orianna"},
-                               @{@"tier": @3, @"imageName": @"Kayle.png",@"championName":@"Kayle"},
-                               @{@"tier": @3, @"imageName": @"KogMaw.png",@"championName":@"KogMaw"},
-                               @{@"tier": @3, @"imageName": @"Rumble.png",@"championName":@"Rumble"},
-                               @{@"tier": @3, @"imageName": @"Gnar.png",@"championName":@"Gnar"},
-                               @{@"tier": @3, @"imageName": @"Corki.png",@"championName":@"Corki"},
-                               @{@"tier": @3, @"imageName": @"Irelia.png",@"championName":@"Irelia"},
+                               @{@"imageName": @"Draven.png",@"championName":@"Draven"},
+                               @{@"imageName": @"Pantheon.png",@"championName":@"Pantheon"},
+                               @{@"imageName": @"Nasus.png",@"championName":@"Nasus"},
+                               @{@"imageName": @"Irelia.png",@"championName":@"Evelynn"},
+                               @{@"imageName": @"MasterYi.png",@"championName":@"Master Yi"},
+                               @{@"imageName": @"Ziggs.png",@"championName":@"Ziggs"},
+                               @{@"imageName": @"Malphite.png",@"championName":@"Malphite"},
+                               @{@"imageName": @"Orianna.png",@"championName":@"Orianna"},
+                               @{@"imageName": @"Kayle.png",@"championName":@"Kayle"},
+                               @{@"imageName": @"KogMaw.png",@"championName":@"KogMaw"},
+                               @{@"imageName": @"Rumble.png",@"championName":@"Rumble"},
+                               @{@"imageName": @"Gnar.png",@"championName":@"Gnar"},
+                               @{@"imageName": @"Corki.png",@"championName":@"Corki"},
+                               @{@"imageName": @"Irelia.png",@"championName":@"Irelia"},
                                ];
 }
 
+-(void) initializeompetitiveTierLists
+{
+    self.competitiveTierList1 = @[
+                                  @{@"imageName": @"Nidalee.png",@"championName":@"Nidalee"},
+                                  @{@"imageName": @"Maokai.png",@"championName":@"Maokai"},
+                                  @{@"imageName": @"Alistar.png",@"championName":@"Alistar"},
+                                  @{@"imageName": @"Morgana.png",@"championName":@"Morgana"},
+                                  @{@"imageName": @"Syndra.png",@"championName":@"Syndra"},
+                                  @{@"imageName": @"Nami.png",@"championName":@"Nami"},
+                                  @{@"imageName": @"LeeSin.png",@"championName":@"Lee Sin"},
+                                  @{@"imageName": @"Tristana.png",@"championName":@"Tristana"},
+                                  @{@"imageName": @"Ryze.png",@"championName":@"Ryze"},
+                                  @{@"imageName": @"Orianna.png",@"championName":@"Orianna"},
+                                  @{@"imageName": @"Zed.png",@"championName":@"Zed"},
+                                  @{@"imageName": @"Yasuo.png",@"championName":@"Yasuo"},
+                                  @{@"imageName": @"Lucian.png",@"championName":@"Lucian"},
+                                  @{@"imageName": @"Khazix.png",@"championName":@"Kha'zix"},
+                                  ];
+    self.competitiveTierList2 = @[
+                                  @{@"imageName": @"Xerath.png",@"championName":@"Xerath"},
+                                  @{@"imageName": @"Corki.png",@"championName":@"Corki"},
+                                  @{@"imageName": @"Braum.png",@"championName":@"Braum"},
+                                  @{@"imageName": @"Lulu.png",@"championName":@"Lulu"},
+                                  @{@"imageName": @"DrMundo.png",@"championName":@"Dr. Mundo"},
+                                  @{@"imageName": @"Rengar.png",@"championName":@"Rengar"},
+                                  @{@"imageName": @"Irelia.png",@"championName":@"Irelia"},
+                                  @{@"imageName": @"Ziggs.png",@"championName":@"Ziggs"},
+                                  @{@"imageName": @"Riven.png",@"championName":@"Riven"},
+                                  @{@"imageName": @"JarvanIV.png",@"championName":@"Jarvan IV"},
+                                  @{@"imageName": @"Nocturne.png",@"championName":@"Nocturne"},
+                                  @{@"imageName": @"Elise.png",@"championName":@"Elise"},
+                                  @{@"imageName": @"Nunu.png",@"championName":@"Nunu"},
+                                  @{@"imageName": @"Zilean.png",@"championName":@"Zilean"},
+                                  @{@"imageName": @"Thresh.png",@"championName":@"Thresh"},
+                                  @{@"imageName": @"Talon.png",@"championName":@"Talon"},
+                                  @{@"imageName": @"Kassadin.png",@"championName":@"Kassadin"},
+                                  ];
+    
+    self.competitiveTierList3 = @[
+                                  @{@"imageName": @"Fizz.png",@"championName":@"Fizz"},
+                                  @{@"imageName": @"Vi.png",@"championName":@"Vi"},
+                                  @{@"imageName": @"Leona.png",@"championName":@"Leona"},
+                                  @{@"imageName": @"Vayne.png",@"championName":@"Vayne"},
+                                  @{@"imageName": @"Aatrox.png",@"championName":@"Aatrox"},
+                                  @{@"imageName": @"Akali.png",@"championName":@"Akali"},
+                                  @{@"imageName": @"Graves.png",@"championName":@"Graves"},
+                                  @{@"imageName": @"Ezreal.png",@"championName":@"Ezreal"},
+                                  @{@"imageName": @"TwistedFate.png",@"championName":@"Twisted Fate"},
+                                  @{@"imageName": @"Olaf.png",@"championName":@"Olaf"},
+                                  @{@"imageName": @"Jayce.png",@"championName":@"Jayce"},
+                                  @{@"imageName": @"Twitch.png",@"championName":@"Twitch"},
+                                  @{@"imageName": @"kayle.png",@"championName":@"Kayle"},
+                                  @{@"imageName": @"Evelynn.png",@"championName":@"Evelynn"},
+                                  @{@"imageName": @"Nasus.png",@"championName":@"Nasus"},
+                                  @{@"imageName": @"Jax.png",@"championName":@"Jax"},
+                                  @{@"imageName": @"Amumu.png",@"championName":@"Amumu"},
+                                  @{@"imageName": @"Ahri.png",@"championName":@"Ahri"},
+                                  ];
+}
+
+-(void) initializeTopTierLists
+{
+    self.topTierList1 = @[
+                           @{@"imageName": @"Alistar.png",@"championName":@"Alistar"},
+                           @{@"imageName": @"Maokai.png",@"championName":@"Maokai"},
+                           @{@"imageName": @"Nidalee.png",@"championName":@"Nidalee"},
+                           @{@"imageName": @"Ryze.png",@"championName":@"Ryze"},
+                           ];
+    self.topTierList2 = @[
+                          @{@"imageName": @"DrMundo.png",@"championName":@"Dr. Mundo"},
+                          @{@"imageName": @"Lulu.png",@"championName":@"Lulu"},
+                          @{@"imageName": @"Nasus.png",@"championName":@"Nasus"},
+                          @{@"imageName": @"Riven.png",@"championName":@"Riven"},
+                          @{@"imageName": @"Irelia.png",@"championName":@"Irelia"},
+                          @{@"imageName": @"Jax.png",@"championName":@"Jax"},
+                          @{@"imageName": @"Kayle.png",@"championName":@"Kayle"},
+                          ];
+    self.topTierList3 = @[
+                          @{@"imageName": @"Aatrox.png",@"championName":@"Aatrox"},
+                          @{@"imageName": @"Yorick.png",@"championName":@"Yorick"},
+                          @{@"imageName": @"Shyvana.png",@"championName":@"Shyvana"},
+                          @{@"imageName": @"jayce.png",@"championName":@"Jayce"},
+                          @{@"imageName": @"Chogath.png",@"championName":@"Cho'gath"},
+                          @{@"imageName": @"Olaf.png",@"championName":@"Olaf"},
+                          @{@"imageName": @"Swain.png",@"championName":@"Swain"},
+                          @{@"imageName": @"Malphite.png",@"championName":@"Malphite"},
+                          ];
+}
+
+-(void) initializeMidTierLists
+{
+    self.midTierList1 = @[
+                          @{@"imageName": @"Syndra.png",@"championName":@"Syndra"},
+                          @{@"imageName": @"Yasuo.png",@"championName":@"Yasuo"},
+                          @{@"imageName": @"Zed.png",@"championName":@"Zed"},
+                          @{@"imageName": @"Orianna.png",@"championName":@"Orianna"},
+                          ];
+    
+    self.midTierList2 = @[
+                          @{@"imageName": @"Talon.png",@"championName":@"Talon"},
+                          @{@"imageName": @"Xerath.png",@"championName":@"Xerath"},
+                          @{@"imageName": @"Ziggs.png",@"championName":@"Ziggs"},
+                          @{@"imageName": @"Fizz.png",@"championName":@"Fizz"},
+                          @{@"imageName": @"Ahri.png",@"championName":@"Ahri"},
+                          @{@"imageName": @"Akali.png",@"championName":@"Akali"},
+                          @{@"imageName": @"Ryze.png",@"championName":@"Ryze"},
+                          ];
+    self.midTierList3 = @[
+                          @{@"imageName": @"Tristana.png",@"championName":@"Tristana"},
+                          @{@"imageName": @"KogMaw.png",@"championName":@"Kog'Maw"},
+                          @{@"imageName": @"Lux.png",@"championName":@"Lux"},
+                          @{@"imageName": @"Malzahar.png",@"championName":@"Malzahar"},
+                          @{@"imageName": @"Lulu.png",@"championName":@"Lulu"},
+                          @{@"imageName": @"Swain.png",@"championName":@"Swain"},
+                          @{@"imageName": @"VelKoz.png",@"championName":@"Vel'Koz"},
+                          @{@"imageName": @"Jayce.png",@"championName":@"Jayce"},
+                          @{@"imageName": @"Kassadin.png",@"championName":@"Kassadin"},
+                          ];
+}
+
+-(void) initializeJungleTierLists
+{
+    self.jungleTierList1 = @[
+                             @{@"imageName": @"Khazix.png",@"championName":@"Kah'Zix"},
+                             @{@"imageName": @"LeeSin.png",@"championName":@"Lee Sin"},
+                             @{@"imageName": @"Nunu.png",@"championName":@"Nunu"},
+                             @{@"imageName": @"Rengar.png",@"championName":@"Rengar"},
+                             ];
+    self.jungleTierList2 = @[
+                             @{@"imageName": @"Nocturne.png",@"championName":@"Nocturne"},
+                             @{@"imageName": @"Elise.png",@"championName":@"Elise"},
+                             @{@"imageName": @"Evelynn.png",@"championName":@"Evelynn"},
+                             @{@"imageName": @"Zac.png",@"championName":@"Zac"},
+                             @{@"imageName": @"Maokai.png",@"championName":@"Maokai"},
+                             @{@"imageName": @"JarvanIV.png",@"championName":@"Jarvan IV"},
+                             @{@"imageName": @"Amumu.png",@"championName":@"Amumu"},
+                             ];
+    self.jungleTierList3 = @[
+                             @{@"imageName": @"Aatrox.png",@"championName":@"Aatrox"},
+                             @{@"imageName": @"Volibear.png",@"championName":@"Volibear"},
+                             @{@"imageName": @"Pantheon.png",@"championName":@"Pantheon"},
+                             @{@"imageName": @"Vi.png",@"championName":@"Vi"},
+                             @{@"imageName": @"MasterYi.png",@"championName":@"Master Yi"},
+                             @{@"imageName": @"Skarner.png",@"championName":@"Skarner"},
+                             @{@"imageName": @"XinZhao.png",@"championName":@"Xin Zhao"},
+                             @{@"imageName": @"MonkeyKing.png",@"championName":@"Wukong"},
+                             @{@"imageName": @"Shyvana.png",@"championName":@"Shyvana"},
+                             ];
+}
+
+-(void) initializeSupportTierLists
+{
+    self.supportTierList1 = @[
+                              @{@"imageName": @"Nami.png",@"championName":@"Nami"},
+                              @{@"imageName": @"Braum.png",@"championName":@"Braum"},
+                              @{@"imageName": @"Thresh.png",@"championName":@"Thresh"},
+                              @{@"imageName": @"Morgana.png",@"championName":@"Morgana"},
+                              @{@"imageName": @"Zilean.png",@"championName":@"Zilean"},
+                              ];
+    self.supportTierList2 = @[
+                              @{@"imageName": @"Leona.png",@"championName":@"Leona"},
+                              @{@"imageName": @"Blitzcrank.png",@"championName":@"Blitzcrank"},
+                              @{@"imageName": @"Lulu.png",@"championName":@"Lulu"},
+                              @{@"imageName": @"Thresh.png",@"championName":@"Thresh"},
+                              @{@"imageName": @"Morgana.png",@"championName":@"Morgana"},
+                              @{@"imageName": @"Alistar.png",@"championName":@"Alistar"},
+                              ];
+    self.supportTierList3 = @[
+                              @{@"imageName": @"Sona.png",@"championName":@"Sona"},
+                              @{@"imageName": @"Janna.png",@"championName":@"Janna"},
+                              @{@"imageName": @"Zyra.png",@"championName":@"Zyra"},
+                              @{@"imageName": @"VelKoz.png",@"championName":@"Vel'Koz"},
+                              @{@"imageName": @"Annie.png",@"championName":@"Annie"},
+                              @{@"imageName": @"Nunu.png",@"championName":@"Nunu"},
+                              ];
+}
+
+-(void) initializeAdcTierLists
+{
+    self.adcTierList1 = @[
+                          @{@"imageName": @"Tristana.png",@"championName":@"Tristana"},
+                          @{@"imageName": @"Lucian.png",@"championName":@"Lucian"},
+                          @{@"imageName": @"KogMaw.png",@"championName":@"Kog'Maw"},
+                          @{@"imageName": @"Corki.png",@"championName":@"Corki"},
+                          ];
+    self.adcTierList2 = @[
+                          @{@"imageName": @"Corki.png",@"championName":@"Corki"},
+                          @{@"imageName": @"Jinx.png",@"championName":@"Jinx"},
+                          @{@"imageName": @"Graves.png",@"championName":@"Graves"},
+                          @{@"imageName": @"Vayne.png",@"championName":@"Vayne"},
+                          @{@"imageName": @"Twitch.png",@"championName":@"Twitch"},
+                          ];
+    self.adcTierList3 = @[
+                          @{@"imageName": @"Draven.png",@"championName":@"Draven"},
+                          @{@"imageName": @"Ezreal.png",@"championName":@"Ezreal"},
+                          @{@"imageName": @"Caitlyn.png",@"championName":@"Caitlyn"},
+                          @{@"imageName": @"Varus.png",@"championName":@"Varus"},
+                          ];
+}
 
 /*
 // Override to support conditional editing of the table view.

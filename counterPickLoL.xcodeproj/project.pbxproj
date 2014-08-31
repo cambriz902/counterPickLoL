@@ -151,6 +151,8 @@
 		5D7C8DC519B2824F00938107 /* TierListCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C8DC319B2824F00938107 /* TierListCollectionViewController.m */; };
 		5D7C8DC819B28C0000938107 /* TierHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C8DC719B28C0000938107 /* TierHeaderCell.m */; };
 		5D7C8DC919B28C0000938107 /* TierHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C8DC719B28C0000938107 /* TierHeaderCell.m */; };
+		5D7C8DCB19B2EAFE00938107 /* TwistedFate.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8DCA19B2EAFE00938107 /* TwistedFate.png */; };
+		5D7C8DCC19B2EAFE00938107 /* TwistedFate.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8DCA19B2EAFE00938107 /* TwistedFate.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -316,6 +318,7 @@
 		5D7C8DC319B2824F00938107 /* TierListCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TierListCollectionViewController.m; sourceTree = "<group>"; };
 		5D7C8DC619B28C0000938107 /* TierHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TierHeaderCell.h; sourceTree = "<group>"; };
 		5D7C8DC719B28C0000938107 /* TierHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TierHeaderCell.m; sourceTree = "<group>"; };
+		5D7C8DCA19B2EAFE00938107 /* TwistedFate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TwistedFate.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -539,6 +542,7 @@
 				5D7C8D8919B10F5E00938107 /* Tristana.png */,
 				5D7C8D8B19B10F7A00938107 /* Trundle.png */,
 				5D7C8D8D19B10F8200938107 /* Tryndamere.png */,
+				5D7C8DCA19B2EAFE00938107 /* TwistedFate.png */,
 				5D7C8D8F19B10F9A00938107 /* Twitch.png */,
 				5D7C8D9119B10FA200938107 /* Udyr.png */,
 				5D7C8D9319B10FA800938107 /* Urgot.png */,
@@ -696,6 +700,7 @@
 				5D7C8D9E19B10FC500938107 /* Vi.png in Resources */,
 				5D7C8D5819B10E0800938107 /* Pantheon.png in Resources */,
 				5D7C8DB419B1100B00938107 /* Ziggs.png in Resources */,
+				5D7C8DCB19B2EAFE00938107 /* TwistedFate.png in Resources */,
 				5D7C8CF019B10AD100938107 /* DrMundo.png in Resources */,
 				5D7C8CD819B10A4D00938107 /* Annie.png in Resources */,
 				5D7C8D2819B10C8400938107 /* KogMaw.png in Resources */,
@@ -774,6 +779,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D7C8DCC19B2EAFE00938107 /* TwistedFate.png in Resources */,
 				5D37964B19B0261D00C8A318 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -61,15 +61,16 @@
                     <collectionView key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" id="hfN-vo-WHf">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.97586192260000004" green="0.93646170259999995" blue="0.28779575860000001" alpha="1" colorSpace="calibratedRGB"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="7Qz-Ot-4sL">
                             <size key="itemSize" width="50" height="65"/>
-                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="headerReferenceSize" width="50" height="50"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                            <inset key="sectionInset" minX="5" minY="10" maxX="5" maxY="0.0"/>
+                            <inset key="sectionInset" minX="5" minY="5" maxX="5" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="myCell" id="5lG-gk-ogi" customClass="CustomCell">
-                                <rect key="frame" x="5" y="74" width="50" height="65"/>
+                                <rect key="frame" x="5" y="119" width="50" height="65"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="50" height="65"/>
@@ -95,19 +96,31 @@
                                 </connections>
                             </collectionViewCell>
                         </cells>
+                        <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="championSearchBar" id="HgC-rD-sWc" customClass="CounterSelectCell">
+                            <rect key="frame" x="0.0" y="64" width="320" height="50"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <subviews>
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter Champion Name" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fcd-sh-Uf6">
+                                    <rect key="frame" x="70" y="10" width="181" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                    <connections>
+                                        <outlet property="delegate" destination="HgC-rD-sWc" id="ZTs-fk-PAa"/>
+                                    </connections>
+                                </textField>
+                            </subviews>
+                            <connections>
+                                <outlet property="selectChampionCounter" destination="fcd-sh-Uf6" id="pLS-Eh-bpC"/>
+                            </connections>
+                        </collectionReusableView>
                         <connections>
-                            <outlet property="dataSource" destination="Xsa-Nd-Him" id="4Ql-Du-k9D"/>
-                            <outlet property="delegate" destination="Xsa-Nd-Him" id="2OA-kP-GlE"/>
+                            <outlet property="dataSource" destination="Xsa-Nd-Him" id="h4K-ZQ-Ser"/>
+                            <outlet property="delegate" destination="Xsa-Nd-Him" id="kri-t1-sPg"/>
                         </connections>
                     </collectionView>
                     <navigationItem key="navigationItem" id="94c-DO-63H">
                         <nil key="title"/>
-                        <textField key="titleView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select Champion" textAlignment="center" minimumFontSize="17" id="sC6-5T-zBk">
-                            <rect key="frame" x="61" y="7" width="198" height="30"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                            <textInputTraits key="textInputTraits"/>
-                        </textField>
                     </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="hfN-vo-WHf" id="Yia-jQ-ySs"/>
@@ -153,7 +166,7 @@
                     <collectionView key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" id="G7B-KR-eED">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="backgroundColor" red="0.97586192260000004" green="0.93646170259999995" blue="0.28779575860000001" alpha="1" colorSpace="calibratedRGB"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="BwM-GR-wo0">
                             <size key="itemSize" width="50" height="65"/>
                             <size key="headerReferenceSize" width="50" height="50"/>

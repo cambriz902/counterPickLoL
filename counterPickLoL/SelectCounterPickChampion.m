@@ -8,6 +8,7 @@
 
 #import "SelectCounterPickChampion.h"
 #import "CustomCell.h"
+#import "CounterSelectCell.h"
 
 @interface SelectCounterPickChampion ()
 @property (strong, nonatomic) IBOutlet UICollectionView *collectionView;
@@ -54,6 +55,16 @@
     customCell.championNameLabel.text = [NSString stringWithString:champion[@"championName"]];
     customCell.championPictureImageView.image = [UIImage imageNamed:champion[@"imageName"]];
     return customCell;
+}
+
+-(UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath
+{
+    UICollectionReusableView *cell;
+    if (kind == UICollectionElementKindSectionHeader) {
+        CounterSelectCell *reusableView = [collectionView dequeueReusableSupplementaryViewOfKind:kind withReuseIdentifier:@"championSearchBar" forIndexPath:indexPath];
+        cell = reusableView;
+    }
+    return cell;
 }
 
 -(void) initializeChampionList

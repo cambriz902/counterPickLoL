@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SelectCounterPickChampion : UICollectionViewController
+@interface SelectCounterPickChampion : UICollectionViewController <UITextFieldDelegate> 
 
 @property (strong, nonatomic) NSArray *championList;
 

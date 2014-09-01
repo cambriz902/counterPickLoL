@@ -155,6 +155,8 @@
 		5D7C8DCC19B2EAFE00938107 /* TwistedFate.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C8DCA19B2EAFE00938107 /* TwistedFate.png */; };
 		5D7C8DCF19B3B62800938107 /* SelectCounterPickChampion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C8DCE19B3B62800938107 /* SelectCounterPickChampion.m */; };
 		5D7C8DD019B3B62800938107 /* SelectCounterPickChampion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C8DCE19B3B62800938107 /* SelectCounterPickChampion.m */; };
+		5D7C8DD319B4FED200938107 /* CounterSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C8DD219B4FED200938107 /* CounterSelectCell.m */; };
+		5D7C8DD419B4FED200938107 /* CounterSelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C8DD219B4FED200938107 /* CounterSelectCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -323,6 +325,8 @@
 		5D7C8DCA19B2EAFE00938107 /* TwistedFate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TwistedFate.png; sourceTree = "<group>"; };
 		5D7C8DCD19B3B62800938107 /* SelectCounterPickChampion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectCounterPickChampion.h; sourceTree = "<group>"; };
 		5D7C8DCE19B3B62800938107 /* SelectCounterPickChampion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectCounterPickChampion.m; sourceTree = "<group>"; };
+		5D7C8DD119B4FED200938107 /* CounterSelectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounterSelectCell.h; sourceTree = "<group>"; };
+		5D7C8DD219B4FED200938107 /* CounterSelectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounterSelectCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -401,6 +405,8 @@
 				5D7C8DBD19B157C100938107 /* CustomCell.m */,
 				5D7C8DC619B28C0000938107 /* TierHeaderCell.h */,
 				5D7C8DC719B28C0000938107 /* TierHeaderCell.m */,
+				5D7C8DD119B4FED200938107 /* CounterSelectCell.h */,
+				5D7C8DD219B4FED200938107 /* CounterSelectCell.m */,
 			);
 			path = counterPickLoL;
 			sourceTree = "<group>";
@@ -799,6 +805,7 @@
 			files = (
 				5D7C8DC819B28C0000938107 /* TierHeaderCell.m in Sources */,
 				5D7C8DC419B2824F00938107 /* TierListCollectionViewController.m in Sources */,
+				5D7C8DD319B4FED200938107 /* CounterSelectCell.m in Sources */,
 				5D37966219B057EC00C8A318 /* NavigationController.m in Sources */,
 				5D37963819B0261D00C8A318 /* firstClassViewController.m in Sources */,
 				5D37963219B0261D00C8A318 /* firstClassAppDelegate.m in Sources */,
@@ -815,6 +822,7 @@
 			files = (
 				5D7C8DD019B3B62800938107 /* SelectCounterPickChampion.m in Sources */,
 				5D7C8DC519B2824F00938107 /* TierListCollectionViewController.m in Sources */,
+				5D7C8DD419B4FED200938107 /* CounterSelectCell.m in Sources */,
 				5D7C8DC919B28C0000938107 /* TierHeaderCell.m in Sources */,
 				5D37964D19B0261D00C8A318 /* counterPickLoLTests.m in Sources */,
 			);

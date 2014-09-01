@@ -10,11 +10,11 @@
 #import "tierListViewController.h"
 #import "TierListCollectionViewController.h"
 
-@interface tierListsTableViewController ()
+@interface TierListsTableViewController ()
 
 @end
 
-@implementation tierListsTableViewController
+@implementation TierListsTableViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -44,11 +44,6 @@
     [self initializeJungleTierLists];
     [self initializeSupportTierLists];
     [self initializeAdcTierLists];
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
 
@@ -89,10 +84,6 @@
 
 -(void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-//    UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc]init];
-//    flowLayout.itemSize = CGSizeMake(480, 320);
-//    [flowLayout setScrollDirection:UICollectionViewScrollDirectionHorizontal];
-    
     TierListCollectionViewController *tierVC  = [self.storyboard instantiateViewControllerWithIdentifier:@"TierListCollectionViewController"];
     switch (indexPath.row) {
         case 0:
@@ -223,6 +214,7 @@
                                   @{@"imageName": @"Lulu.png",@"championName":@"Lulu"},
                                   @{@"imageName": @"DrMundo.png",@"championName":@"Dr. Mundo"},
                                   @{@"imageName": @"Rengar.png",@"championName":@"Rengar"},
+                                  @{@"imageName": @"Twitch.png",@"championName":@"Twitch"},
                                   @{@"imageName": @"Irelia.png",@"championName":@"Irelia"},
                                   @{@"imageName": @"Ziggs.png",@"championName":@"Ziggs"},
                                   @{@"imageName": @"Riven.png",@"championName":@"Riven"},
@@ -248,7 +240,6 @@
                                   @{@"imageName": @"TwistedFate.png",@"championName":@"Twisted Fate"},
                                   @{@"imageName": @"Olaf.png",@"championName":@"Olaf"},
                                   @{@"imageName": @"Jayce.png",@"championName":@"Jayce"},
-                                  @{@"imageName": @"Twitch.png",@"championName":@"Twitch"},
                                   @{@"imageName": @"kayle.png",@"championName":@"Kayle"},
                                   @{@"imageName": @"Evelynn.png",@"championName":@"Evelynn"},
                                   @{@"imageName": @"Nasus.png",@"championName":@"Nasus"},
@@ -397,54 +388,5 @@
                           @{@"imageName": @"Varus.png",@"championName":@"Varus"},
                           ];
 }
-
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
-{
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

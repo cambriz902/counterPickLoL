@@ -8,11 +8,11 @@
 
 #import "navigationController.h"
 
-@interface navigationController ()
+@interface NavigationController ()
 
 @end
 
-@implementation navigationController
+@implementation NavigationController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

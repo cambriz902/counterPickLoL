@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface tierListsTableViewController : UITableViewController
+@interface TierListsTableViewController : UITableViewController
 
 @property (strong, nonatomic) NSArray *differentTierLists;
 @property (strong, nonatomic) NSArray *soloQueueTierList1;

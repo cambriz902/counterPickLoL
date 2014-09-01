@@ -115,8 +115,6 @@ typedef NS_ENUM(NSUInteger,Section) {
         }
         cell = reusableView;
     }
-    
     return cell;
-    
 }
 @end

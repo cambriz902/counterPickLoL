@@ -20,24 +20,26 @@
 }
 
 
+- (void) viewDidLoad
+{
+}
 -(BOOL)textFieldShouldReturn:(UITextField *)textField
 {
-    
+    NSLog(@"input = %@", @"hi");
+    self.selectChampionCounter.text = @"yolo";
     [self.selectChampionCounter resignFirstResponder];
     return YES;
 }
 
+
 - (void)textFieldDidBeginEditing:(UITextField *)textField;
 {
-    self.selectChampionCounter.text = @"";
+
 }
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
-{
-    // Drawing code
+- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range
+                                                    replacementString:(NSString *)string {
+    return YES;
 }
-*/
+
 
 @end

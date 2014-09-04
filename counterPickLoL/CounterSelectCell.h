@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface CounterSelectCell : UICollectionReusableView <UITextFieldDelegate>
-@property (weak, nonatomic) IBOutlet UITextField *selectChampionCounter;
 
+@property (weak, nonatomic) IBOutlet UITextField *selectChampionCounter;
+@property (strong, nonatomic) NSString *championInput;
 @end

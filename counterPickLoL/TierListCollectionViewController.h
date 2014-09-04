@@ -9,8 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface TierListCollectionViewController : UICollectionViewController
+
 @property (strong, nonatomic) NSArray *tier1;
 @property (strong, nonatomic) NSArray *tier2;
 @property (strong, nonatomic) NSArray *tier3;
 @property (strong, nonatomic) NSString *tierName;
+
 @end

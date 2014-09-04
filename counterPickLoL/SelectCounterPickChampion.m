@@ -9,6 +9,7 @@
 #import "SelectCounterPickChampion.h"
 #import "CustomCell.h"
 #import "CounterSelectCell.h"
+#import "CountersCollectionViewController.h"
 
 @interface SelectCounterPickChampion ()
 @property (strong, nonatomic) IBOutlet UICollectionView *collectionView;
@@ -66,6 +67,18 @@
     }
     return cell;
 }
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath;
+{
+    NSDictionary *champion = self.championList[indexPath.item];
+    CountersCollectionViewController *counterView = [self.storyboard instantiateViewControllerWithIdentifier:@"CountersCollectionViewController"];
+    counterView.headerChampionImageName = champion[@"imageName"];
+    counterView.headerChampionLabelText = champion[@"championName"];
+    NSLog(@"champion Image = %@", counterView.headerChampionLabelText);
+    NSLog(@"champion Name = %@", counterView.headerChampionLabelText);
+    [self.navigationController pushViewController:counterView animated:YES];
+}
+
 
 -(void) initializeChampionList
 {

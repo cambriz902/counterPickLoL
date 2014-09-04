@@ -70,23 +70,20 @@ typedef NS_ENUM(NSUInteger,Section) {
 -(UICollectionViewCell *) collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     NSDictionary *champion;
-    CustomCell *customCell;
+    CustomCell *customCell = [collectionView dequeueReusableCellWithReuseIdentifier:@"myCell" forIndexPath:indexPath];
     switch (indexPath.section) {
         case SectionTierOne:
             champion = self.tier1[indexPath.item];
-            customCell = [collectionView dequeueReusableCellWithReuseIdentifier:@"myCell" forIndexPath:indexPath];
             customCell.championNameLabel.text = [NSString stringWithString:champion[@"championName"]];
             customCell.championPictureImageView.image = [UIImage imageNamed:champion[@"imageName"]];
             break;
         case SectionTierTwo:
             champion = self.tier2[indexPath.item];
-            customCell = [collectionView dequeueReusableCellWithReuseIdentifier:@"myCell" forIndexPath:indexPath];
             customCell.championNameLabel.text = [NSString stringWithString:champion[@"championName"]];
             customCell.championPictureImageView.image = [UIImage imageNamed:champion[@"imageName"]];
             break;
         case SectionTierThree:
             champion = self.tier3[indexPath.item];
-            customCell = [collectionView dequeueReusableCellWithReuseIdentifier:@"myCell" forIndexPath:indexPath];
             customCell.championNameLabel.text = [NSString stringWithString:champion[@"championName"]];
             customCell.championPictureImageView.image = [UIImage imageNamed:champion[@"imageName"]];
             break;

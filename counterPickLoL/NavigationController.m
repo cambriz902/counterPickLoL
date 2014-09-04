@@ -18,7 +18,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        [[UINavigationBar appearance] setBackgroundColor:[UIColor blackColor]];
+        [[UINavigationBar appearance] setBackgroundColor:[UIColor grayColor]];
         // Custom initialization
     }
     return self;

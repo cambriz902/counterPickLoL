@@ -108,7 +108,7 @@
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                     <textInputTraits key="textInputTraits"/>
                                     <connections>
-                                        <outlet property="delegate" destination="94c-DO-63H" id="o9I-x3-YYy"/>
+                                        <outlet property="delegate" destination="HgC-rD-sWc" id="6GP-ir-jhx"/>
                                     </connections>
                                 </textField>
                             </subviews>

@@ -25,20 +25,25 @@
 
 - (void) viewDidLoad
 {
-    [self initializeChampionList];
+    //[self initializeChampionList];
+    
 }
 -(BOOL)textFieldShouldReturn:(UITextField *)textField
 {
-    /*for(NSString *championNames in self.championList){
-        
+    
+    [self initializeChampionList];
+    NSLog(@"champion name = %@", self.championList[0]);
+    NSLog(@"champion name = %@", self.championList[1]);
+    for(NSString *championNames in self.championList){
+        NSLog(@"champion name = %@", championNames);
         if ([self.selectChampionCounter.text isEqualToString:championNames]) {
-            NSLog(@"champion name = %@", championNames);
-            CountersCollectionViewController *counterView = [[UIStoryboard storyboardWithName:@"MainStoryboardName" bundle: nil] instantiateViewControllerWithIdentifier:@"CountersCollectionViewController"];
+            ///NSLog(@"champion name = %@", championNames);
+            CountersCollectionViewController *counterView = [[UIStoryboard storyboardWithName:@"SelectCounterPickChampion" bundle: nil] instantiateViewControllerWithIdentifier:@"CountersCollectionViewController"];
             counterView.headerChampionImageName = self.selectChampionCounter.text;
             counterView.headerChampionLabelText = self.selectChampionCounter.text;
             [[[self superclass] navigationController] pushViewController:counterView animated:YES];
         }
-    }*/
+    }
     NSLog(@"return key working");
     self.selectChampionCounter.text = @"yolo";
     [self.selectChampionCounter resignFirstResponder];

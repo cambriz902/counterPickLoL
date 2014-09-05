@@ -20,7 +20,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	self.view.backgroundColor = [UIColor blackColor];
+	//self.view.backgroundColor = [UIColor blackColor];
     self.leagueOfLegendsLogo.backgroundColor = [UIColor clearColor];
     
     [self.tierListButton setTitleColor:[UIColor colorWithRed:255/255.0 green:223/255.0 blue:99.0/255.0 alpha:1.0] forState:UIControlStateNormal];

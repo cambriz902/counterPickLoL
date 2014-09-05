@@ -37,7 +37,10 @@ typedef NS_ENUM(NSUInteger, Row) {
     [super viewDidLoad];
     [self initializeChampionWeakAgainst];
     [self initializeChampionStrongAgainst];
-    // Do any additional setup after loading the view.
+    self.championToCounter = [NSMutableString stringWithString:self.headerChampionLabelText];
+    [self.championToCounter appendString:@" Counters"];
+    self.title = self.championToCounter;
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -58,9 +61,8 @@ typedef NS_ENUM(NSUInteger, Row) {
 
 -(UICollectionViewCell *) collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    //customCell.championNameLabel.text = champion[@"championName"];
-    //customCell.championPictureImageView.image = [UIImage imageNamed:champion[@"imageName"]];
     CounterChampionsCell *counterChampionCell;
+    [counterChampionCell setBackgroundColor:[UIColor grayColor]];
     NSArray *championWeakCounters = self.championWeakAgainst[self.headerChampionLabelText];
     NSArray *championStrongCounters = self.championStrongAgainst[self.headerChampionLabelText];
     NSMutableString *championTypeHeader = [NSMutableString stringWithString:self.headerChampionLabelText];
@@ -106,13 +108,10 @@ typedef NS_ENUM(NSUInteger, Row) {
 -(UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath
 {
     UICollectionReusableView *cell;
-    NSMutableString *championToCounter = [NSMutableString stringWithString:self.headerChampionLabelText];
-    [championToCounter appendString:@" Counters"];
     if (kind == UICollectionElementKindSectionHeader) {
         CounterHeaderCell *reusableView = [collectionView dequeueReusableSupplementaryViewOfKind:kind withReuseIdentifier:@"counterHeader" forIndexPath:indexPath];
         reusableView.counterChampionImage.image = [UIImage imageNamed:self.headerChampionImageName];
-        reusableView.counterChampionLabel.text = championToCounter;
-        NSLog(@"label2 = %@", self.headerChampionLabelText);
+        reusableView.counterChampionLabel.text = self.championToCounter;
         cell = reusableView;
     }
     return cell;

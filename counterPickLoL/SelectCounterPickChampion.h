@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CounterSelectCell.h"
 
-@interface SelectCounterPickChampion : UICollectionViewController <UITextFieldDelegate> 
+@interface SelectCounterPickChampion : UICollectionViewController <UITextFieldDelegate>
 
 @property (strong, nonatomic) NSArray *championList;
+@property (weak, nonatomic) IBOutlet CounterSelectCell *championSearch;
 
 -(void) initializeChampionList;
+
 
 @end

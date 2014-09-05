@@ -78,6 +78,8 @@
     }
     
     cell.textLabel.text = self.differentTierLists[indexPath.row];
+    cell.backgroundColor = [UIColor blackColor];
+    cell.textLabel.textColor = [UIColor colorWithRed:255/255.0 green:223/255.0 blue:99.0/255.0 alpha:1.0];
     
     return cell;
 }
@@ -133,6 +135,19 @@
     }
     [self.navigationController pushViewController:tierVC animated:YES];
 }
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    self.title = @"Back";
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section
+{
+    UIView *view = [[UIView alloc] init];
+    
+    return view;
+}
+
 -(void) initializeSoloQueueTierLists
 {
     self.soloQueueTierList1 = @[

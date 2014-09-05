@@ -12,4 +12,7 @@
 
 @property (weak, nonatomic) IBOutlet UITextField *selectChampionCounter;
 @property (strong, nonatomic) NSString *championInput;
+@property (strong, nonatomic) NSArray *championList;
+
+-(void) initializeChampionList;
 @end

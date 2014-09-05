@@ -34,7 +34,6 @@ typedef NS_ENUM(NSUInteger,Section) {
 {
     [super viewDidLoad];
     self.title = self.tierName;
-    
 }
 
 // datasource and delegate method
@@ -114,4 +113,6 @@ typedef NS_ENUM(NSUInteger,Section) {
     }
     return cell;
 }
+
+
 @end

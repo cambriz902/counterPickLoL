@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--First Class View Controller-->
+        <!--First Class View Controller - Back-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="firstClassViewController" sceneMemberID="viewController">
@@ -19,8 +19,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5hY-31-fPi">
                                 <rect key="frame" x="102" y="241" width="117" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Tier Lists">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="B9w-03-1PJ" kind="push" id="Gci-0v-vPd"/>
@@ -29,8 +30,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zQv-dG-DZd">
                                 <rect key="frame" x="102" y="326" width="117" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Counter Picks">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="Xsa-Nd-Him" kind="push" id="Wt8-4O-sC4"/>
@@ -41,9 +43,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="uyT-cy-tTQ"/>
+                    <navigationItem key="navigationItem" title="Back" id="uyT-cy-tTQ"/>
                     <connections>
                         <outlet property="counterPicksButton" destination="zQv-dG-DZd" id="5L8-Gc-3kS"/>
                         <outlet property="leagueOfLegendsLogo" destination="GUJ-MD-ZuG" id="LQF-EA-KOk"/>
@@ -90,6 +91,7 @@
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <outlet property="championNameLabel" destination="Pxs-IT-kOc" id="DNL-0T-6zy"/>
                                     <outlet property="championPictureImageView" destination="JNY-Qv-01E" id="58J-Xs-9WQ"/>
@@ -101,12 +103,12 @@
                             <autoresizingMask key="autoresizingMask"/>
                             <subviews>
                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Champion Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fcd-sh-Uf6">
-                                    <rect key="frame" x="70" y="10" width="181" height="30"/>
+                                    <rect key="frame" x="74" y="10" width="181" height="30"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                     <textInputTraits key="textInputTraits"/>
                                     <connections>
-                                        <outlet property="delegate" destination="HgC-rD-sWc" id="ZTs-fk-PAa"/>
+                                        <outlet property="delegate" destination="94c-DO-63H" id="o9I-x3-YYy"/>
                                     </connections>
                                 </textField>
                             </subviews>
@@ -225,7 +227,7 @@
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <size key="customSize" width="300" height="90"/>
                                 <connections>
                                     <outlet property="counterImageFive" destination="QVG-rR-cyt" id="XzJ-tA-Luw"/>
@@ -283,7 +285,6 @@
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="bi1-da-jyD">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Title" id="9QF-vD-e8p">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
@@ -341,7 +342,7 @@
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <outlet property="championNameLabel" destination="3lV-Hm-kmL" id="9zG-R3-HMp"/>
                                     <outlet property="championPictureImageView" destination="8I7-mu-9pe" id="5K7-De-yb5"/>
@@ -380,14 +381,19 @@
         <!--Navigation Controller-->
         <scene sceneID="HI5-FJ-4fB">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="oAG-qe-ohB" customClass="NavigationController" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" toolbarHidden="NO" id="oAG-qe-ohB" customClass="NavigationController" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="jyG-ES-4uO">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="KH8-7J-nWh">
+                        <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
+                        <outlet property="delegate" destination="jyG-ES-4uO" id="rn5-R3-NGH"/>
                         <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="ly7-TS-tbE"/>
                     </connections>
                 </navigationController>

@@ -80,6 +80,10 @@
 }
 
 
+- (void)viewWillDisappear:(BOOL)animated
+{
+    self.title = @"Back";
+}
 -(void) initializeChampionList
 {
     self.championList = @[
@@ -205,4 +209,5 @@
                           @{@"imageName": @"Zyra.png",@"championName":@"Zyra"},
                           ];
 }
+
 @end

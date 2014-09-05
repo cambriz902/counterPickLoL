@@ -14,6 +14,7 @@
 @property (strong, nonatomic) NSString *headerChampionLabelText;
 @property (strong, nonatomic) NSDictionary *championStrongAgainst;
 @property (strong, nonatomic) NSDictionary *championWeakAgainst;
+@property (strong, nonatomic) NSMutableString *championToCounter;
 
 -(void) initializeChampionStrongAgainst;
 -(void) initializeChampionWeakAgainst;

@@ -23,21 +23,15 @@
 	self.view.backgroundColor = [UIColor blackColor];
     self.leagueOfLegendsLogo.backgroundColor = [UIColor clearColor];
     
-    self.tierListButton.backgroundColor = [UIColor grayColor];
-    [self.tierListButton setTitleColor:[UIColor yellowColor] forState:UIControlStateNormal];
-    self.counterPicksButton.backgroundColor = [UIColor grayColor];
-    [self.counterPicksButton setTitleColor:[UIColor yellowColor] forState:UIControlStateNormal];
+    [self.tierListButton setTitleColor:[UIColor colorWithRed:255/255.0 green:223/255.0 blue:99.0/255.0 alpha:1.0] forState:UIControlStateNormal];
+    [self.counterPicksButton setTitleColor:[UIColor colorWithRed:255/255.0 green:223/255.0 blue:99.0/255.0 alpha:1.0] forState:UIControlStateNormal];
+    self.title = @"Champion Select";
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
--(void)viewWillAppear:(BOOL)animated
-{
-    [self.navigationController setNavigationBarHidden:YES animated:NO];
 }
 
 @end

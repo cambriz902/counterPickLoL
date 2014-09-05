@@ -10,10 +10,6 @@
 #import "SelectCounterPickChampion.h"
 #import "CountersCollectionViewController.h"
 
-@interface CounterSelectCell ()
-
-@end
-
 @implementation CounterSelectCell
 
 - (id)initWithFrame:(CGRect)frame
@@ -32,18 +28,20 @@
     [self initializeChampionList];
 }
 -(BOOL)textFieldShouldReturn:(UITextField *)textField
-{/*
-    for(NSString *championNames in self.championList){
+{
+    /*for(NSString *championNames in self.championList){
         
         if ([self.selectChampionCounter.text isEqualToString:championNames]) {
+            NSLog(@"champion name = %@", championNames);
             CountersCollectionViewController *counterView = [[UIStoryboard storyboardWithName:@"MainStoryboardName" bundle: nil] instantiateViewControllerWithIdentifier:@"CountersCollectionViewController"];
             counterView.headerChampionImageName = self.selectChampionCounter.text;
             counterView.headerChampionLabelText = self.selectChampionCounter.text;
             [[[self superclass] navigationController] pushViewController:counterView animated:YES];
         }
-    }
+    }*/
+    NSLog(@"return key working");
     self.selectChampionCounter.text = @"yolo";
-    [self.selectChampionCounter resignFirstResponder];*/
+    [self.selectChampionCounter resignFirstResponder];
     return YES;
 }
 

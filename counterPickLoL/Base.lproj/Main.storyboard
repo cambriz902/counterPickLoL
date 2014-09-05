@@ -113,7 +113,7 @@
                                 </textField>
                             </subviews>
                             <connections>
-                                <outlet property="selectChampionCounter" destination="fcd-sh-Uf6" id="pLS-Eh-bpC"/>
+                                <outlet property="selectChampionCounter" destination="fcd-sh-Uf6" id="eU1-3X-8O9"/>
                             </connections>
                         </collectionReusableView>
                         <connections>

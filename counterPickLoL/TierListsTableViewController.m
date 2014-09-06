@@ -136,11 +136,6 @@
     [self.navigationController pushViewController:tierVC animated:YES];
 }
 
-- (void)viewWillDisappear:(BOOL)animated
-{
-    self.title = @"Back";
-}
-
 - (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section
 {
     UIView *view = [[UIView alloc] init];

@@ -9,6 +9,8 @@
 #import "navigationController.h"
 
 @interface NavigationController ()
+@property (weak, nonatomic) IBOutlet UIToolbar *toolBar;
+@property (strong, nonatomic) IBOutletCollection(UIToolbar) NSArray *toolBar1;
 
 @end
 
@@ -26,8 +28,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [[UINavigationBar appearance] setTintColor:[UIColor blackColor]];
     
+    self.navigationController.navigationBar.tintColor = [UIColor redColor];
+    
+    [[UINavigationBar appearance] setTintColor:[UIColor blackColor]];
     [[UINavigationBar appearance] setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
     [[UINavigationBar appearance] setBackgroundColor:[UIColor darkGrayColor]];
     NSShadow *shadow = [[NSShadow alloc] init];

@@ -79,11 +79,6 @@
     [self.navigationController pushViewController:counterView animated:YES];
 }
 
-
-- (void)viewWillDisappear:(BOOL)animated
-{
-    self.title = @"Back";
-}
 -(void) initializeChampionList
 {
     self.championList = @[

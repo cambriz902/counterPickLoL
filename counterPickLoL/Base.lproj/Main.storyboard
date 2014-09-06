@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--First Class View Controller - Back-->
+        <!--First Class View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="firstClassViewController" sceneMemberID="viewController">
@@ -44,7 +44,7 @@
                             </imageView>
                         </subviews>
                     </view>
-                    <navigationItem key="navigationItem" title="Back" id="uyT-cy-tTQ"/>
+                    <navigationItem key="navigationItem" id="uyT-cy-tTQ"/>
                     <connections>
                         <outlet property="counterPicksButton" destination="zQv-dG-DZd" id="5L8-Gc-3kS"/>
                         <outlet property="leagueOfLegendsLogo" destination="GUJ-MD-ZuG" id="LQF-EA-KOk"/>
@@ -55,7 +55,7 @@
             </objects>
             <point key="canvasLocation" x="551" y="-18"/>
         </scene>
-        <!--Select Counter Pick Champion-->
+        <!--Select Counter Pick Champion - Select Counter-->
         <scene sceneID="fuz-av-8SU">
             <objects>
                 <collectionViewController storyboardIdentifier="SelectCounterPickChampion" autoresizesArchivedViewToFullSize="NO" id="Xsa-Nd-Him" customClass="SelectCounterPickChampion" sceneMemberID="viewController">
@@ -121,8 +121,8 @@
                             <outlet property="delegate" destination="Xsa-Nd-Him" id="kri-t1-sPg"/>
                         </connections>
                     </collectionView>
-                    <navigationItem key="navigationItem" id="94c-DO-63H">
-                        <nil key="title"/>
+                    <navigationItem key="navigationItem" title="Select Counter" id="94c-DO-63H">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="bjj-Sd-Cqc"/>
                     </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="hfN-vo-WHf" id="Yia-jQ-ySs"/>
@@ -301,7 +301,9 @@
                             <outlet property="delegate" destination="B9w-03-1PJ" id="4GB-pv-Ugj"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="j24-p1-VB2"/>
+                    <navigationItem key="navigationItem" id="j24-p1-VB2">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="2Z7-Bs-Cf7"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mgg-Kc-C1t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -388,7 +390,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
-                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="KH8-7J-nWh">
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="yFr-no-1pW">
                         <rect key="frame" x="0.0" y="524" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </toolbar>

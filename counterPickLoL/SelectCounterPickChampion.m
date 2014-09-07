@@ -11,7 +11,7 @@
 #import "CounterSelectCell.h"
 #import "CountersCollectionViewController.h"
 
-@interface SelectCounterPickChampion ()
+@interface SelectCounterPickChampion () <SearchBarReturnDelegate>
 @property (strong, nonatomic) IBOutlet UICollectionView *collectionView;
 
 @end
@@ -63,6 +63,7 @@
     UICollectionReusableView *cell;
     if (kind == UICollectionElementKindSectionHeader) {
         CounterSelectCell *reusableView = [collectionView dequeueReusableSupplementaryViewOfKind:kind withReuseIdentifier:@"championSearchBar" forIndexPath:indexPath];
+        reusableView.delegate = self;
         cell = reusableView;
     }
     return cell;
@@ -74,11 +75,17 @@
     CountersCollectionViewController *counterView = [self.storyboard instantiateViewControllerWithIdentifier:@"CountersCollectionViewController"];
     counterView.headerChampionImageName = champion[@"imageName"];
     counterView.headerChampionLabelText = champion[@"championName"];
-    NSLog(@"champion Image = %@", counterView.headerChampionLabelText);
-    NSLog(@"champion Name = %@", counterView.headerChampionLabelText);
     [self.navigationController pushViewController:counterView animated:YES];
 }
 
+#pragma mark - SearchBarReturnDelegate
+-(void) didPressSearch:(NSString *)championName championImage:(NSString *)championImage
+{
+    CountersCollectionViewController *counterView = [self.storyboard instantiateViewControllerWithIdentifier:@"CountersCollectionViewController"];
+    counterView.headerChampionImageName = championName;
+    counterView.headerChampionLabelText = championImage;
+    [self.navigationController pushViewController:counterView animated:YES];
+}
 -(void) initializeChampionList
 {
     self.championList = @[

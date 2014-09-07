@@ -23,10 +23,9 @@
 }
 
 
-- (void) viewDidLoad
+- (void) viewDidLoads
 {
     //[self initializeChampionList];
-    
 }
 -(BOOL)textFieldShouldReturn:(UITextField *)textField
 {
@@ -58,6 +57,20 @@
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range
                                                     replacementString:(NSString *)string {
     return YES;
+}
+
+- (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar
+{
+    [self initializeChampionList];
+    self.selectChampionCounter.text = [self.selectChampionCounter.text capitalizedString];
+    for(NSString *championNames in self.championList){
+        NSLog(@"champion name = %@", championNames);
+        if ([self.selectChampionCounter.text isEqualToString:championNames]) {
+            [self.delegate didPressSearch:self.selectChampionCounter.text championImage:self.selectChampionCounter.text];
+        }
+    }
+    [self.selectChampionCounter resignFirstResponder];
+    
 }
 
 - (void) initializeChampionList

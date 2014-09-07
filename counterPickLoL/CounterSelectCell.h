@@ -7,6 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+@protocol SearchBarReturnDelegate <NSObject>
+
+@optional
+-(void) didPressSearch:(NSString *)championName championImage:(NSString *)championImage;
+
+@end
 
 @interface CounterSelectCell : UICollectionReusableView <UISearchBarDelegate>
 
@@ -14,6 +20,7 @@
 @property (strong, nonatomic) NSString *championInput;
 @property (strong, nonatomic) NSArray *championList;
 @property (weak, nonatomic) IBOutlet UISearchBar *selectChampionCounter;
+@property (nonatomic, weak) id<SearchBarReturnDelegate> delegate;
 
 -(void) initializeChampionList;
 @end

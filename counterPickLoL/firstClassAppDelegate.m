@@ -7,12 +7,13 @@
 //
 
 #import "firstClassAppDelegate.h"
+#import "SelectCounterPickChampion.h"
 
 @implementation firstClassAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch
+    // Make status bar text white and non transparent.
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7)
     {
         self.window.clipsToBounds = YES;
@@ -29,6 +30,7 @@
             self.window.bounds = CGRectMake(0, 20, self.window.frame.size.width, self.window.frame.size.height);
         }
     }
+    
     return YES;
 }
 							

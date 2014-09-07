@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="oAG-qe-ohB">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="bq4-a6-Lhu">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--First Class View Controller-->
+        <!--First Class View Controller - Item-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="firstClassViewController" sceneMemberID="viewController">
@@ -44,7 +44,12 @@
                             </imageView>
                         </subviews>
                     </view>
-                    <navigationItem key="navigationItem" id="uyT-cy-tTQ"/>
+                    <tabBarItem key="tabBarItem" title="Item" id="K18-bW-InV"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="uyT-cy-tTQ">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="5QC-IP-z4a"/>
+                    </navigationItem>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="counterPicksButton" destination="zQv-dG-DZd" id="5L8-Gc-3kS"/>
                         <outlet property="leagueOfLegendsLogo" destination="GUJ-MD-ZuG" id="LQF-EA-KOk"/>
@@ -58,7 +63,7 @@
         <!--Select Counter Pick Champion - Select Counter-->
         <scene sceneID="fuz-av-8SU">
             <objects>
-                <collectionViewController storyboardIdentifier="SelectCounterPickChampion" autoresizesArchivedViewToFullSize="NO" id="Xsa-Nd-Him" customClass="SelectCounterPickChampion" sceneMemberID="viewController">
+                <collectionViewController storyboardIdentifier="SelectCounterPickChampion" id="Xsa-Nd-Him" customClass="SelectCounterPickChampion" sceneMemberID="viewController">
                     <collectionView key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" id="hfN-vo-WHf">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -121,9 +126,11 @@
                             <outlet property="delegate" destination="Xsa-Nd-Him" id="kri-t1-sPg"/>
                         </connections>
                     </collectionView>
+                    <tabBarItem key="tabBarItem" title="Item" id="YLd-ic-CjF"/>
                     <navigationItem key="navigationItem" title="Select Counter" id="94c-DO-63H">
                         <barButtonItem key="backBarButtonItem" title="Back" id="bjj-Sd-Cqc"/>
                     </navigationItem>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="collectionView" destination="hfN-vo-WHf" id="Yia-jQ-ySs"/>
                     </connections>
@@ -270,6 +277,7 @@
                             <outlet property="delegate" destination="v8M-LT-Sqo" id="mFW-VH-PSl"/>
                         </connections>
                     </collectionView>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="collectionView" destination="LiC-yx-39X" id="MYh-bR-WTG"/>
                     </connections>
@@ -278,7 +286,7 @@
             </objects>
             <point key="canvasLocation" x="1376" y="276"/>
         </scene>
-        <!--Tier Lists Table View Controller-->
+        <!--Tier Lists Table View Controller - Item-->
         <scene sceneID="F4i-J7-nY3">
             <objects>
                 <tableViewController id="B9w-03-1PJ" customClass="TierListsTableViewController" sceneMemberID="viewController">
@@ -301,9 +309,11 @@
                             <outlet property="delegate" destination="B9w-03-1PJ" id="4GB-pv-Ugj"/>
                         </connections>
                     </tableView>
+                    <tabBarItem key="tabBarItem" title="Item" id="XUi-tK-aoM"/>
                     <navigationItem key="navigationItem" id="j24-p1-VB2">
                         <barButtonItem key="backBarButtonItem" title="Back" id="2Z7-Bs-Cf7"/>
                     </navigationItem>
+                    <nil key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mgg-Kc-C1t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -372,6 +382,7 @@
                             <outlet property="delegate" destination="m0z-IB-tAj" id="Cns-Uq-PJG"/>
                         </connections>
                     </collectionView>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="collectionView" destination="G7B-KR-eED" id="cEx-VF-U62"/>
                     </connections>
@@ -380,28 +391,46 @@
             </objects>
             <point key="canvasLocation" x="1376" y="-442"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Navigation Controller - Item-->
         <scene sceneID="HI5-FJ-4fB">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" toolbarHidden="NO" id="oAG-qe-ohB" customClass="NavigationController" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bvq-58-wh2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="oAG-qe-ohB" customClass="NavigationController" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
+                    <tabBarItem key="tabBarItem" title="Item" id="Ifd-rg-C50"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="jyG-ES-4uO">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
-                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="yFr-no-1pW">
-                        <rect key="frame" x="0.0" y="524" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </toolbar>
                     <connections>
                         <outlet property="delegate" destination="jyG-ES-4uO" id="rn5-R3-NGH"/>
-                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="ly7-TS-tbE"/>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="0nd-oa-7BX"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Bvq-58-wh2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="25" y="-18"/>
+            <point key="canvasLocation" x="59" y="-442"/>
+        </scene>
+        <!--Tab Bar View Controller-->
+        <scene sceneID="V0a-Eb-GfM">
+            <objects>
+                <tabBarController autoresizesArchivedViewToFullSize="NO" definesPresentationContext="YES" id="bq4-a6-Lhu" customClass="TabBarViewController" sceneMemberID="viewController">
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="center" id="hZA-Td-LXO">
+                        <rect key="frame" x="129" y="330" width="163" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="selectedImageTintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="oAG-qe-ohB" kind="relationship" relationship="viewControllers" id="7C4-Mw-Pxa"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2xU-0N-Wy1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-382" y="-432"/>
         </scene>
     </scenes>
     <resources>

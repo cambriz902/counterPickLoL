@@ -163,8 +163,7 @@
 		5D7C8DDC19B575C500938107 /* CounterHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C8DDA19B575C500938107 /* CounterHeaderCell.m */; };
 		5D7C8DDF19B65BD000938107 /* CounterChampionsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C8DDE19B65BD000938107 /* CounterChampionsCell.m */; };
 		5D7C8DE019B65BD000938107 /* CounterChampionsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C8DDE19B65BD000938107 /* CounterChampionsCell.m */; };
-		5D98550219BA76FC00651DAD /* ToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D98550119BA76FC00651DAD /* ToolBarView.m */; };
-		5D98550319BA76FC00651DAD /* ToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D98550119BA76FC00651DAD /* ToolBarView.m */; };
+		5D8E66CF19BC1E390001E204 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8E66CE19BC1E390001E204 /* TabBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -341,8 +340,8 @@
 		5D7C8DDA19B575C500938107 /* CounterHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounterHeaderCell.m; sourceTree = "<group>"; };
 		5D7C8DDD19B65BD000938107 /* CounterChampionsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounterChampionsCell.h; sourceTree = "<group>"; };
 		5D7C8DDE19B65BD000938107 /* CounterChampionsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounterChampionsCell.m; sourceTree = "<group>"; };
-		5D98550019BA76FC00651DAD /* ToolBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolBarView.h; sourceTree = "<group>"; };
-		5D98550119BA76FC00651DAD /* ToolBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolBarView.m; sourceTree = "<group>"; };
+		5D8E66CD19BC1E390001E204 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		5D8E66CE19BC1E390001E204 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -417,8 +416,6 @@
 				5D37963719B0261D00C8A318 /* firstClassViewController.m */,
 				5D37966019B057EC00C8A318 /* NavigationController.h */,
 				5D37966119B057EC00C8A318 /* NavigationController.m */,
-				5D98550019BA76FC00651DAD /* ToolBarView.h */,
-				5D98550119BA76FC00651DAD /* ToolBarView.m */,
 				5D37963919B0261D00C8A318 /* Images.xcassets */,
 				5D37962819B0261C00C8A318 /* Supporting Files */,
 				5D7C8DBC19B157C100938107 /* CustomCell.h */,
@@ -431,6 +428,8 @@
 				5D7C8DDA19B575C500938107 /* CounterHeaderCell.m */,
 				5D7C8DDD19B65BD000938107 /* CounterChampionsCell.h */,
 				5D7C8DDE19B65BD000938107 /* CounterChampionsCell.m */,
+				5D8E66CD19BC1E390001E204 /* TabBarViewController.h */,
+				5D8E66CE19BC1E390001E204 /* TabBarViewController.m */,
 			);
 			path = counterPickLoL;
 			sourceTree = "<group>";
@@ -829,7 +828,7 @@
 			files = (
 				5D7C8DC819B28C0000938107 /* TierHeaderCell.m in Sources */,
 				5D7C8DC419B2824F00938107 /* TierListCollectionViewController.m in Sources */,
-				5D98550219BA76FC00651DAD /* ToolBarView.m in Sources */,
+				5D8E66CF19BC1E390001E204 /* TabBarViewController.m in Sources */,
 				5D7C8DDF19B65BD000938107 /* CounterChampionsCell.m in Sources */,
 				5D7C8DD319B4FED200938107 /* CounterSelectCell.m in Sources */,
 				5D7C8DDB19B575C500938107 /* CounterHeaderCell.m in Sources */,
@@ -854,7 +853,6 @@
 				5D7C8DE019B65BD000938107 /* CounterChampionsCell.m in Sources */,
 				5D7C8DDC19B575C500938107 /* CounterHeaderCell.m in Sources */,
 				5D7C8DD819B5704600938107 /* CountersCollectionViewController.m in Sources */,
-				5D98550319BA76FC00651DAD /* ToolBarView.m in Sources */,
 				5D7C8DC919B28C0000938107 /* TierHeaderCell.m in Sources */,
 				5D37964D19B0261D00C8A318 /* counterPickLoLTests.m in Sources */,
 			);

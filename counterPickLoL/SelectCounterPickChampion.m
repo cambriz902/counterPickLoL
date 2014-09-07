@@ -57,7 +57,7 @@
     customCell.championPictureImageView.image = [UIImage imageNamed:champion[@"imageName"]];
     return customCell;
 }
-
+/*
 -(UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath
 {
     UICollectionReusableView *cell;
@@ -67,7 +67,7 @@
     }
     return cell;
 }
-
+*/
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath;
 {
     NSDictionary *champion = self.championList[indexPath.item];

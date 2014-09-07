@@ -7,10 +7,13 @@
 //
 
 #import "navigationController.h"
+#import "SelectCounterPickChampion.h"
 
 @interface NavigationController ()
-@property (weak, nonatomic) IBOutlet UIToolbar *toolBar;
-@property (strong, nonatomic) IBOutletCollection(UIToolbar) NSArray *toolBar1;
+
+
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *tierToolBar;
+
 
 @end
 
@@ -25,12 +28,18 @@
     return self;
 }
 
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
-    self.navigationController.navigationBar.tintColor = [UIColor redColor];
+    //custom toolBar
+    //[self.toolbar setBarTintColor:[UIColor darkGrayColor]];
+
     
+
+    //custom NavigationBar
     [[UINavigationBar appearance] setTintColor:[UIColor blackColor]];
     [[UINavigationBar appearance] setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
     [[UINavigationBar appearance] setBackgroundColor:[UIColor darkGrayColor]];

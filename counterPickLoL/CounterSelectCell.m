@@ -22,55 +22,38 @@
     return self;
 }
 
-
 - (void) viewDidLoads
 {
-    //[self initializeChampionList];
-}
--(BOOL)textFieldShouldReturn:(UITextField *)textField
-{
     
-    [self initializeChampionList];
-    NSLog(@"champion name = %@", self.championList[0]);
-    NSLog(@"champion name = %@", self.championList[1]);
-    for(NSString *championNames in self.championList){
-        NSLog(@"champion name = %@", championNames);
-        if ([self.selectChampionCounter.text isEqualToString:championNames]) {
-            ///NSLog(@"champion name = %@", championNames);
-            CountersCollectionViewController *counterView = [[UIStoryboard storyboardWithName:@"SelectCounterPickChampion" bundle: nil] instantiateViewControllerWithIdentifier:@"CountersCollectionViewController"];
-            counterView.headerChampionImageName = self.selectChampionCounter.text;
-            counterView.headerChampionLabelText = self.selectChampionCounter.text;
-            [[[self superclass] navigationController] pushViewController:counterView animated:YES];
-        }
-    }
-    NSLog(@"return key working");
-    self.selectChampionCounter.text = @"yolo";
-    [self.selectChampionCounter resignFirstResponder];
-    return YES;
-}
-
-
-- (void)textFieldDidBeginEditing:(UITextField *)textField;
-{
-
-}
-- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range
-                                                    replacementString:(NSString *)string {
-    return YES;
 }
 
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar
 {
     [self initializeChampionList];
+    BOOL championNotFound = YES;
     self.selectChampionCounter.text = [self.selectChampionCounter.text capitalizedString];
     for(NSString *championNames in self.championList){
-        NSLog(@"champion name = %@", championNames);
         if ([self.selectChampionCounter.text isEqualToString:championNames]) {
             [self.delegate didPressSearch:self.selectChampionCounter.text championImage:self.selectChampionCounter.text];
+            championNotFound = NO;
+            break;
         }
+    }
+    if(championNotFound)
+    {
+        UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:
+                                  @"Error" message:@"Check Champion Spelling" delegate:self
+                                                 cancelButtonTitle:@"Ok" otherButtonTitles:Nil, nil];
+        [alertView show];
+        //self.selectChampionCounter.text = @"Check Champion Spelling";
     }
     [self.selectChampionCounter resignFirstResponder];
     
+}
+
+-(void)searchBarTextDidBeginEditing:(UISearchBar *)searchBar
+{
+
 }
 
 - (void) initializeChampionList

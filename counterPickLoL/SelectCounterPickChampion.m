@@ -64,6 +64,7 @@
     if (kind == UICollectionElementKindSectionHeader) {
         CounterSelectCell *reusableView = [collectionView dequeueReusableSupplementaryViewOfKind:kind withReuseIdentifier:@"championSearchBar" forIndexPath:indexPath];
         reusableView.delegate = self;
+        [[UILabel appearanceWhenContainedIn:[UISearchBar class], nil] setTextColor:[UIColor colorWithRed:255/255.0 green:223/255.0 blue:99.0/255.0 alpha:1.0]];
         cell = reusableView;
     }
     return cell;

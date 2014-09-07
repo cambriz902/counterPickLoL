@@ -33,7 +33,7 @@
     
     
     // doing this results in an easier to read unselected state then the default iOS 7 one
-    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"HelveticaNeue-Bold" size:10.0f],
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"HelveticaNeue-Bold" size:20.0f],
                                                         NSForegroundColorAttributeName : [UIColor colorWithRed:255/255.0 green:223/255.0 blue:99.0/255.0 alpha:1.0]
                                                         } forState:UIControlStateNormal];
     // Do any additional setup after loading the view.

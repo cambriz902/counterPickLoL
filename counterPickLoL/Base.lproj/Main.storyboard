@@ -107,18 +107,17 @@
                             <rect key="frame" x="0.0" y="64" width="320" height="50"/>
                             <autoresizingMask key="autoresizingMask"/>
                             <subviews>
-                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Champion Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fcd-sh-Uf6">
-                                    <rect key="frame" x="74" y="10" width="181" height="30"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <searchBar contentMode="redraw" fixedFrame="YES" placeholder="Enter Champion Name" translatesAutoresizingMaskIntoConstraints="NO" id="coO-OL-A3l">
+                                    <rect key="frame" x="42" y="0.0" width="237" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                     <textInputTraits key="textInputTraits"/>
                                     <connections>
-                                        <outlet property="delegate" destination="HgC-rD-sWc" id="6GP-ir-jhx"/>
+                                        <outlet property="delegate" destination="HgC-rD-sWc" id="WcX-Xr-OCJ"/>
                                     </connections>
-                                </textField>
+                                </searchBar>
                             </subviews>
                             <connections>
-                                <outlet property="selectChampionCounter" destination="fcd-sh-Uf6" id="eU1-3X-8O9"/>
+                                <outlet property="selectChampionCounter" destination="coO-OL-A3l" id="W9M-eN-dXa"/>
                             </connections>
                         </collectionReusableView>
                         <connections>
@@ -394,7 +393,6 @@
         <!--Navigation Controller - Item-->
         <scene sceneID="HI5-FJ-4fB">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Bvq-58-wh2" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="oAG-qe-ohB" customClass="NavigationController" sceneMemberID="viewController">
                     <extendedEdge key="edgesForExtendedLayout" top="YES"/>
                     <tabBarItem key="tabBarItem" title="Item" id="Ifd-rg-C50"/>
@@ -409,6 +407,7 @@
                         <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="0nd-oa-7BX"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bvq-58-wh2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="59" y="-442"/>
         </scene>
@@ -416,7 +415,7 @@
         <scene sceneID="V0a-Eb-GfM">
             <objects>
                 <tabBarController autoresizesArchivedViewToFullSize="NO" definesPresentationContext="YES" id="bq4-a6-Lhu" customClass="TabBarViewController" sceneMemberID="viewController">
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="center" id="hZA-Td-LXO">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>

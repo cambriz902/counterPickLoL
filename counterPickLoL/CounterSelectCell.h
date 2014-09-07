@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CounterSelectCell : UICollectionReusableView <UITextFieldDelegate>
-@property (weak, nonatomic) IBOutlet UITextField *selectChampionCounter;
+@interface CounterSelectCell : UICollectionReusableView <UISearchBarDelegate>
 
 
 @property (strong, nonatomic) NSString *championInput;
 @property (strong, nonatomic) NSArray *championList;
+@property (weak, nonatomic) IBOutlet UISearchBar *selectChampionCounter;
 
 -(void) initializeChampionList;
 @end

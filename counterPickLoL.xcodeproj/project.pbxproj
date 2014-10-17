@@ -164,6 +164,14 @@
 		5D7C8DDF19B65BD000938107 /* CounterChampionsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C8DDE19B65BD000938107 /* CounterChampionsCell.m */; };
 		5D7C8DE019B65BD000938107 /* CounterChampionsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C8DDE19B65BD000938107 /* CounterChampionsCell.m */; };
 		5D8E66CF19BC1E390001E204 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8E66CE19BC1E390001E204 /* TabBarViewController.m */; };
+		5D97985119BE2AE300635F57 /* Appicon29.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D97984A19BE2AE300635F57 /* Appicon29.png */; };
+		5D97985219BE2AE300635F57 /* Appicon40.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D97984B19BE2AE300635F57 /* Appicon40.png */; };
+		5D97985319BE2AE300635F57 /* Appicon50.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D97984C19BE2AE300635F57 /* Appicon50.png */; };
+		5D97985419BE2AE300635F57 /* Appicon57.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D97984D19BE2AE300635F57 /* Appicon57.png */; };
+		5D97985519BE2AE300635F57 /* Appicon60.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D97984E19BE2AE300635F57 /* Appicon60.png */; };
+		5D97985619BE2AE300635F57 /* Appicon72.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D97984F19BE2AE300635F57 /* Appicon72.png */; };
+		5D97985719BE2AE300635F57 /* Appicon76.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D97985019BE2AE300635F57 /* Appicon76.png */; };
+		5DA5237019D0C352005E86B9 /* Azir.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DA5236F19D0C352005E86B9 /* Azir.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -342,6 +350,14 @@
 		5D7C8DDE19B65BD000938107 /* CounterChampionsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounterChampionsCell.m; sourceTree = "<group>"; };
 		5D8E66CD19BC1E390001E204 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
 		5D8E66CE19BC1E390001E204 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		5D97984A19BE2AE300635F57 /* Appicon29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Appicon29.png; sourceTree = "<group>"; };
+		5D97984B19BE2AE300635F57 /* Appicon40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Appicon40.png; sourceTree = "<group>"; };
+		5D97984C19BE2AE300635F57 /* Appicon50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Appicon50.png; sourceTree = "<group>"; };
+		5D97984D19BE2AE300635F57 /* Appicon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Appicon57.png; sourceTree = "<group>"; };
+		5D97984E19BE2AE300635F57 /* Appicon60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Appicon60.png; sourceTree = "<group>"; };
+		5D97984F19BE2AE300635F57 /* Appicon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Appicon72.png; sourceTree = "<group>"; };
+		5D97985019BE2AE300635F57 /* Appicon76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Appicon76.png; sourceTree = "<group>"; };
+		5DA5236F19D0C352005E86B9 /* Azir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Azir.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -401,6 +417,7 @@
 		5D37962719B0261C00C8A318 /* counterPickLoL */ = {
 			isa = PBXGroup;
 			children = (
+				5D97985819BE38D800635F57 /* iPad */,
 				5D37963319B0261D00C8A318 /* Main.storyboard */,
 				5D37963019B0261D00C8A318 /* firstClassAppDelegate.h */,
 				5D37963119B0261D00C8A318 /* firstClassAppDelegate.m */,
@@ -467,10 +484,17 @@
 		5D37965619B0430200C8A318 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				5D37965919B0468100C8A318 /* Azir.jpg */,
 				5D7C8BD619B1016600938107 /* championPortraits */,
 				5D37966319B0591000C8A318 /* navigationBackground.jpeg */,
+				5D97984A19BE2AE300635F57 /* Appicon29.png */,
+				5D97984B19BE2AE300635F57 /* Appicon40.png */,
+				5D97984C19BE2AE300635F57 /* Appicon50.png */,
+				5D97984D19BE2AE300635F57 /* Appicon57.png */,
+				5D97984E19BE2AE300635F57 /* Appicon60.png */,
+				5D97984F19BE2AE300635F57 /* Appicon72.png */,
+				5D97985019BE2AE300635F57 /* Appicon76.png */,
 				5D37965B19B0477500C8A318 /* rootBackground.jpeg */,
-				5D37965919B0468100C8A318 /* Azir.jpg */,
 				5D37965719B0431300C8A318 /* League_of_legends_logo_transparent.png */,
 			);
 			name = images;
@@ -487,6 +511,7 @@
 				5D7C8CD519B10A4500938107 /* Anivia.png */,
 				5D7C8CD719B10A4D00938107 /* Annie.png */,
 				5D7C8CD919B10A5800938107 /* Ashe.png */,
+				5DA5236F19D0C352005E86B9 /* Azir.png */,
 				5D7C8CDB19B10A6300938107 /* Blitzcrank.png */,
 				5D7C8CDD19B10A7D00938107 /* Brand.png */,
 				5D7C8CDF19B10A8400938107 /* Braum.png */,
@@ -603,6 +628,13 @@
 			path = championPortraits;
 			sourceTree = "<group>";
 		};
+		5D97985819BE38D800635F57 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -651,6 +683,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "christian ambriz";
 				TargetAttributes = {
+					5D37961D19B0261C00C8A318 = {
+						DevelopmentTeam = JK6VUQ6TBW;
+					};
 					5D37963E19B0261D00C8A318 = {
 						TestTargetID = 5D37961D19B0261C00C8A318;
 					};
@@ -713,6 +748,7 @@
 				5D7C8D9019B10F9A00938107 /* Twitch.png in Resources */,
 				5D7C8CFA19B10B0E00938107 /* Fiora.png in Resources */,
 				5D7C8CD019B10A0B00938107 /* Aatrox.png in Resources */,
+				5DA5237019D0C352005E86B9 /* Azir.png in Resources */,
 				5D7C8D0619B10B7A00938107 /* Gragas.png in Resources */,
 				5D7C8D6619B10E5900938107 /* Rumble.png in Resources */,
 				5D7C8D5219B10DDF00938107 /* Nunu.png in Resources */,
@@ -733,6 +769,7 @@
 				5D7C8D7619B10EC900938107 /* Sivir.png in Resources */,
 				5D7C8D5C19B10E2D00938107 /* Quinn.png in Resources */,
 				5D7C8D9E19B10FC500938107 /* Vi.png in Resources */,
+				5D97985119BE2AE300635F57 /* Appicon29.png in Resources */,
 				5D7C8D5819B10E0800938107 /* Pantheon.png in Resources */,
 				5D7C8DB419B1100B00938107 /* Ziggs.png in Resources */,
 				5D7C8DCB19B2EAFE00938107 /* TwistedFate.png in Resources */,
@@ -747,9 +784,11 @@
 				5D7C8D6219B10E4C00938107 /* Rengar.png in Resources */,
 				5D7C8CF619B10AE500938107 /* Ezreal.png in Resources */,
 				5D7C8D7019B10EB400938107 /* Shyvana.png in Resources */,
+				5D97985519BE2AE300635F57 /* Appicon60.png in Resources */,
 				5D7C8D0219B10B2E00938107 /* Garen.png in Resources */,
 				5D7C8D3419B10CA800938107 /* Lulu.png in Resources */,
 				5D7C8D6A19B10E8F00938107 /* Sejuani.png in Resources */,
+				5D97985319BE2AE300635F57 /* Appicon50.png in Resources */,
 				5D7C8D6419B10E5300938107 /* Riven.png in Resources */,
 				5D7C8CD619B10A4500938107 /* Anivia.png in Resources */,
 				5D7C8D8419B10EF400938107 /* Taric.png in Resources */,
@@ -765,6 +804,8 @@
 				5D7C8D2419B10C2400938107 /* Kennen.png in Resources */,
 				5D7C8D0819B10B8300938107 /* Graves.png in Resources */,
 				5D7C8DAE19B10FF500938107 /* Yorick.png in Resources */,
+				5D97985219BE2AE300635F57 /* Appicon40.png in Resources */,
+				5D97985719BE2AE300635F57 /* Appicon76.png in Resources */,
 				5D7C8D2E19B10C9500938107 /* Leona.png in Resources */,
 				5D7C8DAA19B10FEC00938107 /* XinZhao.png in Resources */,
 				5D7C8D4019B10D3E00938107 /* MissFortune.png in Resources */,
@@ -774,6 +815,7 @@
 				5D7C8D6819B10E6800938107 /* Ryze.png in Resources */,
 				5D7C8D3619B10CAE00938107 /* Lux.png in Resources */,
 				5D7C8DA819B10FE600938107 /* Xerath.png in Resources */,
+				5D97985619BE2AE300635F57 /* Appicon72.png in Resources */,
 				5D7C8CF219B10AD700938107 /* Elise.png in Resources */,
 				5D7C8CEA19B10AB600938107 /* Darius.png in Resources */,
 				5D7C8D7C19B10EDB00938107 /* Soraka.png in Resources */,
@@ -789,6 +831,7 @@
 				5D7C8D4819B10D5600938107 /* Nami.png in Resources */,
 				5D7C8D5619B10E0100938107 /* Orianna.png in Resources */,
 				5D7C8D0019B10B2500938107 /* Gangplank.png in Resources */,
+				5D97985419BE2AE300635F57 /* Appicon57.png in Resources */,
 				5D7C8D9C19B10FC000938107 /* VelKoz.png in Resources */,
 				5D7C8D4C19B10D6100938107 /* Nautilus.png in Resources */,
 				5D7C8D0E19B10B9900938107 /* Irelia.png in Resources */,
@@ -912,7 +955,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: christian ambriz (JK6VUQ6TBW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: christian ambriz (JK6VUQ6TBW)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -930,6 +974,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "93d45c40-00c1-434e-a96b-4280643d7a60";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -950,7 +995,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: christian ambriz (JK6VUQ6TBW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: christian ambriz (JK6VUQ6TBW)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -961,6 +1007,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "93d45c40-00c1-434e-a96b-4280643d7a60";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -971,10 +1018,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: christian ambriz (JK6VUQ6TBW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: christian ambriz (JK6VUQ6TBW)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "counterPickLoL/counterPickLoL-Prefix.pch";
 				INFOPLIST_FILE = "counterPickLoL/counterPickLoL-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=*]" = "93d45c40-00c1-434e-a96b-4280643d7a60";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -984,10 +1037,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: christian ambriz (JK6VUQ6TBW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: christian ambriz (JK6VUQ6TBW)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "counterPickLoL/counterPickLoL-Prefix.pch";
 				INFOPLIST_FILE = "counterPickLoL/counterPickLoL-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "93d45c40-00c1-434e-a96b-4280643d7a60";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -1032,6 +1090,76 @@
 			};
 			name = Release;
 		};
+		5D97985919BE52FB00635F57 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: christian ambriz (JK6VUQ6TBW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: christian ambriz (JK6VUQ6TBW)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "93d45c40-00c1-434e-a96b-4280643d7a60";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		5D97985A19BE52FB00635F57 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: christian ambriz (JK6VUQ6TBW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: christian ambriz (JK6VUQ6TBW)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "counterPickLoL/counterPickLoL-Prefix.pch";
+				INFOPLIST_FILE = "counterPickLoL/counterPickLoL-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "93d45c40-00c1-434e-a96b-4280643d7a60";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		5D97985B19BE52FB00635F57 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/counterPickLoL.app/counterPickLoL";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "counterPickLoL/counterPickLoL-Prefix.pch";
+				INFOPLIST_FILE = "counterPickLoLTests/counterPickLoLTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Distribution;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1040,6 +1168,7 @@
 			buildConfigurations = (
 				5D37964E19B0261D00C8A318 /* Debug */,
 				5D37964F19B0261D00C8A318 /* Release */,
+				5D97985919BE52FB00635F57 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1049,6 +1178,7 @@
 			buildConfigurations = (
 				5D37965119B0261D00C8A318 /* Debug */,
 				5D37965219B0261D00C8A318 /* Release */,
+				5D97985A19BE52FB00635F57 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1058,6 +1188,7 @@
 			buildConfigurations = (
 				5D37965419B0261D00C8A318 /* Debug */,
 				5D37965519B0261D00C8A318 /* Release */,
+				5D97985B19BE52FB00635F57 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

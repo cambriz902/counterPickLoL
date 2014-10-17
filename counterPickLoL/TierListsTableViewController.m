@@ -146,9 +146,9 @@
 -(void) initializeSoloQueueTierLists
 {
     self.soloQueueTierList1 = @[
+                               @{@"imageName": @"Rammus.png",@"championName":@"Rammus"},
                                @{@"imageName": @"Yasuo.png",@"championName":@"Yasuo"},
                                @{@"imageName": @"Braum.png",@"championName":@"Braum"},
-                               @{@"imageName": @"Morgana.png",@"championName":@"Morgana"},
                                @{@"imageName": @"Alistar.png",@"championName":@"Alistar"},
                                @{@"imageName": @"Talon.png",@"championName":@"Talon"},
                                @{@"imageName": @"Tristana.png",@"championName":@"Tristana"},
@@ -156,18 +156,19 @@
                                @{@"imageName": @"Maokai.png",@"championName":@"Maokai"},
                                @{@"imageName": @"Fizz.png",@"championName":@"Fizz"},
                                @{@"imageName": @"Vi.png",@"championName":@"Vi"},
-                               @{@"imageName": @"JarvanIV.png",@"championName":@"Jarvan IV"},
                                @{@"imageName": @"Khazix.png",@"championName":@"Kha'zix"},
                                @{@"imageName": @"Amumu.png",@"championName":@"Amumu"},
-                               @{@"imageName": @"Leona.png",@"championName":@"Leona"},
                                @{@"imageName": @"Blitzcrank.png",@"championName":@"Blitzcrank"},
                                @{@"imageName": @"Syndra.png",@"championName":@"Syndra"},
                                @{@"imageName": @"Akali.png",@"championName":@"Akali"},
+                               @{@"imageName": @"Warwick.png",@"championName":@"Warwick"},
+                               @{@"imageName": @"Janna.png",@"championName":@"Janna"},
+                               @{@"imageName": @"Katarina.png",@"championName":@"Katarina"},
                                ];
     self.soloQueueTierList2 = @[
-                               @{@"imageName": @"Warwick.png",@"championName":@"Warwick"},
+                               @{@"imageName": @"Morgana.png",@"championName":@"Morgana"},
                                @{@"imageName": @"Ahri.png",@"championName":@"Ahri"},
-                               @{@"imageName": @"Katarina.png",@"championName":@"Katarina"},
+                               @{@"imageName": @"Leona.png",@"championName":@"Leona"},
                                @{@"imageName": @"Zed.png",@"championName":@"Zed"},
                                @{@"imageName": @"Fiora.png",@"championName":@"Fiora"},
                                @{@"imageName": @"Nami.png",@"championName":@"Nami"},
@@ -185,7 +186,7 @@
                                @{@"imageName": @"Draven.png",@"championName":@"Draven"},
                                @{@"imageName": @"Pantheon.png",@"championName":@"Pantheon"},
                                @{@"imageName": @"Nasus.png",@"championName":@"Nasus"},
-                               @{@"imageName": @"Irelia.png",@"championName":@"Evelynn"},
+                               @{@"imageName": @"Evelynn.png",@"championName":@"Evelynn"},
                                @{@"imageName": @"MasterYi.png",@"championName":@"Master Yi"},
                                @{@"imageName": @"Ziggs.png",@"championName":@"Ziggs"},
                                @{@"imageName": @"Malphite.png",@"championName":@"Malphite"},
@@ -196,6 +197,7 @@
                                @{@"imageName": @"Gnar.png",@"championName":@"Gnar"},
                                @{@"imageName": @"Corki.png",@"championName":@"Corki"},
                                @{@"imageName": @"Irelia.png",@"championName":@"Irelia"},
+                               @{@"imageName": @"JarvanIV.png",@"championName":@"Jarvan IV"},
                                ];
 }
 
@@ -215,7 +217,12 @@
                                   @{@"imageName": @"Zed.png",@"championName":@"Zed"},
                                   @{@"imageName": @"Yasuo.png",@"championName":@"Yasuo"},
                                   @{@"imageName": @"Lucian.png",@"championName":@"Lucian"},
+                                  @{@"imageName": @"Rengar.png",@"championName":@"Rengar"},
                                   @{@"imageName": @"Khazix.png",@"championName":@"Kha'zix"},
+                                  @{@"imageName": @"Janna.png", @"championName":@"Janna"},
+                                  @{@"imageName": @"Rumble.png", @"championName":@"Rumble"},
+                                  @{@"imageName": @"Fizz.png",@"championName":@"Fizz"},
+                                  @{@"imageName": @"Zilean.png",@"championName":@"Zilean"},
                                   ];
     self.competitiveTierList2 = @[
                                   @{@"imageName": @"Xerath.png",@"championName":@"Xerath"},
@@ -223,7 +230,6 @@
                                   @{@"imageName": @"Braum.png",@"championName":@"Braum"},
                                   @{@"imageName": @"Lulu.png",@"championName":@"Lulu"},
                                   @{@"imageName": @"DrMundo.png",@"championName":@"Dr. Mundo"},
-                                  @{@"imageName": @"Rengar.png",@"championName":@"Rengar"},
                                   @{@"imageName": @"Twitch.png",@"championName":@"Twitch"},
                                   @{@"imageName": @"Irelia.png",@"championName":@"Irelia"},
                                   @{@"imageName": @"Ziggs.png",@"championName":@"Ziggs"},
@@ -232,14 +238,13 @@
                                   @{@"imageName": @"Nocturne.png",@"championName":@"Nocturne"},
                                   @{@"imageName": @"Elise.png",@"championName":@"Elise"},
                                   @{@"imageName": @"Nunu.png",@"championName":@"Nunu"},
-                                  @{@"imageName": @"Zilean.png",@"championName":@"Zilean"},
                                   @{@"imageName": @"Thresh.png",@"championName":@"Thresh"},
                                   @{@"imageName": @"Talon.png",@"championName":@"Talon"},
                                   @{@"imageName": @"Kassadin.png",@"championName":@"Kassadin"},
+                                  @{@"imageName": @"Kayle.png",@"championName":@"Kayle"},
                                   ];
     
     self.competitiveTierList3 = @[
-                                  @{@"imageName": @"Fizz.png",@"championName":@"Fizz"},
                                   @{@"imageName": @"Vi.png",@"championName":@"Vi"},
                                   @{@"imageName": @"Leona.png",@"championName":@"Leona"},
                                   @{@"imageName": @"Vayne.png",@"championName":@"Vayne"},
@@ -250,12 +255,12 @@
                                   @{@"imageName": @"TwistedFate.png",@"championName":@"Twisted Fate"},
                                   @{@"imageName": @"Olaf.png",@"championName":@"Olaf"},
                                   @{@"imageName": @"Jayce.png",@"championName":@"Jayce"},
-                                  @{@"imageName": @"kayle.png",@"championName":@"Kayle"},
                                   @{@"imageName": @"Evelynn.png",@"championName":@"Evelynn"},
                                   @{@"imageName": @"Nasus.png",@"championName":@"Nasus"},
                                   @{@"imageName": @"Jax.png",@"championName":@"Jax"},
                                   @{@"imageName": @"Amumu.png",@"championName":@"Amumu"},
                                   @{@"imageName": @"Ahri.png",@"championName":@"Ahri"},
+                                  @{@"imageName": @"Caitlyn.png",@"championName":@"Caitlyn"},
                                   ];
 }
 
@@ -270,6 +275,7 @@
     self.topTierList2 = @[
                           @{@"imageName": @"DrMundo.png",@"championName":@"Dr. Mundo"},
                           @{@"imageName": @"Lulu.png",@"championName":@"Lulu"},
+                          @{@"imageName": @"Rumble.png",@"championName":@"Rumble"},
                           @{@"imageName": @"Nasus.png",@"championName":@"Nasus"},
                           @{@"imageName": @"Riven.png",@"championName":@"Riven"},
                           @{@"imageName": @"Irelia.png",@"championName":@"Irelia"},
@@ -280,7 +286,7 @@
                           @{@"imageName": @"Aatrox.png",@"championName":@"Aatrox"},
                           @{@"imageName": @"Yorick.png",@"championName":@"Yorick"},
                           @{@"imageName": @"Shyvana.png",@"championName":@"Shyvana"},
-                          @{@"imageName": @"jayce.png",@"championName":@"Jayce"},
+                          @{@"imageName": @"Jayce.png",@"championName":@"Jayce"},
                           @{@"imageName": @"Chogath.png",@"championName":@"Cho'gath"},
                           @{@"imageName": @"Olaf.png",@"championName":@"Olaf"},
                           @{@"imageName": @"Swain.png",@"championName":@"Swain"},
@@ -344,7 +350,7 @@
                              @{@"imageName": @"MasterYi.png",@"championName":@"Master Yi"},
                              @{@"imageName": @"Skarner.png",@"championName":@"Skarner"},
                              @{@"imageName": @"XinZhao.png",@"championName":@"Xin Zhao"},
-                             @{@"imageName": @"MonkeyKing.png",@"championName":@"Wukong"},
+                             @{@"imageName": @"Wukong.png",@"championName":@"Wukong"},
                              @{@"imageName": @"Shyvana.png",@"championName":@"Shyvana"},
                              ];
 }
@@ -355,20 +361,19 @@
                               @{@"imageName": @"Nami.png",@"championName":@"Nami"},
                               @{@"imageName": @"Braum.png",@"championName":@"Braum"},
                               @{@"imageName": @"Thresh.png",@"championName":@"Thresh"},
-                              @{@"imageName": @"Morgana.png",@"championName":@"Morgana"},
+                              @{@"imageName": @"Janna.png",@"championName":@"Janna"},
                               @{@"imageName": @"Zilean.png",@"championName":@"Zilean"},
                               ];
     self.supportTierList2 = @[
+                              @{@"imageName": @"Morgana.png",@"championName":@"Morgana"},
                               @{@"imageName": @"Leona.png",@"championName":@"Leona"},
                               @{@"imageName": @"Blitzcrank.png",@"championName":@"Blitzcrank"},
                               @{@"imageName": @"Lulu.png",@"championName":@"Lulu"},
-                              @{@"imageName": @"Thresh.png",@"championName":@"Thresh"},
                               @{@"imageName": @"Morgana.png",@"championName":@"Morgana"},
                               @{@"imageName": @"Alistar.png",@"championName":@"Alistar"},
                               ];
     self.supportTierList3 = @[
                               @{@"imageName": @"Sona.png",@"championName":@"Sona"},
-                              @{@"imageName": @"Janna.png",@"championName":@"Janna"},
                               @{@"imageName": @"Zyra.png",@"championName":@"Zyra"},
                               @{@"imageName": @"VelKoz.png",@"championName":@"Vel'Koz"},
                               @{@"imageName": @"Annie.png",@"championName":@"Annie"},
@@ -385,16 +390,15 @@
                           @{@"imageName": @"Corki.png",@"championName":@"Corki"},
                           ];
     self.adcTierList2 = @[
-                          @{@"imageName": @"Corki.png",@"championName":@"Corki"},
                           @{@"imageName": @"Jinx.png",@"championName":@"Jinx"},
-                          @{@"imageName": @"Graves.png",@"championName":@"Graves"},
                           @{@"imageName": @"Vayne.png",@"championName":@"Vayne"},
                           @{@"imageName": @"Twitch.png",@"championName":@"Twitch"},
+                          @{@"imageName": @"Caitlyn.png",@"championName":@"Caitlyn"},
                           ];
     self.adcTierList3 = @[
-                          @{@"imageName": @"Draven.png",@"championName":@"Draven"},
                           @{@"imageName": @"Ezreal.png",@"championName":@"Ezreal"},
-                          @{@"imageName": @"Caitlyn.png",@"championName":@"Caitlyn"},
+                          @{@"imageName": @"Draven.png",@"championName":@"Draven"},
+                          @{@"imageName": @"Graves.png",@"championName":@"Graves"},
                           @{@"imageName": @"Varus.png",@"championName":@"Varus"},
                           ];
 }

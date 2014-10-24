@@ -45,7 +45,6 @@
                                   @"Error" message:@"Check Champion Spelling" delegate:self
                                                  cancelButtonTitle:@"Ok" otherButtonTitles:Nil, nil];
         [alertView show];
-        //self.selectChampionCounter.text = @"Check Champion Spelling";
     }
     [self.selectChampionCounter resignFirstResponder];
     

@@ -66,7 +66,6 @@ typedef NS_ENUM(NSUInteger, Row) {
     NSArray *championWeakCounters = self.championWeakAgainst[self.headerChampionLabelText];
     NSArray *championStrongCounters = self.championStrongAgainst[self.headerChampionLabelText];
     NSMutableString *championTypeHeader = [NSMutableString stringWithString:self.headerChampionLabelText];
-    NSLog(@"champion nam = %@", self.headerChampionLabelText);
     counterChampionCell = [collectionView dequeueReusableCellWithReuseIdentifier:@"counterChampionsCell" forIndexPath:indexPath];
     switch (indexPath.row) {
         case WeakAgainst:

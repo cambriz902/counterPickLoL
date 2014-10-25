@@ -56,7 +56,6 @@
 
 -(UICollectionViewCell *) collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    //NSDictionary *champion = self.championList[indexPath.item];
     CustomCell *customCell = [collectionView dequeueReusableCellWithReuseIdentifier:@"myCell" forIndexPath:indexPath];
     customCell.championNameLabel.text = [NSString stringWithString:self.championList[indexPath.item]];
     customCell.championPictureImageView.image = [UIImage imageNamed:self.championList[indexPath.item]];
@@ -77,7 +76,6 @@
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath;
 {
-    //NSDictionary *champion = self.championList[indexPath.item];
     CountersCollectionViewController *counterView = [self.storyboard instantiateViewControllerWithIdentifier:@"CountersCollectionViewController"];
     counterView.headerChampionImageName = self.championList[indexPath.item];
     counterView.headerChampionLabelText = self.championList[indexPath.item];

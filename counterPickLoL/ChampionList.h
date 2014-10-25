@@ -9,5 +9,16 @@
 #ifndef counterPickLoL_ChampionList_h
 #define counterPickLoL_ChampionList_h
 
+#import "Foundation/Foundation.h"
+
+@interface ChampionList : NSObject
+
+@property (strong, nonatomic) NSArray *championNames;
+
+- (void)initializeChampionNames:(NSMutableDictionary *) championList;
+
+- (id) initWithJSON;
+
+@end
 
 #endif

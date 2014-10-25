@@ -8,11 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import "CounterSelectCell.h"
+#import "ChampionList.h"
 
 @interface SelectCounterPickChampion : UICollectionViewController <UITextFieldDelegate>
 
+
 @property (strong, nonatomic) NSArray *championList;
 @property (weak, nonatomic) IBOutlet CounterSelectCell *championSearch;
+@property (strong, nonatomic) ChampionList *champions;
 
 -(void) initializeChampionList;
 

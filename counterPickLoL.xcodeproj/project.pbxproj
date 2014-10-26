@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		08FE969A2D404DF60FE97A19 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1627D178A2F5129BB048B2 /* libPods.a */; };
+		5D121DE319FC719A00176890 /* SelectGuideCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D121DE219FC719A00176890 /* SelectGuideCollectionViewController.m */; };
+		5D121DE419FC719A00176890 /* SelectGuideCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D121DE219FC719A00176890 /* SelectGuideCollectionViewController.m */; };
+		5D121DE719FD776600176890 /* GuideCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D121DE619FD776600176890 /* GuideCollectionViewController.m */; };
+		5D121DEA19FD80C600176890 /* StartingItemsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D121DE919FD80C600176890 /* StartingItemsCell.m */; };
+		5D121DF219FD973800176890 /* Doran's Blade.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D121DEF19FD973800176890 /* Doran's Blade.png */; };
+		5D121DF319FD973800176890 /* Health Potion.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D121DF019FD973800176890 /* Health Potion.png */; };
+		5D121DF419FD973800176890 /* Warding Totem.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D121DF119FD973800176890 /* Warding Totem.png */; };
+		5D121DF619FD994D00176890 /* Blade of the Ruined King.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D121DF519FD994D00176890 /* Blade of the Ruined King.png */; };
+		5D121DFC19FD996700176890 /* Last Whisper.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D121DF719FD996700176890 /* Last Whisper.png */; };
+		5D121DFD19FD996700176890 /* Mercury's Treads.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D121DF819FD996700176890 /* Mercury's Treads.png */; };
+		5D121DFE19FD996700176890 /* Randuin's Omen.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D121DF919FD996700176890 /* Randuin's Omen.png */; };
+		5D121DFF19FD996700176890 /* Spirit Visage.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D121DFA19FD996700176890 /* Spirit Visage.png */; };
+		5D121E0019FD996700176890 /* The Bloodthirster.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D121DFB19FD996700176890 /* The Bloodthirster.png */; };
 		5D15CEC219FB0AC500A65F41 /* ChampionList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D15CEC119FB0AC500A65F41 /* ChampionList.m */; };
 		5D37962219B0261C00C8A318 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D37962119B0261C00C8A318 /* Foundation.framework */; };
 		5D37962419B0261C00C8A318 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D37962319B0261C00C8A318 /* CoreGraphics.framework */; };
@@ -189,6 +202,21 @@
 /* Begin PBXFileReference section */
 		1F1627D178A2F5129BB048B2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		57589C232A8EA11640D3C633 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		5D121DE119FC719A00176890 /* SelectGuideCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectGuideCollectionViewController.h; sourceTree = "<group>"; };
+		5D121DE219FC719A00176890 /* SelectGuideCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectGuideCollectionViewController.m; sourceTree = "<group>"; };
+		5D121DE519FD776600176890 /* GuideCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideCollectionViewController.h; sourceTree = "<group>"; };
+		5D121DE619FD776600176890 /* GuideCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideCollectionViewController.m; sourceTree = "<group>"; };
+		5D121DE819FD80C600176890 /* StartingItemsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartingItemsCell.h; sourceTree = "<group>"; };
+		5D121DE919FD80C600176890 /* StartingItemsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartingItemsCell.m; sourceTree = "<group>"; };
+		5D121DEF19FD973800176890 /* Doran's Blade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Doran's Blade.png"; sourceTree = "<group>"; };
+		5D121DF019FD973800176890 /* Health Potion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Health Potion.png"; sourceTree = "<group>"; };
+		5D121DF119FD973800176890 /* Warding Totem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Warding Totem.png"; sourceTree = "<group>"; };
+		5D121DF519FD994D00176890 /* Blade of the Ruined King.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blade of the Ruined King.png"; sourceTree = "<group>"; };
+		5D121DF719FD996700176890 /* Last Whisper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Last Whisper.png"; sourceTree = "<group>"; };
+		5D121DF819FD996700176890 /* Mercury's Treads.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mercury's Treads.png"; sourceTree = "<group>"; };
+		5D121DF919FD996700176890 /* Randuin's Omen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Randuin's Omen.png"; sourceTree = "<group>"; };
+		5D121DFA19FD996700176890 /* Spirit Visage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Spirit Visage.png"; sourceTree = "<group>"; };
+		5D121DFB19FD996700176890 /* The Bloodthirster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Bloodthirster.png"; sourceTree = "<group>"; };
 		5D15CEC119FB0AC500A65F41 /* ChampionList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChampionList.m; sourceTree = "<group>"; };
 		5D15CEC319FB0AD300A65F41 /* ChampionList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChampionList.h; sourceTree = "<group>"; };
 		5D37961E19B0261C00C8A318 /* counterPickLoL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = counterPickLoL.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -403,6 +431,22 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		5D121DEE19FD8A5000176890 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				5D121DF519FD994D00176890 /* Blade of the Ruined King.png */,
+				5D121DEF19FD973800176890 /* Doran's Blade.png */,
+				5D121DF019FD973800176890 /* Health Potion.png */,
+				5D121DF719FD996700176890 /* Last Whisper.png */,
+				5D121DF819FD996700176890 /* Mercury's Treads.png */,
+				5D121DF919FD996700176890 /* Randuin's Omen.png */,
+				5D121DFA19FD996700176890 /* Spirit Visage.png */,
+				5D121DFB19FD996700176890 /* The Bloodthirster.png */,
+				5D121DF119FD973800176890 /* Warding Totem.png */,
+			);
+			name = Items;
+			sourceTree = "<group>";
+		};
 		5D37961519B0261C00C8A318 = {
 			isa = PBXGroup;
 			children = (
@@ -442,18 +486,22 @@
 				5D37963319B0261D00C8A318 /* Main.storyboard */,
 				5D37963019B0261D00C8A318 /* firstClassAppDelegate.h */,
 				5D37963119B0261D00C8A318 /* firstClassAppDelegate.m */,
+				5D37966019B057EC00C8A318 /* NavigationController.h */,
+				5D37966119B057EC00C8A318 /* NavigationController.m */,
+				5D37963619B0261D00C8A318 /* firstClassViewController.h */,
+				5D37963719B0261D00C8A318 /* firstClassViewController.m */,
 				5D7C8DC219B2824F00938107 /* TierListCollectionViewController.h */,
 				5D7C8DC319B2824F00938107 /* TierListCollectionViewController.m */,
 				5D7C8DCD19B3B62800938107 /* SelectCounterPickChampion.h */,
 				5D7C8DCE19B3B62800938107 /* SelectCounterPickChampion.m */,
+				5D121DE119FC719A00176890 /* SelectGuideCollectionViewController.h */,
+				5D121DE219FC719A00176890 /* SelectGuideCollectionViewController.m */,
 				5D7C8DD519B5704600938107 /* CountersCollectionViewController.h */,
 				5D7C8DD619B5704600938107 /* CountersCollectionViewController.m */,
+				5D121DE519FD776600176890 /* GuideCollectionViewController.h */,
+				5D121DE619FD776600176890 /* GuideCollectionViewController.m */,
 				5D37965D19B04A3B00C8A318 /* TierListsTableViewController.h */,
 				5D37965E19B04A3B00C8A318 /* TierListsTableViewController.m */,
-				5D37963619B0261D00C8A318 /* firstClassViewController.h */,
-				5D37963719B0261D00C8A318 /* firstClassViewController.m */,
-				5D37966019B057EC00C8A318 /* NavigationController.h */,
-				5D37966119B057EC00C8A318 /* NavigationController.m */,
 				5D37963919B0261D00C8A318 /* Images.xcassets */,
 				5D37962819B0261C00C8A318 /* Supporting Files */,
 				5D7C8DBC19B157C100938107 /* CustomCell.h */,
@@ -466,6 +514,8 @@
 				5D7C8DDA19B575C500938107 /* CounterHeaderCell.m */,
 				5D7C8DDD19B65BD000938107 /* CounterChampionsCell.h */,
 				5D7C8DDE19B65BD000938107 /* CounterChampionsCell.m */,
+				5D121DE819FD80C600176890 /* StartingItemsCell.h */,
+				5D121DE919FD80C600176890 /* StartingItemsCell.m */,
 				5D8E66CD19BC1E390001E204 /* TabBarViewController.h */,
 				5D8E66CE19BC1E390001E204 /* TabBarViewController.m */,
 				5D15CEC319FB0AD300A65F41 /* ChampionList.h */,
@@ -510,6 +560,7 @@
 				5D37965919B0468100C8A318 /* Azir.jpg */,
 				5D7C8BD619B1016600938107 /* championPortraits */,
 				5D37966319B0591000C8A318 /* navigationBackground.jpeg */,
+				5D121DEE19FD8A5000176890 /* Items */,
 				5D97984A19BE2AE300635F57 /* Appicon29.png */,
 				5D97984B19BE2AE300635F57 /* Appicon40.png */,
 				5D97984C19BE2AE300635F57 /* Appicon50.png */,
@@ -747,6 +798,7 @@
 				5D7C8CEC19B10ABD00938107 /* Diana.png in Resources */,
 				5D7C8D1619B10BB400938107 /* Jayce.png in Resources */,
 				5D7C8D5A19B10E1500938107 /* Poppy.png in Resources */,
+				5D121DFE19FD996700176890 /* Randuin's Omen.png in Resources */,
 				5D37963A19B0261D00C8A318 /* Images.xcassets in Resources */,
 				5D7C8CE819B10AAF00938107 /* Corki.png in Resources */,
 				5D7C8D9219B10FA200938107 /* Udyr.png in Resources */,
@@ -765,12 +817,14 @@
 				5D7C8CD219B10A3300938107 /* Alistar.png in Resources */,
 				5D7C8D1C19B10BC700938107 /* Karthus.png in Resources */,
 				5D7C8CFC19B10B1800938107 /* Fizz.png in Resources */,
+				5D121DFC19FD996700176890 /* Last Whisper.png in Resources */,
 				5D7C8D9419B10FA800938107 /* Urgot.png in Resources */,
 				5D37965C19B0477500C8A318 /* rootBackground.jpeg in Resources */,
 				5D7C8CF419B10ADC00938107 /* Evelynn.png in Resources */,
 				5D7C8CF819B10AF200938107 /* Fiddlesticks.png in Resources */,
 				5D7C8D8819B10F4D00938107 /* Thresh.png in Resources */,
 				5D7C8D9019B10F9A00938107 /* Twitch.png in Resources */,
+				5D121DF619FD994D00176890 /* Blade of the Ruined King.png in Resources */,
 				5D7C8CFA19B10B0E00938107 /* Fiora.png in Resources */,
 				5D7C8CD019B10A0B00938107 /* Aatrox.png in Resources */,
 				5DA5237019D0C352005E86B9 /* Azir.png in Resources */,
@@ -791,9 +845,11 @@
 				5D7C8D0419B10B5100938107 /* Gnar.png in Resources */,
 				5D7C8D1819B10BB900938107 /* Jinx.png in Resources */,
 				5D7C8D8E19B10F8200938107 /* Tryndamere.png in Resources */,
+				5D121DF419FD973800176890 /* Warding Totem.png in Resources */,
 				5D7C8D7619B10EC900938107 /* Sivir.png in Resources */,
 				5D7C8D5C19B10E2D00938107 /* Quinn.png in Resources */,
 				5D7C8D9E19B10FC500938107 /* Vi.png in Resources */,
+				5D121DFF19FD996700176890 /* Spirit Visage.png in Resources */,
 				5D97985119BE2AE300635F57 /* Appicon29.png in Resources */,
 				5D7C8D5819B10E0800938107 /* Pantheon.png in Resources */,
 				5D7C8DB419B1100B00938107 /* Ziggs.png in Resources */,
@@ -828,6 +884,8 @@
 				5D7C8D7219B10EBC00938107 /* Singed.png in Resources */,
 				5D7C8D2419B10C2400938107 /* Kennen.png in Resources */,
 				5D7C8D0819B10B8300938107 /* Graves.png in Resources */,
+				5D121DFD19FD996700176890 /* Mercury's Treads.png in Resources */,
+				5D121E0019FD996700176890 /* The Bloodthirster.png in Resources */,
 				5D7C8DAE19B10FF500938107 /* Yorick.png in Resources */,
 				5D97985219BE2AE300635F57 /* Appicon40.png in Resources */,
 				5D97985719BE2AE300635F57 /* Appicon76.png in Resources */,
@@ -848,6 +906,7 @@
 				5D7C8CE019B10A8400938107 /* Braum.png in Resources */,
 				5D7C8D7E19B10EE100938107 /* Swain.png in Resources */,
 				5D7C8D4419B10D4900938107 /* Mordekaiser.png in Resources */,
+				5D121DF319FD973800176890 /* Health Potion.png in Resources */,
 				5D7C8D3E19B10D3400938107 /* MasterYi.png in Resources */,
 				5D7C8CDC19B10A6300938107 /* Blitzcrank.png in Resources */,
 				5D7C8D4619B10D5000938107 /* Morgana.png in Resources */,
@@ -862,6 +921,7 @@
 				5D7C8D0E19B10B9900938107 /* Irelia.png in Resources */,
 				5D7C8D7819B10ECE00938107 /* Skarner.png in Resources */,
 				5D7C8D3C19B10CCD00938107 /* Maokai.png in Resources */,
+				5D121DF219FD973800176890 /* Doran's Blade.png in Resources */,
 				5D7C8DA019B10FCC00938107 /* Viktor.png in Resources */,
 				5D37966419B0591000C8A318 /* navigationBackground.jpeg in Resources */,
 				5D7C8D4A19B10D5B00938107 /* Nasus.png in Resources */,
@@ -927,8 +987,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D121DEA19FD80C600176890 /* StartingItemsCell.m in Sources */,
 				5D7C8DC819B28C0000938107 /* TierHeaderCell.m in Sources */,
 				5D7C8DC419B2824F00938107 /* TierListCollectionViewController.m in Sources */,
+				5D121DE719FD776600176890 /* GuideCollectionViewController.m in Sources */,
 				5D8E66CF19BC1E390001E204 /* TabBarViewController.m in Sources */,
 				5D7C8DDF19B65BD000938107 /* CounterChampionsCell.m in Sources */,
 				5D7C8DD319B4FED200938107 /* CounterSelectCell.m in Sources */,
@@ -936,6 +998,7 @@
 				5D7C8DDB19B575C500938107 /* CounterHeaderCell.m in Sources */,
 				5D37966219B057EC00C8A318 /* NavigationController.m in Sources */,
 				5D37963819B0261D00C8A318 /* firstClassViewController.m in Sources */,
+				5D121DE319FC719A00176890 /* SelectGuideCollectionViewController.m in Sources */,
 				5D37963219B0261D00C8A318 /* firstClassAppDelegate.m in Sources */,
 				5D7C8DD719B5704600938107 /* CountersCollectionViewController.m in Sources */,
 				5D37962E19B0261D00C8A318 /* main.m in Sources */,
@@ -954,6 +1017,7 @@
 				5D7C8DD419B4FED200938107 /* CounterSelectCell.m in Sources */,
 				5D7C8DE019B65BD000938107 /* CounterChampionsCell.m in Sources */,
 				5D7C8DDC19B575C500938107 /* CounterHeaderCell.m in Sources */,
+				5D121DE419FC719A00176890 /* SelectGuideCollectionViewController.m in Sources */,
 				5D7C8DD819B5704600938107 /* CountersCollectionViewController.m in Sources */,
 				5D7C8DC919B28C0000938107 /* TierHeaderCell.m in Sources */,
 				5D37964D19B0261D00C8A318 /* counterPickLoLTests.m in Sources */,

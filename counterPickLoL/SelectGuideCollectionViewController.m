@@ -1,56 +1,57 @@
 //
-//  SelectCounterPickChampion.m
+//  SelectGuideCollectionViewController.m
 //  counterPickLoL
 //
-//  Created by christian ambriz on 8/31/14.
+//  Created by christian ambriz on 10/25/14.
 //  Copyright (c) 2014 christian ambriz. All rights reserved.
 //
 
-#import "SelectCounterPickChampion.h"
+#import "SelectGuideCollectionViewController.h"
 #import "CustomCell.h"
 #import "CounterSelectCell.h"
 #import "CountersCollectionViewController.h"
+#import "GuideCollectionViewController.h"
 
-@interface SelectCounterPickChampion () <SearchBarReturnDelegate>
+@interface SelectGuideCollectionViewController () <SearchBarReturnDelegate>
 
 @property (strong, nonatomic) IBOutlet UICollectionView *collectionView;
 
 @end
 
-@implementation SelectCounterPickChampion
+@implementation SelectGuideCollectionViewController
 
 - (id)initWithCollectionViewLayout:(UICollectionViewLayout *)layout{
     if (self) {
-        // additional setup here if required.
+        
     }
     return self;
 }
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-    [self.storyboard instantiateViewControllerWithIdentifier:@"SelectCounterPickChampion"];
+    
+    [self.storyboard instantiateViewControllerWithIdentifier:@"SelectGuideCollectionView"];
     self.champions = [[ChampionList alloc] initWithJSON];
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(initializeChampionList)
                                                  name:@"initWithJSONFinishedLoading"
                                                object:nil];
-    self.title = @"Counter Pick";
+    self.title = @"Champion Guides";
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
--(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
-{
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
+
     return 1;
 }
 
--(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
-{
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+
     return self.championList.count;
 }
 
@@ -74,22 +75,19 @@
     return cell;
 }
 
-- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+-(void) collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    CountersCollectionViewController *counterView = [self.storyboard instantiateViewControllerWithIdentifier:@"CountersCollectionViewController"];
+    GuideCollectionViewController *counterView = [self.storyboard instantiateViewControllerWithIdentifier:@"GuideCollectionViewController"];
     counterView.headerChampionImageName = self.championList[indexPath.item];
     counterView.headerChampionLabelText = self.championList[indexPath.item];
-         
     [self.navigationController pushViewController:counterView animated:YES];
 }
 
-#pragma mark - SearchBarReturnDelegate
--(void) didPressSearch:(NSString *)championName championImage:(NSString *)championImage
-{
+#pragma mark SearchBarReturnDelegate
+-(void) didPressSearch:(NSString *)championName championImage:(NSString *)championImage{
     CountersCollectionViewController *counterView = [self.storyboard instantiateViewControllerWithIdentifier:@"CountersCollectionViewController"];
     counterView.headerChampionImageName = championName;
     counterView.headerChampionLabelText = championImage;
-    
     [self.navigationController pushViewController:counterView animated:YES];
 }
 

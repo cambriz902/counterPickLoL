@@ -16,7 +16,9 @@ typedef NS_ENUM(NSUInteger, Row) {
     WeakAgainst,
     StrongAgainst
 };
+
 @interface CountersCollectionViewController ()
+
 @property (strong, nonatomic) IBOutlet UICollectionView *collectionView;
 
 @end

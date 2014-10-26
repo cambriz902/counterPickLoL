@@ -11,6 +11,7 @@
 @interface firstClassViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *tierListButton;
 @property (weak, nonatomic) IBOutlet UIButton *counterPicksButton;
+@property (weak, nonatomic) IBOutlet UIButton *guidesButton;
 @property (weak, nonatomic) IBOutlet UIImageView *leagueOfLegendsLogo;
 
 @end
@@ -20,11 +21,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	//self.view.backgroundColor = [UIColor blackColor];
     self.leagueOfLegendsLogo.backgroundColor = [UIColor clearColor];
     
-    [self.tierListButton setTitleColor:[UIColor colorWithRed:255/255.0 green:223/255.0 blue:99.0/255.0 alpha:1.0] forState:UIControlStateNormal];
-    [self.counterPicksButton setTitleColor:[UIColor colorWithRed:255/255.0 green:223/255.0 blue:99.0/255.0 alpha:1.0] forState:UIControlStateNormal];
+    [self.tierListButton setTitleColor:[UIColor colorWithRed:255/255.0 green:223/255.0 blue:99.0/255.0 alpha:1.0]
+                              forState:UIControlStateNormal];
+    [self.counterPicksButton setTitleColor:[UIColor colorWithRed:255/255.0 green:223/255.0 blue:99.0/255.0 alpha:1.0]
+                                  forState:UIControlStateNormal];
+    [self.guidesButton setTitleColor:[UIColor colorWithRed:255/255.0 green:223/255.0 blue:99.0/255.0 alpha:1.0]
+                            forState:UIControlStateNormal];
     self.title = @"Champion Select";
 }
 

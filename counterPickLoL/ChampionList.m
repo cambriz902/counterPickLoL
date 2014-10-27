@@ -48,6 +48,10 @@
     self.championDict = [[NSMutableDictionary alloc] initWithDictionary:championList];
     [self.championDict setObject: [self.championDict objectForKey: @"MonkeyKing"] forKey: @"Wukong"];
     [self.championDict removeObjectForKey: @"MonkeyKing"];
+    [self.championDict setObject: [self.championDict objectForKey: @"Velkoz"] forKey: @"VelKoz"];
+    [self.championDict removeObjectForKey: @"Velkoz"];
+    [self.championDict setObject: [self.championDict objectForKey: @"FiddleSticks"] forKey: @"Fiddlesticks"];
+    [self.championDict removeObjectForKey: @"FiddleSticks"];
     self.championNames = [[NSMutableArray alloc] initWithArray:[self.championDict allKeys]];
     self.championNames = [self.championNames sortedArrayUsingSelector:@selector(caseInsensitiveCompare:)];
 }

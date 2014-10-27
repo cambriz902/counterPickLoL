@@ -9,14 +9,15 @@
 #import "GuideCollectionViewController.h"
 #import "CounterHeaderCell.h"
 #import "StartingItemsCell.h"
-#import "CounterSelectCell.h"
 
 
 typedef NS_ENUM(NSUInteger, Row) {
-    //SummonerSpells,
+    SummonerSpells,
+    RunePage,
     StartingItems,
     CoreItems,
 };
+
 @interface GuideCollectionViewController ()
 
 @property (strong, nonatomic) IBOutlet UICollectionView *selectGuideController;
@@ -36,8 +37,12 @@ static NSString * const reuseIdentifier = @"Cell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
     [self initializeStartingItems];
     [self initializeCoreItems];
+    [self initializeSummonerSpells];
+    [self initializeChampionRunePage];
+    
     self.championGuide = [NSMutableString stringWithString:self.headerChampionLabelText];
     [self.championGuide appendString:@" Guide"];
     self.title = self.championGuide;
@@ -54,7 +59,7 @@ static NSString * const reuseIdentifier = @"Cell";
 
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return 2;
+    return 4;
 }
 
 -(UICollectionViewCell *) collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
@@ -62,9 +67,35 @@ static NSString * const reuseIdentifier = @"Cell";
     [startingItemCell setBackgroundColor:[UIColor grayColor]];
     NSArray *championStartingItems = self.startingItems[self.headerChampionLabelText];
     NSArray *championCoreItems = self.coreItems[self.headerChampionImageName];
+    NSArray *championSummonerSpells = self.summonerSpells[self.headerChampionImageName];
+    NSArray *championRunePage = self.championRunePage[self.headerChampionImageName];
     startingItemCell = [collectionView dequeueReusableCellWithReuseIdentifier:@"StartingItemsCell" forIndexPath:indexPath];
     
     switch (indexPath.row) {
+        case RunePage:
+            startingItemCell.startingItemsLabel.text = @"Champion Runes";
+            
+            startingItemCell.startItemLabelOne.text = championRunePage[0];
+            startingItemCell.startItemLabelTwo.text = championRunePage[1];
+            startingItemCell.startItemLabelThree.text = championRunePage[2];
+            startingItemCell.startItemLabelFour.text = championRunePage[3];
+            
+            startingItemCell.startItemImageOne.image = [UIImage imageNamed:championRunePage[0]];
+            startingItemCell.startItemImageTwo.image = [UIImage imageNamed:championRunePage[1]];
+            startingItemCell.startItemImageThree.image = [UIImage imageNamed:championRunePage[2]];
+            startingItemCell.startItemImageFour.image = [UIImage imageNamed:championRunePage[3]];
+            break;
+        case SummonerSpells:
+            startingItemCell.startingItemsLabel.text = @"Summoner Spells";
+            
+            startingItemCell.startItemLabelOne.text = championSummonerSpells[0];
+            startingItemCell.startItemLabelTwo.text = championSummonerSpells[1];
+            startingItemCell.startItemLabelThree.text = championSummonerSpells[2];
+            
+            startingItemCell.startItemImageOne.image = [UIImage imageNamed:championSummonerSpells[0]];
+            startingItemCell.startItemImageTwo.image = [UIImage imageNamed:championSummonerSpells[1]];
+            startingItemCell.startItemImageThree.image = [UIImage imageNamed:championSummonerSpells[2]];
+            break;
         case StartingItems:
             startingItemCell.startingItemsLabel.text = @"Starting Items";
             startingItemCell.startItemLabelOne.text = championStartingItems[0];
@@ -98,7 +129,8 @@ static NSString * const reuseIdentifier = @"Cell";
 -(UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath
 {
     UICollectionReusableView *cell;
-    if (kind == UICollectionElementKindSectionHeader) {
+    if (kind == UICollectionElementKindSectionHeader)
+    {
         CounterHeaderCell * reusableView = [collectionView dequeueReusableSupplementaryViewOfKind:kind withReuseIdentifier:@"counterHeader" forIndexPath:indexPath];
         reusableView.counterChampionImage.image = [UIImage imageNamed:self.headerChampionImageName];
         reusableView.counterChampionLabel.text = self.championGuide;
@@ -107,16 +139,32 @@ static NSString * const reuseIdentifier = @"Cell";
     return cell;
 }
 
--(void) initializeStartingItems{
+-(void) initializeStartingItems
+{
     self.startingItems = @{
                            @"Aatrox": @[@"Health Potion",@"Doran's Blade",@"Warding Totem"],
                            };
 }
 
 
--(void) initializeCoreItems{
+-(void) initializeCoreItems
+{
     self.coreItems = @{
                        @"Aatrox": @[@"Mercury's Treads", @"Spirit Visage",@"Blade of the Ruined King",@"Randuin's Omen",@"The Bloodthirster",@"Last Whisper"]
                        };
+}
+
+-(void) initializeSummonerSpells
+{
+    self.summonerSpells = @{
+                            @"Aatrox": @[@"Flash",@"Ignite",@"Teleport"]
+                            };
+}
+
+-(void) initializeChampionRunePage
+{
+    self.championRunePage = @{
+                              @"Aatrox": @[@"Mark of Attack Damage", @"Seal of Armor",@"Glyph of Scaling Magic Resist", @"Quintessence of Attack Damage"]
+                              };
 }
 @end

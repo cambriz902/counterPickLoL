@@ -369,7 +369,6 @@
                               @{@"imageName": @"Leona.png",@"championName":@"Leona"},
                               @{@"imageName": @"Blitzcrank.png",@"championName":@"Blitzcrank"},
                               @{@"imageName": @"Lulu.png",@"championName":@"Lulu"},
-                              @{@"imageName": @"Morgana.png",@"championName":@"Morgana"},
                               @{@"imageName": @"Alistar.png",@"championName":@"Alistar"},
                               ];
     self.supportTierList3 = @[

@@ -21,6 +21,13 @@
 		5D121DFE19FD996700176890 /* Randuin's Omen.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D121DF919FD996700176890 /* Randuin's Omen.png */; };
 		5D121DFF19FD996700176890 /* Spirit Visage.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D121DFA19FD996700176890 /* Spirit Visage.png */; };
 		5D121E0019FD996700176890 /* The Bloodthirster.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D121DFB19FD996700176890 /* The Bloodthirster.png */; };
+		5D121E0419FDAE8F00176890 /* Flash.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D121E0219FDAE8F00176890 /* Flash.png */; };
+		5D121E0519FDAE8F00176890 /* Ignite.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D121E0319FDAE8F00176890 /* Ignite.png */; };
+		5D121E0B19FDB58C00176890 /* Glyph of Scaling Magic Resist.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D121E0719FDB58C00176890 /* Glyph of Scaling Magic Resist.png */; };
+		5D121E0C19FDB58C00176890 /* Mark of Attack Damage.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D121E0819FDB58C00176890 /* Mark of Attack Damage.png */; };
+		5D121E0D19FDB58C00176890 /* Quintessence of Attack Damage.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D121E0919FDB58C00176890 /* Quintessence of Attack Damage.png */; };
+		5D121E0E19FDB58C00176890 /* Seal of Armor.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D121E0A19FDB58C00176890 /* Seal of Armor.png */; };
+		5D121E1019FDD5A800176890 /* Teleport.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D121E0F19FDD5A800176890 /* Teleport.png */; };
 		5D15CEC219FB0AC500A65F41 /* ChampionList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D15CEC119FB0AC500A65F41 /* ChampionList.m */; };
 		5D37962219B0261C00C8A318 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D37962119B0261C00C8A318 /* Foundation.framework */; };
 		5D37962419B0261C00C8A318 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D37962319B0261C00C8A318 /* CoreGraphics.framework */; };
@@ -217,6 +224,13 @@
 		5D121DF919FD996700176890 /* Randuin's Omen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Randuin's Omen.png"; sourceTree = "<group>"; };
 		5D121DFA19FD996700176890 /* Spirit Visage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Spirit Visage.png"; sourceTree = "<group>"; };
 		5D121DFB19FD996700176890 /* The Bloodthirster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Bloodthirster.png"; sourceTree = "<group>"; };
+		5D121E0219FDAE8F00176890 /* Flash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flash.png; sourceTree = "<group>"; };
+		5D121E0319FDAE8F00176890 /* Ignite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ignite.png; sourceTree = "<group>"; };
+		5D121E0719FDB58C00176890 /* Glyph of Scaling Magic Resist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Glyph of Scaling Magic Resist.png"; sourceTree = "<group>"; };
+		5D121E0819FDB58C00176890 /* Mark of Attack Damage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mark of Attack Damage.png"; sourceTree = "<group>"; };
+		5D121E0919FDB58C00176890 /* Quintessence of Attack Damage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Quintessence of Attack Damage.png"; sourceTree = "<group>"; };
+		5D121E0A19FDB58C00176890 /* Seal of Armor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Seal of Armor.png"; sourceTree = "<group>"; };
+		5D121E0F19FDD5A800176890 /* Teleport.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Teleport.png; sourceTree = "<group>"; };
 		5D15CEC119FB0AC500A65F41 /* ChampionList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChampionList.m; sourceTree = "<group>"; };
 		5D15CEC319FB0AD300A65F41 /* ChampionList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChampionList.h; sourceTree = "<group>"; };
 		5D37961E19B0261C00C8A318 /* counterPickLoL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = counterPickLoL.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -447,6 +461,27 @@
 			name = Items;
 			sourceTree = "<group>";
 		};
+		5D121E0119FDAE7200176890 /* SummonerIcons */ = {
+			isa = PBXGroup;
+			children = (
+				5D121E0F19FDD5A800176890 /* Teleport.png */,
+				5D121E0219FDAE8F00176890 /* Flash.png */,
+				5D121E0319FDAE8F00176890 /* Ignite.png */,
+			);
+			name = SummonerIcons;
+			sourceTree = "<group>";
+		};
+		5D121E0619FDB57200176890 /* Runes */ = {
+			isa = PBXGroup;
+			children = (
+				5D121E0719FDB58C00176890 /* Glyph of Scaling Magic Resist.png */,
+				5D121E0819FDB58C00176890 /* Mark of Attack Damage.png */,
+				5D121E0919FDB58C00176890 /* Quintessence of Attack Damage.png */,
+				5D121E0A19FDB58C00176890 /* Seal of Armor.png */,
+			);
+			name = Runes;
+			sourceTree = "<group>";
+		};
 		5D37961519B0261C00C8A318 = {
 			isa = PBXGroup;
 			children = (
@@ -564,7 +599,9 @@
 				5D97984A19BE2AE300635F57 /* Appicon29.png */,
 				5D97984B19BE2AE300635F57 /* Appicon40.png */,
 				5D97984C19BE2AE300635F57 /* Appicon50.png */,
+				5D121E0119FDAE7200176890 /* SummonerIcons */,
 				5D97984D19BE2AE300635F57 /* Appicon57.png */,
+				5D121E0619FDB57200176890 /* Runes */,
 				5D97984E19BE2AE300635F57 /* Appicon60.png */,
 				5D97984F19BE2AE300635F57 /* Appicon72.png */,
 				5D97985019BE2AE300635F57 /* Appicon76.png */,
@@ -807,6 +844,7 @@
 				5D7C8D8019B10EE500938107 /* Syndra.png in Resources */,
 				5D7C8DAC19B10FF000938107 /* Yasuo.png in Resources */,
 				5D7C8CD419B10A3D00938107 /* Amumu.png in Resources */,
+				5D121E0B19FDB58C00176890 /* Glyph of Scaling Magic Resist.png in Resources */,
 				5D7C8D2619B10C4900938107 /* Khazix.png in Resources */,
 				5D7C8DA419B10FD900938107 /* Volibear.png in Resources */,
 				5D7C8D4E19B10D6900938107 /* Nidalee.png in Resources */,
@@ -873,8 +911,10 @@
 				5D7C8D6419B10E5300938107 /* Riven.png in Resources */,
 				5D7C8CD619B10A4500938107 /* Anivia.png in Resources */,
 				5D7C8D8419B10EF400938107 /* Taric.png in Resources */,
+				5D121E0C19FDB58C00176890 /* Mark of Attack Damage.png in Resources */,
 				5D7C8D2019B10C1100938107 /* Katarina.png in Resources */,
 				5D7C8D1219B10BA600938107 /* JarvanIV.png in Resources */,
+				5D121E1019FDD5A800176890 /* Teleport.png in Resources */,
 				5D37962C19B0261D00C8A318 /* InfoPlist.strings in Resources */,
 				5D7C8D8C19B10F7A00938107 /* Trundle.png in Resources */,
 				5D7C8D5E19B10E3700938107 /* Rammus.png in Resources */,
@@ -906,10 +946,13 @@
 				5D7C8CE019B10A8400938107 /* Braum.png in Resources */,
 				5D7C8D7E19B10EE100938107 /* Swain.png in Resources */,
 				5D7C8D4419B10D4900938107 /* Mordekaiser.png in Resources */,
+				5D121E0419FDAE8F00176890 /* Flash.png in Resources */,
 				5D121DF319FD973800176890 /* Health Potion.png in Resources */,
+				5D121E0519FDAE8F00176890 /* Ignite.png in Resources */,
 				5D7C8D3E19B10D3400938107 /* MasterYi.png in Resources */,
 				5D7C8CDC19B10A6300938107 /* Blitzcrank.png in Resources */,
 				5D7C8D4619B10D5000938107 /* Morgana.png in Resources */,
+				5D121E0E19FDB58C00176890 /* Seal of Armor.png in Resources */,
 				5D7C8D3219B10CA000938107 /* Lucian.png in Resources */,
 				5D7C8CEE19B10AC200938107 /* Draven.png in Resources */,
 				5D7C8D4819B10D5600938107 /* Nami.png in Resources */,
@@ -935,6 +978,7 @@
 				5D7C8D2219B10C1700938107 /* Kayle.png in Resources */,
 				5D7C8D8619B10EFB00938107 /* Teemo.png in Resources */,
 				5D7C8CFE19B10B1E00938107 /* Galio.png in Resources */,
+				5D121E0D19FDB58C00176890 /* Quintessence of Attack Damage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

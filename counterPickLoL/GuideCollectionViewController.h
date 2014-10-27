@@ -14,9 +14,13 @@
 @property (strong, nonatomic) NSString *headerChampionLabelText;
 @property (strong, nonatomic) NSDictionary *startingItems;
 @property (strong, nonatomic) NSDictionary *coreItems;
+@property (strong, nonatomic) NSDictionary *summonerSpells;
+@property (strong, nonatomic) NSDictionary *championRunePage;
 @property (strong, nonatomic) NSMutableString *championGuide;
 
 -(void) initializeStartingItems;
 -(void) initializeCoreItems;
+-(void) initializeSummonerSpells;
+-(void) initializeChampionRunePage;
 
 @end

@@ -13,9 +13,9 @@
 
 @interface ChampionList : NSObject
 
-@property (strong, nonatomic) NSArray *championNames;
+@property (strong, nonatomic) NSMutableArray *championNames;
 
-- (void)initializeChampionNames:(NSMutableDictionary *) championList;
+- (void)initializeChampionNames:(NSMutableArray *) championList;
 
 - (id) initWithJSON;
 

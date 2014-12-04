@@ -51,14 +51,14 @@
 
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return self.championList.count;
+    return self.championNames.count;
 }
 
 -(UICollectionViewCell *) collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     CustomCell *customCell = [collectionView dequeueReusableCellWithReuseIdentifier:@"myCell" forIndexPath:indexPath];
-    customCell.championNameLabel.text = [NSString stringWithString:self.championList[indexPath.item]];
-    customCell.championPictureImageView.image = [UIImage imageNamed:self.championList[indexPath.item]];
+    customCell.championNameLabel.text = [NSString stringWithString:self.championNames[indexPath.item]];
+    customCell.championPictureImageView.image = [UIImage imageNamed:self.champions.championNamesPortraits[self.championNames[indexPath.item]]];
     return customCell;
 }
 
@@ -77,8 +77,9 @@
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
     CountersCollectionViewController *counterView = [self.storyboard instantiateViewControllerWithIdentifier:@"CountersCollectionViewController"];
-    counterView.headerChampionImageName = self.championList[indexPath.item];
-    counterView.headerChampionLabelText = self.championList[indexPath.item];
+    
+    counterView.headerChampionLabelText = self.championNames[indexPath.item];
+    counterView.headerChampionImageName = self.champions.championNamesPortraits[self.championNames[indexPath.item]];
          
     [self.navigationController pushViewController:counterView animated:YES];
 }
@@ -95,8 +96,8 @@
 
 -(void) initializeChampionList
 {
-    self.championList = [[NSArray alloc] init];
-    self.championList = self.champions.championNames;
+    self.championNames = [[NSArray alloc] init];
+    self.championNames = self.champions.championNames;
     [self.collectionView reloadData];
 }
 

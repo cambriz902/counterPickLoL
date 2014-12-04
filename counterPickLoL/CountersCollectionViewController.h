@@ -7,16 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ChampionsCounters.h"
+#import "ChampionCounters.h"
 
 @interface CountersCollectionViewController : UICollectionViewController
 
 @property (strong, nonatomic) NSString *headerChampionImageName;
 @property (strong, nonatomic) NSString *headerChampionLabelText;
-@property (strong, nonatomic) NSDictionary *championStrongAgainst;
-@property (strong, nonatomic) NSDictionary *championWeakAgainst;
 @property (strong, nonatomic) NSMutableString *championToCounter;
+@property (strong, nonatomic) ChampionsCounters *championsCounters;
+@property (strong, nonatomic) ChampionCounters *championCounters;
 
--(void) initializeChampionStrongAgainst;
--(void) initializeChampionWeakAgainst;
+-(void) initializeChampionStrongWeakCounters;
 
 @end

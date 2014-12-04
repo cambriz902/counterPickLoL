@@ -29,6 +29,8 @@
 		5D121E0E19FDB58C00176890 /* Seal of Armor.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D121E0A19FDB58C00176890 /* Seal of Armor.png */; };
 		5D121E1019FDD5A800176890 /* Teleport.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D121E0F19FDD5A800176890 /* Teleport.png */; };
 		5D15CEC219FB0AC500A65F41 /* ChampionList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D15CEC119FB0AC500A65F41 /* ChampionList.m */; };
+		5D2A93EE1A2E468100DD96F5 /* ChampionCounters.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A93ED1A2E468100DD96F5 /* ChampionCounters.m */; };
+		5D2A93F41A2E927200DD96F5 /* ChampionsCounters.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A93F31A2E927200DD96F5 /* ChampionsCounters.m */; };
 		5D37962219B0261C00C8A318 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D37962119B0261C00C8A318 /* Foundation.framework */; };
 		5D37962419B0261C00C8A318 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D37962319B0261C00C8A318 /* CoreGraphics.framework */; };
 		5D37962619B0261C00C8A318 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D37962519B0261C00C8A318 /* UIKit.framework */; };
@@ -233,6 +235,10 @@
 		5D121E0F19FDD5A800176890 /* Teleport.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Teleport.png; sourceTree = "<group>"; };
 		5D15CEC119FB0AC500A65F41 /* ChampionList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChampionList.m; sourceTree = "<group>"; };
 		5D15CEC319FB0AD300A65F41 /* ChampionList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChampionList.h; sourceTree = "<group>"; };
+		5D2A93ED1A2E468100DD96F5 /* ChampionCounters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChampionCounters.m; path = championPortraits/ChampionCounters.m; sourceTree = "<group>"; };
+		5D2A93EF1A2E46C900DD96F5 /* ChampionCounters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChampionCounters.h; sourceTree = "<group>"; };
+		5D2A93F21A2E927200DD96F5 /* ChampionsCounters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChampionsCounters.h; sourceTree = "<group>"; };
+		5D2A93F31A2E927200DD96F5 /* ChampionsCounters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChampionsCounters.m; sourceTree = "<group>"; };
 		5D37961E19B0261C00C8A318 /* counterPickLoL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = counterPickLoL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D37962119B0261C00C8A318 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5D37962319B0261C00C8A318 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -482,6 +488,63 @@
 			name = Runes;
 			sourceTree = "<group>";
 		};
+		5D2A93EB1A2E391C00DD96F5 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				5D2A93EF1A2E46C900DD96F5 /* ChampionCounters.h */,
+				5D2A93ED1A2E468100DD96F5 /* ChampionCounters.m */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		5D2A93EC1A2E397700DD96F5 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				5D37966019B057EC00C8A318 /* NavigationController.h */,
+				5D37966119B057EC00C8A318 /* NavigationController.m */,
+				5D37963619B0261D00C8A318 /* firstClassViewController.h */,
+				5D37963719B0261D00C8A318 /* firstClassViewController.m */,
+				5D7C8DBC19B157C100938107 /* CustomCell.h */,
+				5D7C8DBD19B157C100938107 /* CustomCell.m */,
+				5D7C8DC619B28C0000938107 /* TierHeaderCell.h */,
+				5D7C8DC719B28C0000938107 /* TierHeaderCell.m */,
+				5D7C8DD119B4FED200938107 /* CounterSelectCell.h */,
+				5D7C8DD219B4FED200938107 /* CounterSelectCell.m */,
+				5D7C8DD919B575C500938107 /* CounterHeaderCell.h */,
+				5D7C8DDA19B575C500938107 /* CounterHeaderCell.m */,
+				5D7C8DDD19B65BD000938107 /* CounterChampionsCell.h */,
+				5D7C8DDE19B65BD000938107 /* CounterChampionsCell.m */,
+				5D121DE819FD80C600176890 /* StartingItemsCell.h */,
+				5D121DE919FD80C600176890 /* StartingItemsCell.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		5D2A93F11A2E912400DD96F5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5D15CEC319FB0AD300A65F41 /* ChampionList.h */,
+				5D15CEC119FB0AC500A65F41 /* ChampionList.m */,
+				5D2A93F21A2E927200DD96F5 /* ChampionsCounters.h */,
+				5D2A93F31A2E927200DD96F5 /* ChampionsCounters.m */,
+				5D7C8DC219B2824F00938107 /* TierListCollectionViewController.h */,
+				5D7C8DC319B2824F00938107 /* TierListCollectionViewController.m */,
+				5D7C8DCD19B3B62800938107 /* SelectCounterPickChampion.h */,
+				5D7C8DCE19B3B62800938107 /* SelectCounterPickChampion.m */,
+				5D121DE119FC719A00176890 /* SelectGuideCollectionViewController.h */,
+				5D121DE219FC719A00176890 /* SelectGuideCollectionViewController.m */,
+				5D7C8DD519B5704600938107 /* CountersCollectionViewController.h */,
+				5D7C8DD619B5704600938107 /* CountersCollectionViewController.m */,
+				5D121DE519FD776600176890 /* GuideCollectionViewController.h */,
+				5D121DE619FD776600176890 /* GuideCollectionViewController.m */,
+				5D37965D19B04A3B00C8A318 /* TierListsTableViewController.h */,
+				5D37965E19B04A3B00C8A318 /* TierListsTableViewController.m */,
+				5D8E66CD19BC1E390001E204 /* TabBarViewController.h */,
+				5D8E66CE19BC1E390001E204 /* TabBarViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		5D37961519B0261C00C8A318 = {
 			isa = PBXGroup;
 			children = (
@@ -521,40 +584,8 @@
 				5D37963319B0261D00C8A318 /* Main.storyboard */,
 				5D37963019B0261D00C8A318 /* firstClassAppDelegate.h */,
 				5D37963119B0261D00C8A318 /* firstClassAppDelegate.m */,
-				5D37966019B057EC00C8A318 /* NavigationController.h */,
-				5D37966119B057EC00C8A318 /* NavigationController.m */,
-				5D37963619B0261D00C8A318 /* firstClassViewController.h */,
-				5D37963719B0261D00C8A318 /* firstClassViewController.m */,
-				5D7C8DC219B2824F00938107 /* TierListCollectionViewController.h */,
-				5D7C8DC319B2824F00938107 /* TierListCollectionViewController.m */,
-				5D7C8DCD19B3B62800938107 /* SelectCounterPickChampion.h */,
-				5D7C8DCE19B3B62800938107 /* SelectCounterPickChampion.m */,
-				5D121DE119FC719A00176890 /* SelectGuideCollectionViewController.h */,
-				5D121DE219FC719A00176890 /* SelectGuideCollectionViewController.m */,
-				5D7C8DD519B5704600938107 /* CountersCollectionViewController.h */,
-				5D7C8DD619B5704600938107 /* CountersCollectionViewController.m */,
-				5D121DE519FD776600176890 /* GuideCollectionViewController.h */,
-				5D121DE619FD776600176890 /* GuideCollectionViewController.m */,
-				5D37965D19B04A3B00C8A318 /* TierListsTableViewController.h */,
-				5D37965E19B04A3B00C8A318 /* TierListsTableViewController.m */,
 				5D37963919B0261D00C8A318 /* Images.xcassets */,
 				5D37962819B0261C00C8A318 /* Supporting Files */,
-				5D7C8DBC19B157C100938107 /* CustomCell.h */,
-				5D7C8DBD19B157C100938107 /* CustomCell.m */,
-				5D7C8DC619B28C0000938107 /* TierHeaderCell.h */,
-				5D7C8DC719B28C0000938107 /* TierHeaderCell.m */,
-				5D7C8DD119B4FED200938107 /* CounterSelectCell.h */,
-				5D7C8DD219B4FED200938107 /* CounterSelectCell.m */,
-				5D7C8DD919B575C500938107 /* CounterHeaderCell.h */,
-				5D7C8DDA19B575C500938107 /* CounterHeaderCell.m */,
-				5D7C8DDD19B65BD000938107 /* CounterChampionsCell.h */,
-				5D7C8DDE19B65BD000938107 /* CounterChampionsCell.m */,
-				5D121DE819FD80C600176890 /* StartingItemsCell.h */,
-				5D121DE919FD80C600176890 /* StartingItemsCell.m */,
-				5D8E66CD19BC1E390001E204 /* TabBarViewController.h */,
-				5D8E66CE19BC1E390001E204 /* TabBarViewController.m */,
-				5D15CEC319FB0AD300A65F41 /* ChampionList.h */,
-				5D15CEC119FB0AC500A65F41 /* ChampionList.m */,
 			);
 			path = counterPickLoL;
 			sourceTree = "<group>";
@@ -742,6 +773,9 @@
 		5D97985819BE38D800635F57 /* iPad */ = {
 			isa = PBXGroup;
 			children = (
+				5D2A93F11A2E912400DD96F5 /* Controllers */,
+				5D2A93EC1A2E397700DD96F5 /* view */,
+				5D2A93EB1A2E391C00DD96F5 /* models */,
 			);
 			name = iPad;
 			sourceTree = "<group>";
@@ -1038,6 +1072,7 @@
 				5D8E66CF19BC1E390001E204 /* TabBarViewController.m in Sources */,
 				5D7C8DDF19B65BD000938107 /* CounterChampionsCell.m in Sources */,
 				5D7C8DD319B4FED200938107 /* CounterSelectCell.m in Sources */,
+				5D2A93EE1A2E468100DD96F5 /* ChampionCounters.m in Sources */,
 				5D15CEC219FB0AC500A65F41 /* ChampionList.m in Sources */,
 				5D7C8DDB19B575C500938107 /* CounterHeaderCell.m in Sources */,
 				5D37966219B057EC00C8A318 /* NavigationController.m in Sources */,
@@ -1045,6 +1080,7 @@
 				5D121DE319FC719A00176890 /* SelectGuideCollectionViewController.m in Sources */,
 				5D37963219B0261D00C8A318 /* firstClassAppDelegate.m in Sources */,
 				5D7C8DD719B5704600938107 /* CountersCollectionViewController.m in Sources */,
+				5D2A93F41A2E927200DD96F5 /* ChampionsCounters.m in Sources */,
 				5D37962E19B0261D00C8A318 /* main.m in Sources */,
 				5D7C8DBE19B157C100938107 /* CustomCell.m in Sources */,
 				5D7C8DCF19B3B62800938107 /* SelectCounterPickChampion.m in Sources */,

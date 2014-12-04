@@ -28,7 +28,7 @@
         [manager GET:self.getLoLStaticDataChampions parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
             
             self.championJSON = (NSMutableArray *)responseObject;
-            [self initializeChampionNames:self.championJSON];
+            [self initializeChampionList:self.championJSON];
             
             
             [[NSNotificationCenter defaultCenter]
@@ -41,28 +41,18 @@
     return self;
 }
 
-- (void)initializeChampionNames:(NSMutableArray *) championList{
+- (void)initializeChampionList:(NSMutableArray *) championList{
     if(championList == NULL){
         [NSException raise:@"Invalid NSDictionary NULL value" format:@"Invalid dictionary %@",championList];
         return;
     }
-    /*
-    self.championDict = [[NSMutableDictionary alloc] initWithDictionary:championList];
-    [self.championDict setObject: [self.championDict objectForKey: @"MonkeyKing"] forKey: @"Wukong"];
-    [self.championDict removeObjectForKey: @"MonkeyKing"];
-    [self.championDict setObject: [self.championDict objectForKey: @"Velkoz"] forKey: @"VelKoz"];
-    [self.championDict removeObjectForKey: @"Velkoz"];
-    [self.championDict setObject: [self.championDict objectForKey: @"FiddleSticks"] forKey: @"Fiddlesticks"];
-    [self.championDict removeObjectForKey: @"FiddleSticks"];
-     */
     self.championNames = [[NSMutableArray alloc] init];
-    for (int i =0 ; i < championList.count; i++) {
-        [self.championNames addObject:championList[i][@"portrait"]];
-        NSLog(@"champion: %@\n",championList[i][@"portrait"]);
+    self.championNamesPortraits = [[NSMutableDictionary alloc] init];
+    for (int i = 0 ; i < championList.count; i++) {
+        [self.championNames addObject:championList[i][@"name"]];
+        [self.championNamesPortraits setObject:championList[i][@"portrait"] forKey:championList[i][@"name"]];
+        
     }
-    NSLog(@"championName: %@",self.championNames);
-    //self.championNames = [[NSMutableArray alloc] initWithArray:[self.championDict allKeys]];
-    //self.championNames = [self.championNames sortedArrayUsingSelector:@selector(caseInsensitiveCompare:)];
     [self.championNames sortUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
 }
 @end

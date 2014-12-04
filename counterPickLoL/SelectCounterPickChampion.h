@@ -13,7 +13,7 @@
 @interface SelectCounterPickChampion : UICollectionViewController <UITextFieldDelegate>
 
 
-@property (strong, nonatomic) NSArray *championList;
+@property (strong, nonatomic) NSArray *championNames;
 @property (weak, nonatomic) IBOutlet CounterSelectCell *championSearch;
 @property (strong, nonatomic) ChampionList *champions;
 

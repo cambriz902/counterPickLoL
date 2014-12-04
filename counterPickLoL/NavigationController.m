@@ -28,16 +28,9 @@
     return self;
 }
 
-
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    //custom toolBar
-    //[self.toolbar setBarTintColor:[UIColor darkGrayColor]];
-
-    
 
     //custom NavigationBar
     [[UINavigationBar appearance] setTintColor:[UIColor blackColor]];

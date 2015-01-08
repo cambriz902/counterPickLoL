@@ -581,6 +581,9 @@
 			isa = PBXGroup;
 			children = (
 				5D97985819BE38D800635F57 /* iPad */,
+				5D2A93EB1A2E391C00DD96F5 /* models */,
+				5D2A93EC1A2E397700DD96F5 /* view */,
+				5D2A93F11A2E912400DD96F5 /* Controllers */,
 				5D37963319B0261D00C8A318 /* Main.storyboard */,
 				5D37963019B0261D00C8A318 /* firstClassAppDelegate.h */,
 				5D37963119B0261D00C8A318 /* firstClassAppDelegate.m */,
@@ -773,9 +776,6 @@
 		5D97985819BE38D800635F57 /* iPad */ = {
 			isa = PBXGroup;
 			children = (
-				5D2A93F11A2E912400DD96F5 /* Controllers */,
-				5D2A93EC1A2E397700DD96F5 /* view */,
-				5D2A93EB1A2E391C00DD96F5 /* models */,
 			);
 			name = iPad;
 			sourceTree = "<group>";
